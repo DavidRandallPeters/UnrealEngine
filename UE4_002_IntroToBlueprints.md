@@ -104,9 +104,14 @@ We want to find a *function* called *Print String*. We can absolutely select thi
 You can no doubt intuit that the flow of execution runs from left to right. When the game begins, a string will be printed - in this case, that string will read 'Hello' - but, by all means write what you like in the *In String* field.
 <br><br>
 
-- In order to apply these changes, hit the **Compile** button in the toolbar and head back over to our main viewport tab
+- Expand the **Print String** node by hitting the **drop-down arrow** at its base
+- Try changing the **Text Color** to something else
+- Adjust the display **Duration** of the string to something like 5 seconds
+- In order to apply these changes, hit the **Compile** button in the main toolbar and head back over to the main viewport tab to test
 - Hit **Play** to test the game. You should see the word *Hello* briefly appear in the top-left of the viewport.
 - Hit **Stop**
+
+<br><br>
 
 
 
