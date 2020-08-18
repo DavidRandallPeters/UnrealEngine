@@ -105,7 +105,10 @@ You can no doubt intuit that the flow of execution runs from left to right. When
 <br><br>
 
 - In order to apply these changes, hit the **Compile** button in the toolbar and head back over to our main viewport tab
-- Hit **Play** to test the game. You should see the word *Hello
+- Hit **Play** to test the game. You should see the word *Hello* briefly appear in the top-left of the viewport.
+- Hit **Stop**
+
+
 
 
 
