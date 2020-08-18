@@ -28,7 +28,6 @@ This was spawned at the location of *Player Start* when we hit play.
 <br><br>
 
 We now have the ability to look and move around our level using WASD and mouse input.
-<br><br>
 
 Notice that we also have some collision in place - we can't move through the 'Floor' *StaticMeshActor.*
 
