@@ -108,7 +108,7 @@ You can no doubt intuit that the flow of execution runs from left to right. When
 - Try changing the **Text Color** to something else
 - Adjust the display **Duration** of the string to something like 5 seconds
 - In order to apply these changes, hit the **Compile** button in the main toolbar and head back over to the main viewport tab to test
-- Hit **Play** to test the game. You should see the word *Hello* briefly appear in the top-left of the viewport.
+- Hit **Play** to test the game. You should see the word *Hello* appear in the top-left of the viewport in the colour you chose, for the duration you determined
 - Hit **Stop**
 
 <br><br>
