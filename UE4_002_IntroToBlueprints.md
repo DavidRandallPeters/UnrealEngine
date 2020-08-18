@@ -50,4 +50,9 @@ ___
 
 ## 002.002 | Blueprints Visual Scripting
 
+_Blueprints_ is a powerful node-based scripting system that effectively allows you to write in C++ without the need to actually know the C++ language.
+
+![BlueprintsDemo](https://user-images.githubusercontent.com/36719180/90563504-0e85a500-e1f8-11ea-9954-cbfe19631143.png)
+
+We're going to make a start using them now.
 
