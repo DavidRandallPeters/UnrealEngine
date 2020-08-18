@@ -21,10 +21,10 @@ Nothing very much happens - though, we do have the ability to look and move arou
 Notice that we also have some collision in place - we can't move through the 'Floor' *StaticMeshActor.*
 
 We're currently playing the game as Unreal's default *Pawn*.
-<br>
+<br><br>
 
 ***Pawns:***  
 
-A *Pawn* is an *Actor* that can be possessed and controlled by a player - a physical representation of the player or AI entity in the *World.*
+A *Pawn* is an *Actor* (class) that can be possessed and controlled by a player - a physical representation of the player or AI entity in the *World.*
 
 You can read more about them [here](https://docs.unrealengine.com/en-US/Gameplay/Framework/Pawn/index.html)
