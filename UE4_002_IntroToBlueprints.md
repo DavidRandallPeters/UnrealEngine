@@ -16,6 +16,9 @@ Using: Unreal Engine 4.25.3
 <br><br>
 
 You likely see 7 Actors - one of these is a *PlayerStart* Actor.  
+
+![PlayerStart](https://user-images.githubusercontent.com/36719180/90562920-1a249c00-e1f7-11ea-8351-6207ee79aa39.png)
+
 <br>
 
 Now let's play-test this opus.
@@ -40,7 +43,11 @@ A *Pawn* is an *Actor* (class) that can be possessed and controlled by a player 
 
 While the *Pawn* class provides only the bare essentials, the *DefaultPawn* subclass comes with some additional components and functionality.
 
-That's all you need to know about them for now - but by all means, read more about them [here](https://docs.unrealengine.com/en-US/Gameplay/Framework/Pawn/index.html)
+That's all you need to know about them for now - but by all means, read more about them [here](https://docs.unrealengine.com/en-US/Gameplay/Framework/Pawn/index.html).
 <br><br>
+
+___
+
+## 002.002 | Blueprints Visual Scripting
 
 
