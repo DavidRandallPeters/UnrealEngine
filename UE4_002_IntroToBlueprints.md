@@ -82,5 +82,12 @@ Unreal has provided two commonly used nodes by default:
 >2. Event Tick - if enabled, this will run on every frame
 
 <br><br>
+The wee sockets that you see within the nodes are referred to as *pins.*  
+Note the invitation to 'Drag off pins to build funcionality.'
+<br><br>
+
+Let's test this by printing a message to the screen:
+
+- 
 
 
