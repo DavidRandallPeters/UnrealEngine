@@ -152,12 +152,8 @@ Before we make a start using Blueprints, let's freshen up and clear the board.
 <br><br>
 
 #### Continued in UE4_002_IntroToBlueprints
+
 ---
-
-## 001.999 | Resources
-
-- [Unreal Online Learning](https://www.unrealengine.com/en-US/onlinelearning-courses) - Free courses by Epic Games
-- [Mathew Wadstein - (YouTube)](https://www.unrealengine.com/en-US/onlinelearning-courses) - Kind of an odd guy - but a useful reference
 
 
 
