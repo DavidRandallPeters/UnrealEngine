@@ -75,4 +75,9 @@ Let's take a look at this Level's Level Blueprint:
 
 Here, the main viewport contains what's referred to as a *graph*. This is where we 'write' code.
 
+Unreal has provided two commonly used nodes by default:
+
+>1. Event BeginPlay - This event is triggered for all Actors when the game is started.
+>2. Event Tick - if enabled, this will run on every frame
+
 
