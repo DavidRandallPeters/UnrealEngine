@@ -54,9 +54,22 @@ ___
 
 _Blueprints_ is a powerful node-based scripting system that effectively allows you to write in C++ without the need to actually know the C++ coding language.
 
-Might I suggest you bookmark [this](https://docs.unrealengine.com/en-US/Engine/Blueprints/index.html) reference for later.
+I suggest you bookmark [this](https://docs.unrealengine.com/en-US/Engine/Blueprints/index.html) reference for later.
 
 ![BlueprintsDemo](https://user-images.githubusercontent.com/36719180/90563504-0e85a500-e1f8-11ea-9954-cbfe19631143.png)
 
-We're going to make a start using them now.
+We'll make a start using Blueprints now.
+<br><br>
+
+***The Level Blueprint***
+
+A [Level Blueprint](https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Types/LevelBlueprint/index.html) is a specialised type of *Blueprint* that acts as a level-wide global event graph. A Level Blueprint is created by default in each level of your project.
+
+Let's take a look at this Level's Level Blueprint:
+
+- In the top menu bar, hit the **Blueprints** button and choose **Open Level Blueprint**
+
+- I suggest you grab the new window's tab and dock it alongside your main one  
+
+
 
