@@ -18,11 +18,12 @@ Now let's play-test this opus.
 - Hit the big **Play** button in the main toolbar (top)
 <br>
 
-Nothing very much happens - though, there are now something like 18 Actors in the *Outliner* - one of these is the *DefaultPawn* Actor.
+There are now something like 18 Actors in the *Outliner* - one of these is the *DefaultPawn* Actor.
 This was spawned at the location of *Player Start* when we hit play.
+<br><br>
 
 We now have the ability to look and move around our level using WASD and mouse input.
-<br>
+<br><br>
 
 Notice that we also have some collision in place - we can't move through the 'Floor' *StaticMeshActor.*
 
