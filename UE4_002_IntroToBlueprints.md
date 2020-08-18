@@ -91,10 +91,18 @@ Let's test this by printing a message to the screen:
 
 - Click and drag off the **Event BeginPlay**'s **Execution pin** - and release.
 We're presented with a huge list of 'Executable Actions'.
+<br><br>
 
 We want to find a *function* called *Print String*. We can absolutely select this option by drilling in to *Utilities » String » Print String* - but a much faster method would be to start typing *Print String* in the search field.
 
 - Begin typing **Print String** in the search field and select it when it appears in the list
+<br><br>
+
+![PrintString](https://user-images.githubusercontent.com/36719180/90566267-4a226e00-e1fc-11ea-888c-cedc5bba6be1.png)
+<br><br>
+
+You can probably intuit that the flow of execution runs from left to right. When the game begins, a string will be printed.
+
 
 
 
