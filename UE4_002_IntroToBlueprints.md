@@ -9,7 +9,7 @@ Using: Unreal Engine 4.25.3
 
 ---
 
-## 002.001 | Playing the Game
+## 002.001 | Pawns
 
 First up, let's play-test this opus.
 
@@ -26,5 +26,7 @@ We're currently playing the game as Unreal's default *Pawn*.
 ***Pawns:***  
 
 A *Pawn* is an *Actor* (class) that can be possessed and controlled by a player - a physical representation of the player or AI entity in the *World.*
+
+While the *Pawn* class provides only the bare essentials, the *DefaultPawn* subclass comes with some additional components and functionality.
 
 You can read more about them [here](https://docs.unrealengine.com/en-US/Gameplay/Framework/Pawn/index.html)
