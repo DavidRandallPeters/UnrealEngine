@@ -63,7 +63,7 @@ We'll make a start using Blueprints now.
 
 ***The Level Blueprint***
 
-A [Level Blueprint](https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Types/LevelBlueprint/index.html) is a specialised type of *Blueprint* that acts as a level-wide global event graph. A Level Blueprint is created by default in each level of your project.
+A [Level Blueprint](https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Types/LevelBlueprint/index.html) is a specialised type of *Blueprint* that acts as a level-wide global event graph. A *Level Blueprint* is created by default in each level of your project.
 <br><br>
 
 Let's take a look at this Level's Level Blueprint:
@@ -73,6 +73,6 @@ Let's take a look at this Level's Level Blueprint:
 - I suggest you grab the new window's tab and dock it alongside your main one 
 <br><br>
 
-Blah
+Here, the main viewport contains what's referred to as a *graph*. This is where we 'write' code.
 
 
