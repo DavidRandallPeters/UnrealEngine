@@ -81,13 +81,14 @@ Unreal has provided two commonly used nodes by default:
 >1. Event BeginPlay - This event is triggered for all Actors when the game is started.
 >2. Event Tick - if enabled, this will run on every frame
 
-<br><br>
-The wee sockets that you see within the nodes are referred to as *pins.*  
-Note the invitation to 'Drag off pins to build funcionality.'
 <br>
+The wee sockets that you see within the nodes are referred to as *pins.* 
+The white arrow on each node is called the *Execution pin*.
+Note the invitation to 'Drag off pins to build funcionality.'
+<br><br>
 
 Let's test this by printing a message to the screen:
 
-- 
+- Click and drag off the **Event BeginPlay**'s **Execution pin**.
 
 
