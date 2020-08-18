@@ -1,2 +1,25 @@
-# UnrealTeaching
-Material, blueprints and assets for Massey University's 289.210 Game Technology Project course.
+# Unreal Engine | 002 | Intro to Blueprints
+
+![UnrealEngineLogo002](https://user-images.githubusercontent.com/36719180/90347960-a4e68900-e087-11ea-9349-f5a59105b4d2.png)
+
+
+Notes prepared by David Peters
+
+Using: Unreal Engine 4.25.3 
+
+---
+
+## 002.001 | Playing the Game
+
+First up, let's play-test this opus.
+
+- Hit the big **Play** button in the main toolbar (top)
+
+Nothing very much happens - though, we do have the ability to look and move around our level using WASD and mouse input.
+
+Notice that we also have some collision in place - we can't move through the 'Floor' *StaticMeshActor.*
+
+We're currently playing the game as Unreal's default *Pawn*.
+
+***Pawns:***  
+A *Pawn* is an *Actor* that can be possessed and controlled by a player.
