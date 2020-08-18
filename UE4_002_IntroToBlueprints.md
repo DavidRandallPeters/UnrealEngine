@@ -11,7 +11,7 @@ Using: Unreal Engine 4.25.3
 
 ## 002.001 | Pawns
 
-First up, take a note of how many actors are currently listed in the *Outliner.* You likely see 7 Actors.
+First up, take a note of how many actors are currently listed in the *Outliner.* You likely see 7 Actors - one of these is a *PlayerStart* Actor.
 
 Now let's play-test this opus.
 
@@ -19,8 +19,10 @@ Now let's play-test this opus.
 <br>
 
 Nothing very much happens - though, there are now something like 18 Actors in the *Outliner* - one of these is the *DefaultPawn* Actor.
+This was spawned at the location of *Player Start* when we hit play.
 
 We now have the ability to look and move around our level using WASD and mouse input.
+<br>
 
 Notice that we also have some collision in place - we can't move through the 'Floor' *StaticMeshActor.*
 
