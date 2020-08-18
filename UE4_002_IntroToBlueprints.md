@@ -101,7 +101,11 @@ We want to find a *function* called *Print String*. We can absolutely select thi
 ![PrintString](https://user-images.githubusercontent.com/36719180/90566267-4a226e00-e1fc-11ea-888c-cedc5bba6be1.png)
 <br><br>
 
-You can probably intuit that the flow of execution runs from left to right. When the game begins, a string will be printed.
+You can no doubt intuit that the flow of execution runs from left to right. When the game begins, a string will be printed - in this case, that string will read 'Hello' - but, by all means write what you like in the *In String* field.
+<br><br>
+
+- In order to apply these changes, hit the **Compile** button in the toolbar and head back over to our main viewport tab
+- Hit **Play** to test the game. You should see the word *Hello
 
 
 
