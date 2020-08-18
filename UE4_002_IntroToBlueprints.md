@@ -92,4 +92,9 @@ Let's test this by printing a message to the screen:
 - Click and drag off the **Event BeginPlay**'s **Execution pin** - and release.
 We're presented with a huge list of 'Executable Actions'.
 
+We want to find a *function* called *Print String*. We can absolutely select this option by drilling in to *Utilities » String » Print String* - but a much faster method would be to start typing *Print String* in the search field.
+
+- Begin typing **Print String** in the search field and select it when it appears in the list
+
+
 
