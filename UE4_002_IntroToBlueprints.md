@@ -89,6 +89,7 @@ Note the invitation to 'Drag off pins to build funcionality.'
 
 Let's test this by printing a message to the screen:
 
-- Click and drag off the **Event BeginPlay**'s **Execution pin**.
+- Click and drag off the **Event BeginPlay**'s **Execution pin** - and release.
+We're presented with a huge list of 'Executable Actions'.
 
 
