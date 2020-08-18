@@ -151,7 +151,7 @@ Before we make a start using Blueprints, let's freshen up and clear the board.
 
 <br><br>
 
-
+#### Continued in UE4_002_IntroToBlueprints
 ---
 
 ## 001.999 | Resources
