@@ -13,14 +13,14 @@ Using: Unreal Engine 4.25.3
 
 <br>
 - First up, take note of how many actors are currently listed in the *Outliner.*
-<br>
+<br><br>
 
 You likely see 7 Actors - one of these is a *PlayerStart* Actor.  
 <br>
 
 Now let's play-test this opus.
 
-- Hit the big **Play** button in the main toolbar (top)
+- Hit the **Play** button in the main toolbar (top)
 <br>
 
 There are now something like 18 Actors in the *Outliner* - one of these is the *DefaultPawn* Actor.
