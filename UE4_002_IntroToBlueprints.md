@@ -14,12 +14,17 @@ Using: Unreal Engine 4.25.3
 First up, let's play-test this opus.
 
 - Hit the big **Play** button in the main toolbar (top)
+<br>
 
 Nothing very much happens - though, we do have the ability to look and move around our level using WASD and mouse input.
 
 Notice that we also have some collision in place - we can't move through the 'Floor' *StaticMeshActor.*
 
 We're currently playing the game as Unreal's default *Pawn*.
+<br>
 
 ***Pawns:***  
-A *Pawn* is an *Actor* that can be possessed and controlled by a player.
+
+A *Pawn* is an *Actor* that can be possessed and controlled by a player - a physical representation of the player or AI entity in the *World.*
+
+You can read more about them [here](https://docs.unrealengine.com/en-US/Gameplay/Framework/Pawn/index.html)
