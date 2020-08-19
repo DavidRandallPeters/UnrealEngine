@@ -180,6 +180,12 @@ This is basically a confusing way of determining whether or not to use collision
 
 You should now find it somewhat more playable.
 
+<br><br>
+
+#### Continued in UE4_005_EventTick
+
+---
+
 
 
 
