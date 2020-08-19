@@ -1,5 +1,4 @@
-# Unreal Engine | 004 | Marble Labyrinth 1C
-# | Event Tick + Input Axis Events
+# Unreal Engine | 004 | Marble Labyrinth 1C | Event Tick + Input Axis
 
 ![UnrealEngineLogo002](https://user-images.githubusercontent.com/36719180/90347960-a4e68900-e087-11ea-9349-f5a59105b4d2.png)
 
