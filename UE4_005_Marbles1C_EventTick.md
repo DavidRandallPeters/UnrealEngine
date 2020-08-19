@@ -93,6 +93,8 @@ Keep in mind that a value is returned on every frame - likely between 50 and 100
 
 <br>
 
+### Capturing Mouse Y Axis Value
+
 We'll now work to capture the mouse's input and apply it to the *Floor*'s rotation value.
 
 <br>
@@ -141,7 +143,9 @@ The solution is to *split* the pin.
 
 You can now control the *Floor*'s left/right rotation using the mouse.
 
-<br>
+<br><br>
+
+### Capturing Mouse Y Axis Value
 
 We still need to enable Forward/Back *Floor* movement.. 
 
