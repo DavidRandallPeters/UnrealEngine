@@ -113,11 +113,18 @@ We'll
 
 ### Splitting pins
 
-Okay - we now want to plug thr mouse's axis value (green pin) into the *Delta Rotation* pin.. but there are three axes to target.. and only one axis value..
+Okay - we now want to plug the mouse's *Axis Value* (green pin) into the *Delta Rotation* pin.. but there are three axes to target.. and only one axis value..
 
 How do we target a specific axis?
 
 The solution is to *split* the pin.
+
+<br>
+
+- **Right-click** the **Delta Rotation** pin
+- Choose **Split Struct Pin**
+
+We can now target individual axes.
 
 
 
