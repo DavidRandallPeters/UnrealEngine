@@ -141,8 +141,6 @@ The solution is to *split* the pin.
 
 > You can now control the *Floor*'s left/right rotation using the mouse.
 
-<br>
-
 > We still need to enable Forward/Back *Floor* movement.. 
 
 
