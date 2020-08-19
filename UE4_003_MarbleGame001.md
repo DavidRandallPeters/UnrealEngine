@@ -193,6 +193,7 @@ Before we test this, we'll quickly move the *PlayerStart* actor to the side so t
 - Hit **Play**, click in the viewport to make sure it's focused and try it out
 
 <br>
+
 The floor should now rotate each time you hit the *A* and *D* keys.
 
 
