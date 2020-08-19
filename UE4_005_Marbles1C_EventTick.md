@@ -60,6 +60,8 @@ We'll now make some changes so that we can control the *Floor* Actor smoothly - 
 
 To test for input, let's print that float value to the screen as a string:
 
+<br>
+
 - Right click in empty graph space and start typing **Print String**
 - Connect the **Execution** pins
 - Connect the **Mouse X** node's **Axis Value** to the **Print String** node's **In String** pin - Unreal automatically converts the *float* value to a *string* value
