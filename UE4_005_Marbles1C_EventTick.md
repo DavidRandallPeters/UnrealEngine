@@ -124,10 +124,9 @@ The solution is to *split* the pin.
 - **Right-click** the **Delta Rotation** pin
 - Choose **Split Struct Pin**
 
-<br>
+>We can now target individual axes.
 
-We can now target individual axes.
-
+- Connect the mouse's **Axis Value** to the **Delta Rotation X (Roll)** pin
 
 
 
