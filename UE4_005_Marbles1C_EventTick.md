@@ -128,6 +128,14 @@ The solution is to *split* the pin.
 
 - Connect the mouse's **Axis Value** to the **Delta Rotation X (Roll)** pin
 
+<br>
+
+![SplitStructPin](https://user-images.githubusercontent.com/36719180/90623654-e2efd280-e26a-11ea-8ebc-ffe0798810fd.png)
+
+<br>
+
+-
+
 
 
 
