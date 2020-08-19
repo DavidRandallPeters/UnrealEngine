@@ -54,7 +54,11 @@ We'll now make some changes so that we can control the *Floor* Actor smoothly - 
 
 <br>
 
-To test for mouse input, let's print that float value to the screen as a string:
+### Testing for mouse input
+
+<br>
+
+To test for input, let's print that float value to the screen as a string:
 
 - Right click in empty graph space and start typing **Print String**
 - Connect the **Execution** pins
