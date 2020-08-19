@@ -32,6 +32,10 @@ Let's get that marble into the game:
 
 <br>
 
+![Sphere](https://user-images.githubusercontent.com/36719180/90603806-f772a180-e24f-11ea-8133-7833b48389de.png)
+
+<br>
+
 Just take a moment to take note of the fact that this is listed in the *Outliner* as a *StaticMeshActor*
 
 ---
