@@ -87,7 +87,8 @@ To apply:
 
 <br>
 
-In either case, the *Materials* slot in the *Details* panel will be updated to reflect the change.
+In either case, the *Materials* slot in the *Details* panel will be updated to reflect that change.
+
 While we're at it, we might as well apply a fresh Material to the floor.
 
 <br>
