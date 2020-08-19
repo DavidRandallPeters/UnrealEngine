@@ -233,7 +233,7 @@ This section will be quick and easy as we can pretty much duplicate what we alre
 
 <br>
 
-The whole input system should now look like this:
+The whole input system should now look something like this:
 
 <br>
 
@@ -241,5 +241,8 @@ The whole input system should now look like this:
 
 <br>
 
+- Compile and head out to the main viewport to test it (remember to click in the viewport to focus)
+
+<br>
 
 
