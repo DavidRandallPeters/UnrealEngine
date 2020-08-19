@@ -59,7 +59,11 @@ Just quickly, let's check for input by printing a string in response to a *W* ke
 - Click inside the viewport to make sure it's focused
 - Hit **W** and you should see *MOVE FORWARD* printed on the left
 
+<br>
+
 Notice that we no longer do move forward.. That's because we've hijacked that default functionality and over-ridden it with our own custom functionality.
+
+<br>
 
 - Head back into the **Level Blueprint**
 - Select the **W** *Input Action Event* node
