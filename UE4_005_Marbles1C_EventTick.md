@@ -95,6 +95,21 @@ Keep in mind that a value is returned on every frame - likely between 50 and 100
 
 We'll
 
+<br>
+
+- Hop back into your **Level Blueprint**
+- Delete the **Print String** node and its *Conversion* node
+- Pan the graph up to your **Key Input System**
+- Select a reference to **Floor**
+- **Shift-select** an attached **AddActorWorldRotation** node - (both nodes should now be selected)
+- Pan back down to your **Mouse X** node and hit **Ctrl+W** to duplicate the selected nodes
+- Connect the **Execution** pins as you see below
+
+![MouseRotation](https://user-images.githubusercontent.com/36719180/90622776-b4bdc300-e269-11ea-938f-861393f16caf.png)
+
+<br>
+
+Okay - we now want to plug that mouse axis value (green pin) into the *Delta Rotation* pin.. but there are three axes to target.. and only one axis value.. 
 
 
 
