@@ -177,6 +177,18 @@ We'll now give the appropriate axes a value so that something actually happens w
 
 - In the **AddActorWorldRotation** node that's attached to the **D** *Input Action*, give the **X-axis** a value of **5.0**
 - In the **AddActorWorldRotation** node that's attached to the **A** *Input Action*, give the **X-axis** a value of **-5.0** to make it roll in the opposite direction
+- Compile and head out to the main viewport
+
+<br><br>
+
+Before we test this, we'll quickly move the *PlayerStart* actor to the side so that we have a better view of the action at runtime. 
+<br>
+
+- Select the **PlayerStart** actor and move it backwards (that's negatively along its [red] X-axis) so that it's off the *Floo*r
+- Move it upwards so that it's diagonally opposite the *Floor*
+- Rotate it so that it's looking diagonally downward at the *Floor*
+
+![CameraAngle](https://user-images.githubusercontent.com/36719180/90593795-f126fa00-e23c-11ea-8173-737c333f701c.png)
 
 <br><br>
 
