@@ -84,7 +84,9 @@ Rather than using *W* to control a Pawn, we'll use it to tilt a 'floor' Actor in
 
 ## 003.003 | Mobility
 
-Summin'
+*Mobility* describes an Actor's ability to move within the World and determines how the engine will approach rendering that Actor.
+
+<br>
 
 - Out in the main viewport, select the *StaticMeshActor* called **Floor** - it's the thing that looks like a floor
 - With it selected, look in the **Transform** section of the **Details** panel - specifically, the row marked **'Mobility'**
