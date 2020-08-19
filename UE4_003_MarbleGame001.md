@@ -67,4 +67,9 @@ Notice that we no longer do move forward.. That's because we've hijacked that de
 
 - Head back into the **Level Blueprint**
 - Select the **W** *Input Action Event* node
-- 
+- Look in the **Details** panel and note that *Consume Input* is checked
+- Hover your mouse cursor over the words *Consume Input* so that the tooltip appears. It says; *Prevents actors with lower priority from handling this input*. Currently, our *Input Action Event* is 'consuming' the input, thereby stopping the default [movement] functionality from happening.
+- Uncheck **Consume Input*
+- Compile and go test it again. You should now be able to move.
+
+
