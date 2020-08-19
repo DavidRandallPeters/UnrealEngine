@@ -111,7 +111,7 @@ We'll
 
 <br><br>
 
-###
+### Splitting pins
 
 Okay - we now want to plug thr mouse's axis value (green pin) into the *Delta Rotation* pin.. but there are three axes to target.. and only one axis value..
 
