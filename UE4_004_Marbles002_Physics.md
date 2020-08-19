@@ -44,7 +44,9 @@ I probably don't need to explain why this is a good thing to know!
 
 Let's call it **Marble**, instead.
 
-![Rename](https://user-images.githubusercontent.com/36719180/90603452-6bf91080-e24f-11ea-9239-1ed648ce2a19.png)
+<br>
+
+![Rename](https://user-images.githubusercontent.com/36719180/90603614-a498ea00-e24f-11ea-819d-4175806a9c7e.png)
 
 To rename the sphere do ONE of the following:
 
