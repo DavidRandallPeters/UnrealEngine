@@ -11,6 +11,8 @@ Using: Unreal Engine 4.25.3
 
 ## 003.001 | Marble Labyrinth
 
+<br>
+
 We're about to being programming gameplay in Blueprints for a simpe marble-rolling game. 
 
 In the process, we'll cover a range of UE4 fundamentals that you can put to use in your own projects.
@@ -31,6 +33,8 @@ Our marble game will feature:
 ---
 
 ## 003.002 | Input Action Events
+
+<br>
 
 Events can be of course called in response to player input - such as a keypress.
 
@@ -84,6 +88,8 @@ Rather than using *W* to control a Pawn, we'll use it to tilt a 'floor' Actor in
 
 ## 003.003 | Mobility
 
+<br>
+
 *Mobility* describes an Actor's ability to move within the World and determines how the engine will approach rendering that Actor.
 
 <br>
@@ -101,3 +107,19 @@ Take a moment to view and bookmark [this](https://docs.unrealengine.com/en-US/En
 When you're ready:
 
 - Set the *Floor StaticMeshActor*'s *Mobility* to **Moveable**
+
+Now, the *Floor StaticMeshActor* will:
+
+>- be allowed to move dynamically,
+>- cast dynamic shadows, and
+>- be rendered using the slowest available method - an acceptable sacrifice, as it's crucial that this thing moves!
+
+<br><br>
+
+---
+
+## 003.003 | Mobility
+
+<br>
+
+*Mobi
