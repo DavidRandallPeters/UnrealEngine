@@ -139,11 +139,16 @@ The solution is to *split* the pin.
 
 <br>
 
-> You can now control the *Floor*'s left/right rotation using the mouse.
+You can now control the *Floor*'s left/right rotation using the mouse.
 
-> We still need to enable Forward/Back *Floor* movement.. 
+<br>
 
+We still need to enable Forward/Back *Floor* movement.. 
 
+<br>
+
+- Go back into the **Level Blueprint**
+- Duplicate the **AddActorWorldRotation** node that's attached to *Mouse X* (**Ctrl+W**)
 
 
 
