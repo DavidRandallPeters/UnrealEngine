@@ -78,7 +78,7 @@ Notice that we no longer do move forward.. That's because we've hijacked that de
 <br>
 
 Rather than using *W* to control a Pawn, we'll use it to tilt a 'floor' Actor in our labyrinth, instead.
-<br>
+<br><br>
 
 ---
 
