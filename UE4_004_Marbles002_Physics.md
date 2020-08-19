@@ -159,13 +159,19 @@ Don't let that freak you out - its bark is worse than its bite:
 - Expand the node by hitting the arrow at the bottom of the node - notice the *Teleport* checkbox
 - Hover your mouse cursor over that checkbox and read the tooltip:
 
-<br>
+
 
 ![TeleportTooltip](https://user-images.githubusercontent.com/36719180/90608287-7cf95000-e256-11ea-8a21-cd8d58ae7461.png)
 
+This is basically a confusing way of determining whether or not to use collisions.
+
 <br>
 
-This is basically a confusing way of determining whether or not to use collisions.
+- Check the **Teleport** checkbox in all four of your rotation functions:
+
+![TeleportOn](https://user-images.githubusercontent.com/36719180/90610649-d9aa3a00-e259-11ea-8fd0-4cb25f5887af.png)
+
+
 
 
 
