@@ -122,7 +122,10 @@ Now, let's blah
 - Start typing *Delay* - choose **Delay** when it becomes available
 <br><br>
 
-Notice that the Delay function is
+![DelayMenu](https://user-images.githubusercontent.com/36719180/90579713-fd01c480-e21a-11ea-8a26-02285c7180d5.png)
+<br><br>
+
+Notice that the Delay function is:
 
 >a) coloured blue  
 >b) has an *f* beside it  
