@@ -23,4 +23,8 @@ Toward the end, we'll boost aesthetic appeal by applying various materials to th
 
 Let's get that marble into the game:
 
--
+- In the main editor, direct your attention to the **Content Browser**
+- Navigate the folders to **Starter Content » Shapes**
+- Locate the **Sphere** model
+- Drag the **Sphere** model into the viewport and place it anywhere on the *Floor* Actor - notice that it snapped to the floor-plane - handy!
+
