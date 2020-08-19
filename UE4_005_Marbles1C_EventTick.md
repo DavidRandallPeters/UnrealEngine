@@ -163,6 +163,8 @@ We still need to enable Forward/Back *Floor* movement..
 
 <br>
 
+This will work just fine (by all means test it out) - but the Y-axis control will be inverted - which may not feel intuitive to the player. 
+
 
 
 
