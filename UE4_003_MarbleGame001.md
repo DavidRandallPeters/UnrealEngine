@@ -44,8 +44,11 @@ Events can be of course called in response to player input - such as a keypress.
 
 ![W](https://user-images.githubusercontent.com/36719180/90584788-81f2db00-e227-11ea-95cc-9bf3b8e0faea.png)
 
-<br><br>
+<br>
 
 Currently, if we hit *W* during a game, our *DefaultPawn* Actor moves forwards.
+Just quickly, let's print a string in response to a *W* key press..
 
+- Drag off the **Pressed** execution pin of the **W** *Action Event* and choose **Print String**
+- Enter the string: **MOVE FORWARD**
 
