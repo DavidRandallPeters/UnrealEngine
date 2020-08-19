@@ -122,7 +122,7 @@ Now, the *Floor StaticMeshActor* will:
 
 ---
 
-## 003.003 | AddActorWorldRotation
+## 003.003 | Tilting the Floor Left and Right
 
 <br>
 
@@ -201,5 +201,11 @@ Let's start working towards achieving that.
 <br>
 
 The floor should now rotate each time you hit the *A* and *D* keys.
+
+<br><br>
+
+---
+
+## 003.004 | Tilting the Floor Forwards and Back
 
 
