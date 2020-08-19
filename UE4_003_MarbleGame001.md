@@ -148,7 +148,8 @@ Let's start working towards achieving that.
 <br>
 
 This node allows us to affect the *Roll* (X-axis), *Pitch* (Y-axis) and *Yaw* (Z-axis) of the associated Actor.
-We'll use this to make it so that when we press *D*, the floor will roll right and when we press *A*, the floor will roll left.
+We'll use this to make it so that when we press *D*, the floor will roll right and when we press *A*, the floor will roll left.  
 <br><br>
-Summin'
+- Select the **Print String** node that's attached to the *W Input Action Event* node and delete it
+
 
