@@ -125,16 +125,17 @@ Let's try it out:
 - Start typing *Delay* - choose **Delay** when it becomes available
 <br><br>
 
-![DelayMenu](https://user-images.githubusercontent.com/36719180/90579713-fd01c480-e21a-11ea-8a26-02285c7180d5.png)
+![DelayMenu](https://user-images.githubusercontent.com/36719180/90579955-bb254e00-e21b-11ea-9586-cae968050142.png)
 <br><br>
 
-Notice that the Delay function is:
+Notice that the *Delay* function is:
 
 >a) coloured blue  
 >b) has an *f* beside it  
 
 UE4 will always colour-code like-operations (eg. all functions are blue and are indicated with an *f*).
 <br><br>
+
 
 
 
