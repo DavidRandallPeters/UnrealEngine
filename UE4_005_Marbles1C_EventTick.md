@@ -28,7 +28,7 @@ We'll now make some changes so that we can control the *Floor* Actor smoothly - 
 
 <br>
 
-We'll need *Mouse Y*, too:
+>We'll need *Mouse Y*, too:
 
 - Either repeat the above steps to create a **Mouse Y** Action node, or
 - **Right-click** in empty graph space and start typing **Mouse Y** (be sure to select the option that's in the *Mouse Events* section)
