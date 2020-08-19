@@ -170,7 +170,7 @@ We'll use this to make it so that when we press *D*, the floor will roll right a
 ![AddActorWorldRotation](https://user-images.githubusercontent.com/36719180/90592883-be7c0200-e23a-11ea-811a-9b065c20e6da.png)
 
 <br><br>
-We now have the ability to rotate the Floor Actor by pressing the A and D keys.
+We now have the ability to rotate the Floor Actor by pressing the *A* and *D* keys.
 We'll now give the appropriate axes a value so that something actually happens when we press these keys.
 
 <br>
@@ -193,6 +193,6 @@ Before we test this, we'll quickly move the *PlayerStart* actor to the side so t
 - Hit **Play**, click in the viewport to make sure it's focused and try it out
 
 <br>
-The floor should now rotate each time you hit the A dn D keys.
+The floor should now rotate each time you hit the *A* and *D* keys.
 
 
