@@ -190,6 +190,8 @@ Let's start working towards achieving that.
 - Move it upwards so that it's diagonally opposite the *Floor*
 - Rotate it so that it's looking diagonally downward at the *Floor*
 
+<br>
+
 ![CameraAngle](https://user-images.githubusercontent.com/36719180/90593795-f126fa00-e23c-11ea-8173-737c333f701c.png)
 
 - Hit **Play**, click in the viewport to make sure it's focused and try it out
