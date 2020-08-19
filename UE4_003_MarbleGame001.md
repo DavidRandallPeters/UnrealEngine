@@ -30,7 +30,7 @@ Our marble game will feature:
 
 ---
 
-## 003.001 | Referencing Actors
+## 003.001 | Input Action Events
 
 Events can be of course called in response to player input - such as a keypress.
 
@@ -40,6 +40,9 @@ Events can be of course called in response to player input - such as a keypress.
 - Scroll down the list to the **Inputs** category and expand it
 - Find **Keyboard Events** and expand it. Here, we see all the keys on a keyboard
 - Find and select the **W** key. This will create an *Input Action Event* for *W*
+<br>
+![W](https://user-images.githubusercontent.com/36719180/90584788-81f2db00-e227-11ea-95cc-9bf3b8e0faea.png)
+
 <br><br>
 
 Currently, if we hit *W* during a game, our *DefaultPawn* Actor moves forwards.
