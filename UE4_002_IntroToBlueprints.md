@@ -15,9 +15,10 @@ Using: Unreal Engine 4.25.3
 
 - First up, take note of how many actors are currently listed in the *Outliner.*  
 
-<br>
+
 
 You likely see 7 Actors - one of these is a *PlayerStart* Actor.  
+<br>
 
 ![PlayerStart](https://user-images.githubusercontent.com/36719180/90562920-1a249c00-e1f7-11ea-8351-6207ee79aa39.png)
 
