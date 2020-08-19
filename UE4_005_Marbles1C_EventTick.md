@@ -134,7 +134,16 @@ The solution is to *split* the pin.
 
 <br>
 
--
+- Compile and head back to the editor viewport
+- Hit **Play** and try it out
+
+<br>
+
+You can now control the Floor's left/right rotation using the mouse.
+
+<br>
+
+
 
 
 
