@@ -93,7 +93,7 @@ Keep in mind that a value is returned on every frame - likely between 50 and 100
 
 <br>
 
-We'll
+We'll now work to capture the mouse's input and apply it to the *Floor*'s rotation value.
 
 <br>
 
