@@ -122,7 +122,7 @@ Now, the *Floor StaticMeshActor* will:
 
 ---
 
-## 003.003 | Transform: Rotation
+## 003.003 | AddActorWorldRotation
 
 <br>
 
@@ -179,7 +179,7 @@ We'll now give the appropriate axes a value so that something actually happens w
 - In the **AddActorWorldRotation** node that's attached to the **A** *Input Action*, give the **X-axis** a value of **-5.0** to make it roll in the opposite direction
 - Compile and head out to the main viewport
 
-<br><br>
+<br>
 
 Before we test this, we'll quickly move the *PlayerStart* actor to the side so that we have a better view of the action at runtime. 
 <br>
@@ -190,6 +190,9 @@ Before we test this, we'll quickly move the *PlayerStart* actor to the side so t
 
 ![CameraAngle](https://user-images.githubusercontent.com/36719180/90593795-f126fa00-e23c-11ea-8173-737c333f701c.png)
 
-<br><br>
+- Hit **Play**, click in the viewport to make sure it's focused and try it out
+
+<br>
+The floor should now rotate each time you hit the A dn D keys.
 
 
