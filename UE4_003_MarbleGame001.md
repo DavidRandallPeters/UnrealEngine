@@ -142,7 +142,7 @@ Let's start working towards achieving that.
 - Expand that and locate **Transformation**
 - Expand that and select **AddActorWorldRotation**
 - Drag the nodes to tidy up a little
-<br>
+<br><br>
 
 ![AddActorWorldRotation](https://user-images.githubusercontent.com/36719180/90590189-f9c70280-e233-11ea-8a57-03bce55666ae.png)
 <br>
@@ -151,5 +151,8 @@ This node allows us to affect the *Roll* (X-axis), *Pitch* (Y-axis) and *Yaw* (Z
 We'll use this to make it so that when we press *D*, the floor will roll right and when we press *A*, the floor will roll left.  
 <br><br>
 - Select the **Print String** node that's attached to the *W Input Action Event* node and delete it
+- Select the **W** *Input Action Event* node
+- Duplicate it by hitting **CTRL+W** on your keyboard - position it below the first one somewhere
+- With the second **W** *Input Action Event* node selected, look in the **Details** panel
 
 
