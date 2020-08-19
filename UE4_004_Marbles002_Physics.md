@@ -69,7 +69,9 @@ To rename the sphere do ONE of the following:
 
 Notice that when you havethe _Marble_ Actor selected, you can see its *Material* details in the *Details* panel (as above).
 
-Applying existing materials is extremely straightforward. Again, you have two options:
+Applying existing materials is extremely straightforward.
+
+Again, you have two options:
 
 <br>
 
