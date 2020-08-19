@@ -139,6 +139,7 @@ UE4 will always colour-code like-operations (eg. all functions are blue and are 
 - Set the duration of the delay in the **Delay** node to about 3 seconds
 - Drag off the **Delay** node's **Execution** pin and connect it to the **Print String**'s input **Execution** pin, like so: 
 <br>
+
 ![DelaySequence](https://user-images.githubusercontent.com/36719180/90581809-430d5700-e220-11ea-876d-caf125a3428f.png)
 
 <br><br>
