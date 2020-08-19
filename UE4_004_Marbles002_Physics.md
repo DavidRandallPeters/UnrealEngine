@@ -147,6 +147,16 @@ When we tilt the Floor, UE4 reads this as its velocity changing momentarily - so
 
 In another game, we might want *exactly that* to happen. But here, we want a little more finesse.
 
+<br>
+
+What we're going to do to solve this *teleport the physics state of the Actor*.
+
+Don't let that freak you out - its bark is worse than its bite:
+
+<br>
+
+- 
+
 
 
 
