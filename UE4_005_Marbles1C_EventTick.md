@@ -79,9 +79,11 @@ To test for input, let's print that float value to the screen as a string:
 
 You should see a stream of axis values running down the left of the viewport. Moving the mouse left returns a negative value and moving it right returns a positive value.
 
-Keep in mind that a value is returned on every frame - likely between 50 and 100 times every second. This will yield a very high resolution in terms of controller input - resulting in nice, smooth gameplay.
-
 ![AxisValues](https://user-images.githubusercontent.com/36719180/90620437-8e4a5880-e266-11ea-9893-9c0fbfd77186.png)
+
+<br>
+
+Keep in mind that a value is returned on every frame - likely between 50 and 100 times every second. This will yield a very high resolution in terms of controller input - resulting in nice, smooth gameplay.
 
 <br><br>
 
