@@ -73,7 +73,9 @@ Notice that we no longer do move forward.. That's because we've hijacked that de
 - Compile - and go test it again. You should now be able to move.
 - Hit **Stop**
 - Head back into the **Level Blueprint**
-- Select the **W** *Input Action Event* node and re-check **Consume Input** - we'll use *W* to control the tilting floor Actor of our labyrinth, instead
+- Select the **W** *Input Action Event* node and re-check **Consume Input**
+
+Rather than using *W* to control a Pawn, we'll use it to tilt a 'floor' Actor in our labyrinth, instead.
 <br>
 
 ---
