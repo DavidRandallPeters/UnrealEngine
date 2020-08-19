@@ -112,8 +112,11 @@ You can no doubt intuit that the flow of execution runs from left to right. When
 - Hit **Stop**
 
 <br><br>
+***Delay***
 
-Now, let's blah
+This is a handy and simple function that will delay the execution of code by a certain time (measured in seconds). Calling the node again while it is counting down will be ignored.
+
+Let's try it out:
 
 - Reenter the *Level Blueprint.*
 - Alt-click the **Event BeginPlay**'s **Execution** pin - (that's the white arrow). This will sever its link to the *Print String* node
@@ -133,8 +136,8 @@ Notice that the Delay function is:
 UE4 will always colour-code like-operations (eg. all functions are blue and are indicated with an *f*).
 <br><br>
 
-***Delay***
 
-This is a handy and simple function that will delay the execution of code by a certain time (measured in seconds). Calling the node again while it is counting down will be ignored.
+
+
 
 
