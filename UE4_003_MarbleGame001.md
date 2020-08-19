@@ -149,10 +149,18 @@ Let's start working towards achieving that.
 
 This node allows us to affect the *Roll* (X-axis), *Pitch* (Y-axis) and *Yaw* (Z-axis) of the associated Actor.
 We'll use this to make it so that when we press *D*, the floor will roll right and when we press *A*, the floor will roll left.  
-<br><br>
+<br>
 - Select the **Print String** node that's attached to the *W Input Action Event* node and delete it
 - Select the **W** *Input Action Event* node
 - Duplicate it by hitting **CTRL+W** on your keyboard - position it below the first one somewhere
-- With the second **W** *Input Action Event* node selected, look in the **Details** panel
+- With the second **W** *Input Action Event* node selected, look in the **Details** panel..
+- Expand the **Input Key** drop-down (currently says *W*)
+- Choose **Keyboard » D** - the node now handles a *D* key input
+- Connect the **D** *Input Action Event*'s **Pressed** Execution pin to the **AddActorWorldRotation** node's input Execution pin
+
+![DInput](https://user-images.githubusercontent.com/36719180/90591133-63e0a700-e236-11ea-8685-448addb9f991.png)
+
+- 
+
 
 
