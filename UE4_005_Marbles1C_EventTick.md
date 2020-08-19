@@ -48,9 +48,12 @@ We'll now make some changes so that we can control the *Floor* Actor smoothly - 
 
 <br>
 
+>Green pins indicate that a *float* (fractional) value will be returned (has a decimal place)
 
+<br>
 
-- In the top-right of the main viewport, locate 
+-
+
 
 
 
