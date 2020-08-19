@@ -165,7 +165,7 @@ Don't let that freak you out - its bark is worse than its bite:
 
 <br>
 
-- 
+This is basically a confusing way of determining whether or not to use collisions.
 
 
 
