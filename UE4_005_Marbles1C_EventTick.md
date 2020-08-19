@@ -161,10 +161,17 @@ We still need to enable Forward/Back *Floor* movement..
 
 ![MouseRotation](https://user-images.githubusercontent.com/36719180/90624873-c48ad680-e26c-11ea-894b-e10f723b5e76.png)
 
+<br><br>
+
+### Inverting the Y Axis
+
+This will work just fine (by all means test it out) - but the Y-axis control will be inverted - which may not feel intuitive to the player.
+So we'll take a few more steps to flip that axis input - we'll invert the inversion
+
 <br>
 
-This will work just fine (by all means test it out) - but the Y-axis control will be inverted - which may not feel intuitive to the player. 
-
+- Still in the **Level Blueprint**, click and drag off **Mouse Y**'s **Axis Value** pin - and release in empty graph space
+- type an asterisk *****
 
 
 
