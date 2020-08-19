@@ -124,6 +124,8 @@ The solution is to *split* the pin.
 - **Right-click** the **Delta Rotation** pin
 - Choose **Split Struct Pin**
 
+<br>
+
 We can now target individual axes.
 
 
