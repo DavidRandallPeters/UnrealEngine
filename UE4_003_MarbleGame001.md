@@ -108,6 +108,8 @@ When you're ready:
 
 - Set the *Floor StaticMeshActor*'s *Mobility* to **Moveable**
 
+![Mobility](https://user-images.githubusercontent.com/36719180/90589183-a489f180-e231-11ea-8efc-077d7d0b5be2.png)
+
 <br>
 
 Now, the *Floor StaticMeshActor* will:
@@ -124,4 +126,7 @@ Now, the *Floor StaticMeshActor* will:
 
 <br>
 
-*Mobi
+Stuff
+
+- With the *Floor StaticMeshActor* still selected in the main viewport, headback into the **Level Blueprint**
+- **Right-click** in empty graph space - notice that, because we have the floor selected, the first entries in the list pertain directly to the *Floor* actor - handy
