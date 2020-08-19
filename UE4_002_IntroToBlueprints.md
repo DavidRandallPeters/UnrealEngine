@@ -123,9 +123,9 @@ Now, let's blah
 
 Notice that the Delay function is
 
-a) coloured blue
-b) has an *f* beside it
-
+>a) coloured blue  
+>b) has an *f* beside it  
+<br>
 UE4 will always colour-code like operations (eg. all functions are blue and are indicated with an *f*)
 
 
