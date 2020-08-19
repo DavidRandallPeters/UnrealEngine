@@ -40,7 +40,12 @@ We'll need *Mouse Y*, too:
 <br>
 
 - Drag **Mouse Y** downwards somewhere to make room for us to work on *Mouse X*
--
+- Hover your cursor over the **Mouse X** node and read its tooltip:
+
+![MouseEventTooltip](https://user-images.githubusercontent.com/36719180/90615373-255fe200-e260-11ea-91ab-119784c89088.png)
+
+
+
 
 
 
