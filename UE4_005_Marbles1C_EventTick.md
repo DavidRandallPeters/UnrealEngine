@@ -44,17 +44,21 @@ We'll now make some changes so that we can control the *Floor* Actor smoothly - 
 
 ![MouseEventTooltip](https://user-images.githubusercontent.com/36719180/90615373-255fe200-e260-11ea-91ab-119784c89088.png)
 
+<br>
+
 >It'll check where the mouse is (on this axis) on every frame - that value will be spat out of the node's lil' green pin
 
 >Green pins indicate that a *float* (fractional) value will be returned (ie. has a decimal place)
 
+>Pink pins indicate that the value is a *string*
+
 <br>
 
-Let's print that value to the screen:
+Let's print that float value to the screen as a string:
 
 - Right click in empty graph space and start typing **Print String**
 - Connect the **Execution** pins
-- Connect the **Mouse X** node's **Axis Value** to the **Print String** node's 
+- Connect the **Mouse X** node's **Axis Value** to the **Print String** node's **In Sting** pin
 
 
 
