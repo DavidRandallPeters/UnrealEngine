@@ -117,6 +117,10 @@ If you hit *Play* now, your marble will simply remain wherever you placed it. We
 
 <br>
 
+![SimulatePhysics](https://user-images.githubusercontent.com/36719180/90606497-06f3e980-e254-11ea-86e1-189c1ec66d5b.png)
+
+<br>
+
 That's all there is to it.
 
 <br>
