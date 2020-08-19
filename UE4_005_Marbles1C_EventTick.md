@@ -155,7 +155,7 @@ We still need to enable Forward/Back *Floor* movement..
 - **Duplicate** the **AddActorWorldRotation** node that's attached to *Mouse X* (**Ctrl+W**)
 - Connect the **Mouse Y** node's **Execution** pin to the duplicated *Rotation* node
 - Connect **Mouse Y**'s **Axis Value** to the *Rotation* node's **Delta Rotation Y (Pitch)** pin
-- Finally, connect the _Reference_ to **Floor** to the *Rotation* node's **Target** pin
+- Connect the _Reference_ to **Floor** to the *Rotation* node's **Target** pin
 
 <br>
 
@@ -173,7 +173,11 @@ So we'll take a few more steps to flip that axis input - we'll invert the invers
 - Still in the **Level Blueprint**, click and drag off **Mouse Y**'s **Axis Value** pin - and release in empty graph space
 - type an **asterisk** symbol - to search for multiplication operations
 - Under the **float** secion, select **float*float**
-- In the new **float*float** node, enter avalue of -1 - this will invert the float value
+- In the new **float*float** node, enter a value of -1 - this will invert the float value
+- Finally, connect the **float*float** node's output to the **Delta Rotation Y (Pitch)** pin
+
+<br>
+
 - 
 
 
