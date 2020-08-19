@@ -19,7 +19,7 @@ In the process, we'll cover a range of UE4 fundamentals that you can put to use 
 ![ClassicMarbleGame](https://user-images.githubusercontent.com/36719180/90583492-63d7ab80-e224-11ea-8d8d-127b2857e38c.png)
 
 
-Our marble game will feature
+Our marble game will feature:
 
 >- A tilt-able 3D level
 >- A roll-able marble
@@ -33,3 +33,6 @@ Our marble game will feature
 ## 003.001 | Referencing Actors
 
 Let's begin by 
+
+- Open the **Level Blueprint**
+- 
