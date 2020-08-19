@@ -44,6 +44,8 @@ We'll need *Mouse Y*, too:
 
 ![MouseEventTooltip](https://user-images.githubusercontent.com/36719180/90615373-255fe200-e260-11ea-91ab-119784c89088.png)
 
+It'll check where the mouse is (on this axis) on every frame.
+
 
 
 
