@@ -127,7 +127,7 @@ That's all there is to it.
 
 - Reposition the **Marble** Actor so that it's a little bit in the air above the **Floor** Actor
 - Hit **Play** and test it out
-- Try tilting your *Floor* Actor using the keyboard inputs we programmed
+- Try tilting your *Floor* Actor using the keyboard inputs that we programmed earlier
 
 <br>
 
