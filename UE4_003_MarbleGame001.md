@@ -122,14 +122,14 @@ Now, the *Floor StaticMeshActor* will:
 
 ---
 
-## 003.003 | Rotation
+## 003.003 | Transform: Rotation
 
 <br>
 
-In our game, we'll need this floor actor to rotate on its axis.. causing the marble to roll in various directions - ultimately allowing it to reach its destination.
+In our game, we'll need this floor actor to rotate on its own pivot.. causing the marble to roll in various directions - ultimately allowing it to reach its destination. We'll do this by somehow affecting its *Transform*..
 
-Let's start working towards achieving that rotation.
-<br>
+Let's start working towards achieving that.
+<br><br>
 
 - With the *Floor StaticMeshActor* still selected in the main viewport, head back into the **Level Blueprint**
 - **Right-click** in empty graph space (somewhere below the *W Input Action Event* node) - notice that, because we have the floor selected, the first entries in the list pertain directly to the *Floor* actor - handy!
@@ -138,5 +138,13 @@ Let's start working towards achieving that rotation.
 ![FloorReference](https://user-images.githubusercontent.com/36719180/90589480-4d385100-e232-11ea-81a1-e2dbc6d8e48b.png)
 
 - Click and drag off the lil' blue pin (in the new *Reference* node) - and release - notice that the menu is context-sensitive to actions that relate to this type of pin
+- Scroll down the list and locate the **Utilities** section
+- Expand that and locate **Transformation**
+- Expand that and select **AddActorWorldRotation**
+- Drag the nodes to tidy up a little
+
+![AddActorWorldRotation](https://user-images.githubusercontent.com/36719180/90590189-f9c70280-e233-11ea-8a57-03bce55666ae.png)
+
+- 
 
 
