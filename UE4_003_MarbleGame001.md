@@ -9,7 +9,7 @@ Using: Unreal Engine 4.25.3
 
 ---
 
-## 003.001 | Referencing Actors
+## 003.001 | Marble Labyrinth
 
 We're about to being programming gameplay for a simpe marble-rolling game. In the process, we'll cover a range of UE4 fundamentals that you can put to use in your own projects.
 
@@ -19,3 +19,7 @@ We're about to being programming gameplay for a simpe marble-rolling game. In th
 Our marble game will feature
 
 >- A tilt-able 3D level
+>- A roll-able marble
+>- A starting point
+>- An exit hole
+
