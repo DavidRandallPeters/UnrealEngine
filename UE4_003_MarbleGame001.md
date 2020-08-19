@@ -30,7 +30,7 @@ Our marble game will feature:
 
 ---
 
-## 003.001 | Input Action Events
+## 003.002 | Input Action Events
 
 Events can be of course called in response to player input - such as a keypress.
 
@@ -82,4 +82,9 @@ Rather than using *W* to control a Pawn, we'll use it to tilt a 'floor' Actor in
 
 ---
 
-## 003.001 | Input Action Events
+## 003.003 | Mobility
+
+Summin'
+
+- Out in the main viewport, select the *StaticMeshActor* called **Floor** - it's the thing that looks like a floor
+- With it selected, look in the **Transform** section of the **Details** panel - specifically, the row marked **'Mobility'**
