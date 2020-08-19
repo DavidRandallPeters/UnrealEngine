@@ -1,2 +1,18 @@
-# UnrealEngine
-Material, blueprints and assets for Massey University's 289.210 Game Technology Project course.
+# Unreal Engine | 004 | Marble Labyrinth 1C | Event Tick + Input Axis Events
+
+![UnrealEngineLogo002](https://user-images.githubusercontent.com/36719180/90347960-a4e68900-e087-11ea-9349-f5a59105b4d2.png)
+
+
+Notes prepared by David Peters
+
+Using: Unreal Engine 4.25.3 
+
+<br>
+
+---
+
+## 004.001 | Mouse Input
+
+<br>
+
+Short
