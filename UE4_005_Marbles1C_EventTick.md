@@ -77,7 +77,7 @@ To test for input, let's print that float value to the screen as a string:
 
 <br>
 
-You should see a stream of axis values running down the left of the viewport.
+You should see a stream of axis values running down the left of the viewport. Moving the mouse left returns a negative value and moving it right returns a positive value.
 
 ![AxisValues](https://user-images.githubusercontent.com/36719180/90620437-8e4a5880-e266-11ea-9893-9c0fbfd77186.png)
 
