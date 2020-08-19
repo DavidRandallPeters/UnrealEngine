@@ -182,6 +182,10 @@ This is basically a confusing way of determining whether or not to use collision
 
 You should now find it somewhat more playable.
 
+Certainly, it's not perfect.. it's a bit difficult to control and we have to button-mash the controls to keep up.
+
+But that's okay - we're going to add programming that makes this a smoother experience.
+
 <br><br>
 
 #### Continued in UE4_005_Marbles003_EventTick
