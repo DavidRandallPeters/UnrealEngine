@@ -105,11 +105,19 @@ We'll
 - Pan back down to your **Mouse X** node and hit **Ctrl+W** to duplicate the selected nodes
 - Connect the **Execution** pins as you see below
 
-![MouseRotation](https://user-images.githubusercontent.com/36719180/90622776-b4bdc300-e269-11ea-938f-861393f16caf.png)
-
 <br>
 
-Okay - we now want to plug that mouse axis value (green pin) into the *Delta Rotation* pin.. but there are three axes to target.. and only one axis value.. 
+![MouseRotation](https://user-images.githubusercontent.com/36719180/90622776-b4bdc300-e269-11ea-938f-861393f16caf.png)
+
+<br><br>
+
+###
+
+Okay - we now want to plug thr mouse's axis value (green pin) into the *Delta Rotation* pin.. but there are three axes to target.. and only one axis value..
+
+How do we target a specific axis?
+
+The solution is to *split* the pin.
 
 
 
