@@ -164,7 +164,7 @@ We'll use this to make it so that when we press *D*, the floor will roll right a
 
 ![AddActorWorldRotation](https://user-images.githubusercontent.com/36719180/90592654-3269da80-e23a-11ea-8fd5-4355d0a7ef62.png)
 
-- Duplicate the **D** *Input Action Event* node (**CTRL+W**) and give it an *A* key input - as we did above
+- Duplicate the **D** *Input Action Event* node (**CTRL+W**) and give it an **A** key input - as we did above
 - Connect the **A** *Input Action Event*'s **Pressed** Execution pin to the new **AddActorWorldRotation** node's input *Execution* pin
 
 ![AddActorWorldRotation](https://user-images.githubusercontent.com/36719180/90592883-be7c0200-e23a-11ea-811a-9b065c20e6da.png)
