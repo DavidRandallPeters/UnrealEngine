@@ -57,3 +57,48 @@ To rename the sphere do ONE of the following:
 - Either double-click **Shape_Sphere** in the **Outliner**, or
 - Select the sphere and edit the **Name** field atthe top of the **Details** panel
 
+---
+
+## 004.003 | Applying Materials
+
+<br>
+
+![MaterialDetails](https://user-images.githubusercontent.com/36719180/90604058-618b4680-e250-11ea-8cfb-5ab1c7eabda6.png)
+
+<br>
+
+Notice that when you havethe _Marble_ Actor selected, you can see its *Material* details in the *Details* panel (as above).
+
+Applying existing materials is extremely straightforward. Again, you have two options:
+
+<br>
+
+- First, navigate in the **Content Browser** to: **Starter Content » Materials**
+- Explore the folder until you've identified a material that you'd like to use for your *Marble*
+
+<br>
+
+To apply:
+
+- Either drag that material from the **Content Browser** directly onto the **Marble** Actor in the viewport, or
+- With the **Marble** Actor selected, drag that material from the **Content Browser** into the **Materials** slot in the **Details** panel
+
+<br>
+
+In either case, the *Materials* slot in the *Details* panel will be updated to reflect the change.
+While we're at it, we might as well apply a fresh Material to the floor.
+
+<br>
+
+- Repeat the above steps to give the **Floor** Actor a lick o' paint
+
+<br>
+
+![MaterialsAdded](https://user-images.githubusercontent.com/36719180/90604951-bd0a0400-e251-11ea-9f57-717d153e9241.png)
+
+<br>
+
+
+
+
+
