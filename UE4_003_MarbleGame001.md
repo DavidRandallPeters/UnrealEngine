@@ -228,7 +228,7 @@ This section will be quick and easy as we can pretty much duplicate what we alre
 - Give the **W** **AddActorWorldRotation** node's **Y** axis a value of **-5**
 - Give the **S** **AddActorWorldRotation** node's **X** axis a value of **0**
 - Give the **S** **AddActorWorldRotation** node's **Y** axis a value of **5**
-- Select all the nodes in this input system and hit **C** - a comment/grouping box should apear
+- Select all the nodes in this input system and hit **C** (on your keyboard) - a comment/grouping box should apear
 - Name the group **Key input system** (or something similarly descriptive)
 
 <br>
