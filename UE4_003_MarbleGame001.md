@@ -11,9 +11,10 @@ Using: Unreal Engine 4.25.3
 
 ## 003.001 | Referencing Actors
 
-We're about to being programming gameplay for a simpe marble-rolling game. In theprocess, we'll cover a range of UE4 fundamentals that you can put to use in your own projects.
+We're about to being programming gameplay for a simpe marble-rolling game. In the process, we'll cover a range of UE4 fundamentals that you can put to use in your own projects.
 
 ![ClassicMarbleGame](https://user-images.githubusercontent.com/36719180/90583492-63d7ab80-e224-11ea-8d8d-127b2857e38c.png)
+<br>
 
 Our marble game will feature
 
