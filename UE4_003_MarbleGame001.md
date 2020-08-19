@@ -146,6 +146,8 @@ Let's start working towards achieving that.
 ![AddActorWorldRotation](https://user-images.githubusercontent.com/36719180/90590189-f9c70280-e233-11ea-8a57-03bce55666ae.png)
 <br>
 
-This node allows us to affect the *Roll* (X-axis), *Pitch* (Y-axis) and *Yaw* (Z-axis) of the associated Actor. We'll use this to make it so that when we press *D*, the floor will roll right and when we press *A*, the floor will roll left.
-
+This node allows us to affect the *Roll* (X-axis), *Pitch* (Y-axis) and *Yaw* (Z-axis) of the associated Actor.
+We'll use this to make it so that when we press *D*, the floor will roll right and when we press *A*, the floor will roll left.
+<br>
+Summin'
 
