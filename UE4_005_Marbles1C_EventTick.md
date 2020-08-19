@@ -15,4 +15,24 @@ Using: Unreal Engine 4.25.3
 
 <br>
 
-Short
+We'll now make some changes so that we can control the *Floor* Actor smoothly - using mouse input.
+
+<br>
+
+- Go into your **Level Blueprint**
+- Find some empty space in the graph under the *Key Input System* we built
+- **Right-click** in empty graph space
+- Scroll down the *Actions* menu and expand **Input**
+- Locate **Mouse Events** and expand it
+- Select **Mouse X**
+
+<br>
+
+We'll need *Mouse Y*, too:
+
+- Either repeat the above steps to create a **Mouse Y** Event node, or
+- **Right-click** in empty graph space and start typing **Mouse Y** (be sure to select the option that's in the *Mouse Events* section)
+
+
+
+
