@@ -52,6 +52,9 @@ Just quickly, let's check for input by printing a string in response to a *W* ke
 - **Alt-click** the **Event BeginPlay**'s **Execution** pin to stop our previous string from printing
 - Drag off the **Pressed** execution pin of the **W** *Action Event* and choose **Print String**
 - Enter the string: *MOVE FORWARD*
+
+![PrintMoveForward](https://user-images.githubusercontent.com/36719180/90586515-7dc8bc80-e22b-11ea-9160-1dd515e03a4c.png)
+
 - Compile, head back to the main viewport and hit **Play**
 - Click inside the viewport to make sure it's focused
 - Hit **W** and you should see *MOVE FORWARD* printed on the left
