@@ -32,7 +32,16 @@ Our marble game will feature:
 
 ## 003.001 | Referencing Actors
 
-Let's begin by 
+Events can be of course called in response to player input - such as a keypress.
 
 - Open the **Level Blueprint**
-- 
+- Select the **Event Tick** node and hit *Delete* (on your keyboard) to remove it
+- In the empty graph space where we just deleted that node, **right-click**. This will bring up a list entitled *All Actions for this Blueprint.*
+- Scroll down the list to the **Inputs** category and expand it
+- Find **Keyboard Events** and expand it. Here, we see all the keys on a keyboard
+- Find and select the **W** key. This will create an *Input Action Event* for *W*
+<br><br>
+
+Currently, if we hit *W* during a game, our *DefaultPawn* Actor moves forwards.
+
+
