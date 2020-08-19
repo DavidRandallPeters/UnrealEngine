@@ -46,7 +46,11 @@ We'll now make some changes so that we can control the *Floor* Actor smoothly - 
 
 >It'll check where the mouse is (on this axis) on every frame - that value will be spat out of the node's lil' green pin
 
-- 
+<br>
+
+
+
+- In the top-right of the main viewport, locate 
 
 
 
