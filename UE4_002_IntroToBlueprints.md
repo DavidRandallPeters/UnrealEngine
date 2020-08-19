@@ -152,7 +152,6 @@ Your message will appear after the *Delay* that you determined - and for the *Du
 
 <br><br>
 
-***Referencing Actors***
 
 
 
