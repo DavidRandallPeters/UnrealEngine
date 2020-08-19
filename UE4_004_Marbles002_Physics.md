@@ -57,6 +57,8 @@ To rename the sphere do ONE of the following:
 - Either double-click **Shape_Sphere** in the **Outliner**, or
 - Select the sphere and edit the **Name** field atthe top of the **Details** panel
 
+<br>
+
 ---
 
 ## 004.003 | Applying Materials
@@ -100,6 +102,42 @@ While we're at it, we might as well apply a fresh Material to the floor.
 ![MaterialsAdded](https://user-images.githubusercontent.com/36719180/90605619-b9c34800-e252-11ea-8c08-14eaa4caef85.png)
 
 <br>
+
+---
+
+## 004.004 | Applying Physics
+
+<br>
+
+If you hit *Play* now, your marble will simply remain wherever you placed it. We need to apply physics in order for it to interact with other Actors in the level. This is also pretty straightforward:
+
+- Select the **Marble** Actor
+- In the **Details** panel, scroll down until you find the **Physics** section
+- Check the **Simulate Physics** checkbox
+
+<br>
+
+That's all there is to it.
+
+<br>
+
+- Reposition the **Marble** Actor so that it's a little bit in the air above the **Floor** Actor
+- Hit **Play** and test it out
+- Try tilting your *Floor* Actor using the keyboard inputs we programmed
+
+<br>
+
+Okay, so things get a bit freaky pretty quickly - but this is a good start. We'll take measures to make this more playable.
+
+---
+
+## 004.005 | Applying Physics
+
+<br>
+
+
+
+
 
 
 
