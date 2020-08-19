@@ -88,12 +88,13 @@ Summin'
 
 - Out in the main viewport, select the *StaticMeshActor* called **Floor** - it's the thing that looks like a floor
 - With it selected, look in the **Transform** section of the **Details** panel - specifically, the row marked **'Mobility'**
+<br>
 
 Currently, the floor actor is set to *Static.* This has implications on its mobility of course - but also on the way UE4 will render it. You may recall from Unity days that a static object can be included in baked lightmaps, improving performance at runtime. The same is true here.
 
 Take a moment to view and bookmark [this](https://docs.unrealengine.com/en-US/Engine/Actors/Mobility/index.html?utm_source=GoogleSearch&utm_medium=Performance&utm_campaign=an*Internal_pr*UnrealEngine_ct*Search_pl*Brand_co*OC&utm_id=10824681733&sub_campaign=UE_Broad_EN&utm_content=July2020_Generic_V1b&utm_term=%2Bue4&gclid=EAIaIQobChMI1J70pKWm6wIV1X4rCh2nBAK2EAAYASAAEgJ25PD_BwE) documentation for more detail / future reference.
 
-<br><br>
+<br>
 
 When you're ready:
 
