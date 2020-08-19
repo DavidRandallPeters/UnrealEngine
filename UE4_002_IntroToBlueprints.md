@@ -142,12 +142,12 @@ UE4 will always colour-code like-operations (eg. all functions are blue and are 
 
 ![DelaySequence](https://user-images.githubusercontent.com/36719180/90581809-430d5700-e220-11ea-876d-caf125a3428f.png)
 
-<br><br>
+<br>
 
 - Compile, head back to the main viewport and try it out
 <br><br>
 
 Your message will appear after the delay that you determined - and for the duration that you determined.
-
+<br><br>
 
 
