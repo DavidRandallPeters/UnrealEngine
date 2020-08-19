@@ -144,7 +144,10 @@ UE4 will always colour-code like-operations (eg. all functions are blue and are 
 
 <br><br>
 
+- Compile, head back to the main viewport and try it out
+<br><br>
 
+Your message will appear after the delay that you determined - and for the duration that you determined.
 
 
 
