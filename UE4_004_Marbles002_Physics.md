@@ -32,3 +32,18 @@ Let's get that marble into the game:
 
 Just take a moment to take note of the fact that this is listed in the *Outliner* as a *StaticMeshActor*
 
+---
+
+## 004.002 | Renaming Actors
+
+I don't need to explain why this is a good thing to know!
+
+Let's call it **Marble**, instead.
+
+
+
+To rename the sphere do ONE of the following:
+
+- Either double-click **Shape_Sphere** in the **Outliner**, or
+- Select the sphere and edit the **Name** field atthe top of the **Details** panel
+
