@@ -156,11 +156,18 @@ We'll use this to make it so that when we press *D*, the floor will roll right a
 - With the second **W** *Input Action Event* node selected, look in the **Details** panel..
 - Expand the **Input Key** drop-down (currently says *W*)
 - Choose **Keyboard » D** - the node now handles a *D* key input
-- Connect the **D** *Input Action Event*'s **Pressed** Execution pin to the **AddActorWorldRotation** node's input Execution pin
+- Connect the **D** *Input Action Event*'s **Pressed** Execution pin to the **AddActorWorldRotation** node's input *Execution* pin
 
 ![DInput](https://user-images.githubusercontent.com/36719180/90591133-63e0a700-e236-11ea-8685-448addb9f991.png)
 
-- 
+- Again, drag off the **Floor** *Reference* node's lil' blue pin (there is no limit as to how many times you can use a reference), start typing **AddActorWorldRotation** and select it - this will create a second *AddActorWorldRotation* node, connected to the *Reference* node
 
+![AddActorWorldRotation](https://user-images.githubusercontent.com/36719180/90592654-3269da80-e23a-11ea-8fd5-4355d0a7ef62.png)
 
+- Duplicate the **D** *Input Action Event* node (**CTRL+W**) and give it an *A* key input - as we did above
+- Connect the **A** *Input Action Event*'s **Pressed** Execution pin to the new **AddActorWorldRotation** node's input *Execution* pin
 
+![AddActorWorldRotation](https://user-images.githubusercontent.com/36719180/90592883-be7c0200-e23a-11ea-811a-9b065c20e6da.png)
+
+<br><br>
+We now have the ability to rotate the Floor Actor by pressing the A and D keys.
