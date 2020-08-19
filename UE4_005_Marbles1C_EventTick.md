@@ -44,9 +44,9 @@ We'll now make some changes so that we can control the *Floor* Actor smoothly - 
 
 ![MouseEventTooltip](https://user-images.githubusercontent.com/36719180/90615373-255fe200-e260-11ea-91ab-119784c89088.png)
 
->It'll check where the mouse is (on this axis) on every frame.
+>It'll check where the mouse is (on this axis) on every frame - that value will be spat out of the node's lil' green pin
 
-> That value will be spat out of the node's lil' green pin
+- 
 
 
 
