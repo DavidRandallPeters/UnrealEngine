@@ -171,7 +171,16 @@ This is basically a confusing way of determining whether or not to use collision
 
 ![TeleportOn](https://user-images.githubusercontent.com/36719180/90610804-10805000-e25a-11ea-869e-c98b3507793d.png)
 
--
+<br>
+
+- Compile and head back out to the editor viewport
+- Hit **Play** to test the game
+
+<br>
+
+You should now find it somewhat more playable.
+
+
 
 
 
