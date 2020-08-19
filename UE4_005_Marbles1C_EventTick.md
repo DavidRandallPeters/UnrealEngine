@@ -173,8 +173,8 @@ So we'll take a few more steps to flip that axis input - we'll invert the invers
 - Still in the **Level Blueprint**, click and drag off **Mouse Y**'s **Axis Value** pin - and release in empty graph space
 - type an **asterisk** symbol - to search for multiplication operations
 - Under the **float** secion, select **float*float**
-- safasf
-
+- In the new **float*float** node, enter avalue of -1 - this will invert the float value
+- 
 
 
 
