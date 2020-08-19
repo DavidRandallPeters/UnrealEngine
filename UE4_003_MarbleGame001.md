@@ -47,8 +47,14 @@ Events can be of course called in response to player input - such as a keypress.
 <br>
 
 Currently, if we hit *W* during a game, our *DefaultPawn* Actor moves forwards.
-Just quickly, let's print a string in response to a *W* key press..
+Just quickly, let's alternatively check for input by printing a string in response to a *W* key press..
 
+- **Alt-click** the **Event BeginPlay**'s **Execution** pin to stop our previous string from printing
 - Drag off the **Pressed** execution pin of the **W** *Action Event* and choose **Print String**
-- Enter the string: **MOVE FORWARD**
+- Enter the string: *MOVE FORWARD*
+- Compile, head back to the main viewport and hit **Play**
+- Click inside the viewport to make sure it's focused
+- Hit **W** and you should see *MOVE FORWARD* printed on the left
+
+
 
