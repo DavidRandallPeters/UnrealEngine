@@ -97,7 +97,7 @@ While we're at it, we might as well apply a fresh Material to the floor.
 
 <br>
 
-![MaterialsAdded](https://user-images.githubusercontent.com/36719180/90604951-bd0a0400-e251-11ea-9f57-717d153e9241.png)
+![MaterialsAdded](https://user-images.githubusercontent.com/36719180/90605619-b9c34800-e252-11ea-8c08-14eaa4caef85.png)
 
 <br>
 
