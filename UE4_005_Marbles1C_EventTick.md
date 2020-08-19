@@ -58,7 +58,15 @@ Let's print that float value to the screen as a string:
 
 - Right click in empty graph space and start typing **Print String**
 - Connect the **Execution** pins
-- Connect the **Mouse X** node's **Axis Value** to the **Print String** node's **In Sting** pin
+- Connect the **Mouse X** node's **Axis Value** to the **Print String** node's **In Sting** pin - Unreal automaatically converts the *float* value to a *string* value
+
+<br>
+
+![ConvertFloatToString](https://user-images.githubusercontent.com/36719180/90619208-0dd72800-e265-11ea-8a1a-55f00f176af3.png)
+
+<br>
+
+- 
 
 
 
