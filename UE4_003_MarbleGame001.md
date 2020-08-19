@@ -171,3 +171,11 @@ We'll use this to make it so that when we press *D*, the floor will roll right a
 
 <br><br>
 We now have the ability to rotate the Floor Actor by pressing the A and D keys.
+We'll now give the appropriate axes a value so that something actually happens when we press these keys.
+
+<br><br>
+
+- In the **AddActorWorldRotation** node that's attached to the **D** *Input Action*, give the **X-axis** a value of **5.0**
+- In the **AddActorWorldRotation** node that's attached to the **A** *Input Action*, give the **X-axis** a value of **-5.0** to make it roll in the opposite direction
+
+
