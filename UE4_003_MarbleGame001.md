@@ -194,6 +194,8 @@ Let's start working towards achieving that.
 
 ![CameraAngle](https://user-images.githubusercontent.com/36719180/90593795-f126fa00-e23c-11ea-8173-737c333f701c.png)
 
+<br>
+
 - Hit **Play**, click in the viewport to make sure it's focused and try it out
 
 <br>
