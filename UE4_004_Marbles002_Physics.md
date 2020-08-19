@@ -141,7 +141,7 @@ Okay, so things get a bit freaky pretty quickly - but this is a good start. We'l
 
 <br>
 
-Our marble is freaking out because default UE4 physics have been applied.
+Our marble is being dramatic because default UE4 physics have been applied.
 
 When we tilt the Floor, UE4 reads this as its velocity changing momentarily - so it logically applies an upwards force to the ball.
 
