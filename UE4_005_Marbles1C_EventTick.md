@@ -148,8 +148,16 @@ We still need to enable Forward/Back *Floor* movement..
 <br>
 
 - Go back into the **Level Blueprint**
-- Duplicate the **AddActorWorldRotation** node that's attached to *Mouse X* (**Ctrl+W**)
+- **Duplicate** the **AddActorWorldRotation** node that's attached to *Mouse X* (**Ctrl+W**)
+- Connect the **Mouse Y** node's **Execution** pin to the duplicated *Rotation* node
+- Connect **Mouse Y**'s **Axis Value** to the *Rotation* node's **Delta Rotation Y (Pitch)** pin
+- Finally, connect the _Reference_ to **Floor** to the *Rotation* node's **Target** pin
 
+<br>
+
+![MouseRotation](https://user-images.githubusercontent.com/36719180/90624873-c48ad680-e26c-11ea-894b-e10f723b5e76.png)
+
+<br>
 
 
 
