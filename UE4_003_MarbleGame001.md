@@ -122,11 +122,14 @@ Now, the *Floor StaticMeshActor* will:
 
 ---
 
-## 003.003 | Mobility
+## 003.003 | Rotation
 
 <br>
 
-Stuff
+In our game, we'll need this floor actor to rotate on its axis.. causing the marble to roll in various directions - ultimately allowing it to reach its destination.
+
+Let's start working towards achieving that rotation.
+<br>
 
 - With the *Floor StaticMeshActor* still selected in the main viewport, head back into the **Level Blueprint**
 - **Right-click** in empty graph space (somewhere below the *W Input Action Event* node) - notice that, because we have the floor selected, the first entries in the list pertain directly to the *Floor* actor - handy!
@@ -134,6 +137,6 @@ Stuff
 
 ![FloorReference](https://user-images.githubusercontent.com/36719180/90589480-4d385100-e232-11ea-81a1-e2dbc6d8e48b.png)
 
-- Click and drag off the lil' blue pin (in the new *Reference* node) - and release - notice that the menu is context-sensitive to actions that relate to this kind of pin
--
+- Click and drag off the lil' blue pin (in the new *Reference* node) - and release - notice that the menu is context-sensitive to actions that relate to this type of pin
+
 
