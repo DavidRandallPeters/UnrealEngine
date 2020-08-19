@@ -11,6 +11,8 @@ Using: Unreal Engine 4.25.3
 
 ## 004.001 | Adding the Marble
 
+<br>
+
 Shortly, we'll add a ball to the level that we can roll around atop our *Floor* Actor.
 
 In the process, we'll learn how to add content to our level from the *Content Browser*.
@@ -36,11 +38,13 @@ Just take a moment to take note of the fact that this is listed in the *Outliner
 
 ## 004.002 | Renaming Actors
 
-I don't need to explain why this is a good thing to know!
+<br>
+
+I probably don't need to explain why this is a good thing to know!
 
 Let's call it **Marble**, instead.
 
-
+![Rename](https://user-images.githubusercontent.com/36719180/90603452-6bf91080-e24f-11ea-9239-1ed648ce2a19.png)
 
 To rename the sphere do ONE of the following:
 
