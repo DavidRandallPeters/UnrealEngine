@@ -147,8 +147,9 @@ Let's start working towards achieving that.
 ![AddActorWorldRotation](https://user-images.githubusercontent.com/36719180/90590189-f9c70280-e233-11ea-8a57-03bce55666ae.png)
 <br>
 
-This node allows us to affect the *Roll* (X-axis), *Pitch* (Y-axis) and *Yaw* (Z-axis) of the associated Actor.
-We'll use this to make it so that when we press *D*, the floor will roll right and when we press *A*, the floor will roll left.  
+>This node allows us to affect the *Roll* (X-axis), *Pitch* (Y-axis) and *Yaw* (Z-axis) of the associated Actor.
+>We'll use this to make it so that when we press *D*, the floor will roll right and when we press *A*, the floor will roll left.  
+
 <br>
 - Select the **Print String** node that's attached to the *W Input Action Event* node and delete it
 - Select the **W** *Input Action Event* node
@@ -170,8 +171,9 @@ We'll use this to make it so that when we press *D*, the floor will roll right a
 ![AddActorWorldRotation](https://user-images.githubusercontent.com/36719180/90592883-be7c0200-e23a-11ea-811a-9b065c20e6da.png)
 
 <br><br>
-We now have the ability to rotate the Floor Actor by pressing the *A* and *D* keys.
-We'll now give the appropriate axes a value so that something actually happens when we press these keys.
+
+>We now have the ability to rotate the Floor Actor by pressing the *A* and *D* keys.
+> We'll now give the appropriate axes a value so that something actually happens when we press these keys.
 
 <br>
 
@@ -181,7 +183,7 @@ We'll now give the appropriate axes a value so that something actually happens w
 
 <br>
 
-Before we test this, we'll quickly move the *PlayerStart* actor to the side so that we have a better view of the action at runtime. 
+>Before we test this, we'll quickly move the *PlayerStart* actor to the side so that we have a better view of the action at runtime. 
 <br>
 
 - Select the **PlayerStart** actor and move it backwards (that's negatively along its [red] X-axis) so that it's off the *Floo*r
