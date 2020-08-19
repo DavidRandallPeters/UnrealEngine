@@ -12,7 +12,8 @@ Using: Unreal Engine 4.25.3
 ## 002.001 | Pawns
 
 <br>
-- First up, take note of how many actors are currently listed in the *Outliner.*
+- First up, take note of how many actors are currently listed in the *Outliner*.
+
 <br><br>
 
 You likely see 7 Actors - one of these is a *PlayerStart* Actor.  
@@ -66,7 +67,7 @@ We'll make a start using Blueprints now.
 A [Level Blueprint](https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Types/LevelBlueprint/index.html) is a specialised type of *Blueprint* that acts as a level-wide global event graph. A *Level Blueprint* is created by default in each level of your project.
 <br><br>
 
-Let's take a look at this Level's Level Blueprint:
+Let's take a look at this Level's *Level Blueprint:*
 
 - In the top menu bar, hit the **Blueprints** button and choose **Open Level Blueprint**
 
