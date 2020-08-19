@@ -46,13 +46,15 @@ We'll now make some changes so that we can control the *Floor* Actor smoothly - 
 
 >It'll check where the mouse is (on this axis) on every frame - that value will be spat out of the node's lil' green pin
 
-<br>
-
->Green pins indicate that a *float* (fractional) value will be returned (has a decimal place)
+>Green pins indicate that a *float* (fractional) value will be returned (ie. has a decimal place)
 
 <br>
 
--
+Let's print that value to the screen:
+
+- Right click in empty graph space and start typing **Print String**
+- Connect the **Execution** pins
+- Connect the **Mouse X** node's **Axis Value** to the **Print String** node's 
 
 
 
