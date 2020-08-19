@@ -210,8 +210,11 @@ The floor should now rotate each time you hit the *A* and *D* keys.
 
 This section will be quick and easy as we can pretty much duplicate what we already have.
 
+<br>
+
 - Go into your **Level Blueprint**
-- Select the existing key input system and duplicate it (**CTRL+W**)
+- Delete the **W** *Input Action Event* node (we'll make it again in a second)
+- Select the whole existing key input system and duplicate it (**CTRL+W**)
 
 <br>
 
@@ -219,5 +222,24 @@ This section will be quick and easy as we can pretty much duplicate what we alre
 
 <br>
 
-- 
+- Set the new **D** *Input Action Event* node to handle **W** instead
+- Set the new **A** *Input Action Event* node to handle **S** instead
+- Give the **W** **AddActorWorldRotation** node's **X** axis a value of **0**
+- Give the **W** **AddActorWorldRotation** node's **Y** axis a value of **-5**
+- Give the **S** **AddActorWorldRotation** node's **X** axis a value of **0**
+- Give the **S** **AddActorWorldRotation** node's **Y** axis a value of **5**
+- Select all the nodes in this input system and hit **C** - a comment/grouping box should apear
+- Name the group **Key input system** (or something similarly descriptive)
+
+<br>
+
+The whole input system should now look like this:
+
+<br>
+
+![KeyInputSystem](https://user-images.githubusercontent.com/36719180/90595082-1e28dc00-e240-11ea-9d0c-73667af01b0d.png)
+
+<br>
+
+
 
