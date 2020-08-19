@@ -108,6 +108,8 @@ When you're ready:
 
 - Set the *Floor StaticMeshActor*'s *Mobility* to **Moveable**
 
+<br>
+
 Now, the *Floor StaticMeshActor* will:
 
 >- be allowed to move dynamically,
