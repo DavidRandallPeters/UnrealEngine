@@ -208,4 +208,16 @@ The floor should now rotate each time you hit the *A* and *D* keys.
 
 ## 003.004 | Tilting the Floor Forwards and Back
 
+This section will be quick and easy as we can pretty much duplicate what we already have.
+
+- Go into your **Level Blueprint**
+- Select the existing key input system and duplicate it (**CTRL+W**)
+
+<br>
+
+![DuplicateInputSystem](https://user-images.githubusercontent.com/36719180/90594436-8b3b7200-e23e-11ea-9b8d-6d46a103dbce.png)
+
+<br>
+
+- 
 
