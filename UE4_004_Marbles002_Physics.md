@@ -25,6 +25,10 @@ Let's get that marble into the game:
 
 - In the main editor, direct your attention to the **Content Browser**
 - Navigate the folders to **Starter Content » Shapes**
-- Locate the **Sphere** model
-- Drag the **Sphere** model into the viewport and place it anywhere on the *Floor* Actor - notice that it snapped to the floor-plane - handy!
+- Locate the **Shape_Sphere** model
+- Drag the **Shape_Sphere** model into the viewport and place it anywhere on the *Floor* Actor - notice that it snapped to the floor-plane - handy!
+
+<br>
+
+Just take a moment to take note of the fact that this is listed in the *Outliner* as a *StaticMeshActor*
 
