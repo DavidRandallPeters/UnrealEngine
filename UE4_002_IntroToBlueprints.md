@@ -120,13 +120,14 @@ Now, let's blah
 - Click and drag the **Print String** node to the right to create some space
 - Click and drag off the **Event BeginPlay**'s **Execution** pin and release..
 - Start typing *Delay* - choose **Delay** when it becomes available
+<br><br>
 
 Notice that the Delay function is
 
 >a) coloured blue  
 >b) has an *f* beside it  
-<br>
-UE4 will always colour-code like operations (eg. all functions are blue and are indicated with an *f*)
+
+UE4 will always colour-code like-operations (eg. all functions are blue and are indicated with an *f*)
 
 
 
