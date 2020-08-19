@@ -12,9 +12,10 @@ Using: Unreal Engine 4.25.3
 ## 002.001 | Pawns
 
 <br>
-- First up, take note of how many actors are currently listed in the *Outliner*.
 
-<br><br>
+- First up, take note of how many actors are currently listed in the *Outliner.*  
+
+<br>
 
 You likely see 7 Actors - one of these is a *PlayerStart* Actor.  
 
