@@ -22,7 +22,7 @@ We'll now make some changes so that we can control the *Floor* Actor smoothly - 
 - Go into your **Level Blueprint**
 - Find some empty space in the graph under the *Key Input System* we built
 - **Right-click** in empty graph space
-- Scroll down the *Actions* menu and expand **Input**
+- Scroll down the *Actions* menu and locate and expand **Input**
 - Locate **Mouse Events** and expand it
 - Select **Mouse X**
 
@@ -32,6 +32,12 @@ We'll need *Mouse Y*, too:
 
 - Either repeat the above steps to create a **Mouse Y** Event node, or
 - **Right-click** in empty graph space and start typing **Mouse Y** (be sure to select the option that's in the *Mouse Events* section)
+
+<br>
+
+![MouseXandY](https://user-images.githubusercontent.com/36719180/90614958-7e7b4600-e25f-11ea-98ad-9159cbb91754.png)
+
+<br>
 
 
 
