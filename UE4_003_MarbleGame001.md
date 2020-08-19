@@ -41,6 +41,7 @@ Events can be of course called in response to player input - such as a keypress.
 - Find **Keyboard Events** and expand it. Here, we see all the keys on a keyboard
 - Find and select the **W** key. This will create an *Input Action Event* for *W*
 <br>
+
 ![W](https://user-images.githubusercontent.com/36719180/90584788-81f2db00-e227-11ea-95cc-9bf3b8e0faea.png)
 
 <br><br>
