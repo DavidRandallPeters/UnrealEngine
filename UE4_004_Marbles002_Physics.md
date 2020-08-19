@@ -9,4 +9,13 @@ Using: Unreal Engine 4.25.3
 
 ---
 
-## 004.001 | Marble Labyrinth
+## 004.001 | Adding the Marble
+
+Shortly, we'll add a ball to the level that we can roll around atop our *Floor* Actor.
+
+In the process, we'll learn how to add content to our level from the *Content Browser*.
+
+We'll also need to apply physics to that ball so that it rolls and balances as we need it to - so we'll get to that soon after.
+
+Toward the end, we'll boost aesthetic appeal by applying various materials to the marble and the floor. 
+
