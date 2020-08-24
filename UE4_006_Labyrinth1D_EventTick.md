@@ -87,7 +87,27 @@ This time, we'll fetch *Mouse Values.*
 
 <br>
 
-- 
+Great. So we've acheived the exact same thing as before, but we've reduced our code.
+
+At this point, you can delete the entire *Mk.1 Mouse input control system* if you like - or keep it around for reference.
+
+<br>
+
+- Comment your Event tick nodes as you see below:
+
+<br>
+
+![EventTick03](https://user-images.githubusercontent.com/36719180/90996168-0ec7db00-e612-11ea-82dc-57026abf9994.png)
+
+<br>
+
+- Do a general tidy-up in your *Level Blueprint* - maybe it looks something like this:
+
+<br>
+
+![TidyUp](https://user-images.githubusercontent.com/36719180/90996251-4767b480-e612-11ea-8156-026c1bd53772.png)
+
+<br>
 
 <br><br>
 
