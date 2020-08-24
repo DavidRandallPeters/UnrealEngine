@@ -77,6 +77,8 @@ This time, we'll fetch *Mouse Values.*
 - If the **Delta Rotation** pin isn't already split, split it now (**Right-click** it and choose **Split Struct Pin**)
 - Connect the **Get Mouse X** node to the **Delta Rotation X (Roll)** input
 - Add a **Get Mouse Y** node as we did just before
+- We again need to invert the *Y* - Drag off the **Get Mouse Y** node's float output, release and search for **float*float**
+- Set the **float*float** node -1.0 to flip the value
 - Connect the new **Get Mouse Y** node to the **Delta Rotation Y (Pitch)** input
 
 <br>
