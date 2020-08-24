@@ -35,8 +35,17 @@ We're going to solve this with some new and versatile coding tricks.
 - Go into your **Level Blueprint**
 - Locate your *EventTick* sequence, select the **AddActorWorldRotation** node and delete it
 >It's served us well so far - but we need a little more control
-- 
+- Click and drag out from the Reference to **Floor**'s blue (Object) output pin and release
+- Drill down to **Utilities » Transformation** - this is where we previously found *AddActorWorldRotation*
+- Keep scrolling down and locate and choose **GetActorRotation**
 
+<br>
+
+![GetActorRotation](https://user-images.githubusercontent.com/36719180/91001768-c06e0880-e620-11ea-86fa-df18ab451dfe.png)
+>If you hover your cursor over the return pin, you'll notice that the return value (variable) is of type 'Rotator'
+<br>
+
+- 
 
 
 <br><br>
