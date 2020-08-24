@@ -143,6 +143,20 @@ We now need to introduce the mouse axis values to the system so that we can tame
 
 <br>
 
+- Connect the **float+float** node's **Return** pin to the **Make Rotator** node's **X (Roll)** input pin
+
+- Repeat these last few steps for the Mouse Y values
+
+<br>
+
+>Your *Event Tick* sequence should look like this:
+
+![Float+FloatY](https://user-images.githubusercontent.com/36719180/91006685-28771b80-e62e-11ea-9f71-5d94854707e1.png)
+
+<br>
+
+- ass
+
 
 
 ---
