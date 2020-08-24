@@ -167,7 +167,7 @@ We still need to enable Forward/Back *Floor* movement..
 
 This will work just fine (by all means test it out) - but the Y-axis control will be inverted - which may not feel intuitive to the player.
 
-So we'll take a few more steps to flip that axis input - we'll invert the inversion
+So we'll take a few more steps to flip that axis input - we'll invert the inversion!
 
 <br>
 
@@ -177,7 +177,11 @@ So we'll take a few more steps to flip that axis input - we'll invert the invers
 - In the new **float*float** node, enter a value of -1 - this will invert the float value
 - Finally, connect the **float*float** node's output to the **Delta Rotation Y (Pitch)** pin
 
-<br>
+<br><br>
+
+#### Continued in UE4_006_Labyrinth1D_EventTick.md
+
+---
 
 
 
