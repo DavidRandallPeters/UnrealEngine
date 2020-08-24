@@ -101,8 +101,20 @@ We're now successfully retreiving the values we need. Now we'll see about settin
 
 <br>
 
-- 
+The *SetActorRotation* node contains *New Rotation* input fields which we could set manually.
 
+We also know already that we can split its *Rotator* input pin to pipe values in as we need.
+
+Instead, we'll create a new Rotator value and input that:
+
+<br>
+
+- Click and drag off (to the left) the **SetActorRotation** node's **New Rotation** input pin and release
+> The list just shows *Actions providing a Rotator*
+
+<br>
+
+- At the bottom of that list, choose **Make Rotator**
 
 
 
