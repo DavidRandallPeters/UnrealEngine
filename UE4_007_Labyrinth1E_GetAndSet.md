@@ -11,7 +11,7 @@ Using: Unreal Engine 4.25.3
 
 ---
 
-## 007.001 | Removing 'Yaw-Creep'
+## 007.001 | Removing 'Yaw-Creep' by Getting and Setting values
 
 <br>
 
