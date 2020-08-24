@@ -76,6 +76,7 @@ We're now going to solve this problem with some new and versatile coding tricks.
 - Drill down to **Utilities » Transformation** and scroll until you find **SetActorRotation** and select it
 
 <br>
+
 >Your sequence should currently look something like this:
 
 ![TidyUp01](https://user-images.githubusercontent.com/36719180/91003747-3de84780-e626-11ea-9683-ab85f504b275.png)
