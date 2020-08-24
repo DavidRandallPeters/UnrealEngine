@@ -15,10 +15,16 @@ Using: Unreal Engine 4.25.3
 
 <br>
 
-Okay - I totally just made up that term. But it describes a small issue with our core gameplay mechanic:
+Okay - I totally just made up that term. But it describes a small issue with our core gameplay mechanic.
+
+Let's demonstrate:
+
+<br>
 
 - Play-test the game
 - With your mouse, 'draw circles' - ie. keep making circles with your mouse and observe what the *Floor* Actor does..
+
+<br>
 
 As you continually pitch and roll, the *Floor* Actor becomes offset around its *yaw* (Z-axis).. It gradually creeps around and we don't want that because it'll mess up the synchronous between the orientation of our mouse-pad and the game-board.
 
