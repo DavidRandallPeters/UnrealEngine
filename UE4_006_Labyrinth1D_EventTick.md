@@ -117,9 +117,13 @@ We now have the exact same functionality as we did before - only we're using les
 
 We've also learned three different ways to capture input:
 
+<br>
+
 1. Key input Events
 2. Mouse Axis Events
 3. Get Mouse Values
+
+<br>
 
 Noice.
 
@@ -135,7 +139,6 @@ Okay - I totally just made up that term. But it describes a small issue with our
 - With your mouse, 'draw circles' - ie. keep making circles with your mouse and observe what the *Floor* Actor does..
 
 As you continually pitch and roll, the *Floor* Actor becomes offset around its *yaw* (Z-axis).. It gradually creeps around and we don't want that because it'll mess up the synchronous between the orientation of our mouse-pad and the game-board.
-
 
 
 
