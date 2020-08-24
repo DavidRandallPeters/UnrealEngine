@@ -159,6 +159,8 @@ Okay. So you're probably thinking *'Grrrreat - we've learned yet another way to 
 
 Well, you're right - we have. But crucially, we're *restraining the yaw* which is what we set out to do.
 
+<br>
+
 Look at the *Make Rotator* node ... the *Z (Yaw)* input field is set to zero.
 
 So, whatever we do with the mouse, the yaw is being set back to zero on every frame.
