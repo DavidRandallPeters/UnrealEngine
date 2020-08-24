@@ -7,7 +7,7 @@ Notes prepared by David Peters
 
 Using: Unreal Engine 4.25.3 
 
-<br><br>
+<br>
 
 ---
 
