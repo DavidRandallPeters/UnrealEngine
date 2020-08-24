@@ -34,7 +34,14 @@ We can halve that with a few tweaks.
 
 - Find some space on the graph near *EventBeginPlay*, right-click and add an **Event Tick** node
 >As you'll recall, this node runs on every frame
-- sadsdg
+- Again, **Shift-select** a reference to **Floor** and a connected **AddActorWorldRotation** node
+- Pan back to the *EventTick* node and hit **Ctrl-W** to duplicate the selected nodes
+- Connect the **Execution** pins as you see below
+- To test, just check that you have a value in one of the **Delta Rotation** fields
+
+<br>
+
+![EventTick01](https://user-images.githubusercontent.com/36719180/90994381-9874aa00-e60c-11ea-8374-13a69909e0e0.png)
 
 <br>
 
