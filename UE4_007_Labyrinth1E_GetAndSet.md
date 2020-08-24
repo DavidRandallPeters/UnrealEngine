@@ -17,7 +17,7 @@ Using: Unreal Engine 4.25.3
 
 ### The problem
 
-Okay - I totally just made that term up. But it describes a small issue with our core gameplay mechanic.
+Okay - I totally just made up the term 'yaw-creep' - but it describes a small issue with our core gameplay mechanic.
 
 Let's demonstrate:
 
