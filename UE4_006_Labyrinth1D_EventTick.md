@@ -55,12 +55,14 @@ Previously, we obtained the mouse axis information via the *Mouse X* and *Mouse 
 
 These were found in the *All Actions for this Blueprint* menu under *Input »* ***Mouse Events*** *» ..* 
 
-This time, we'll 
+This time, we'll fetch *Mouse Values.*
 
 <br>
 
 - Back in the **Level Blueprint**, **right-click** in the graph near the **Event Tick**
-- Drill down to **Input » 
+- Drill down to **Input » Mouse Values** and choose **Mouse X**
+
+<br>
 
 
 
