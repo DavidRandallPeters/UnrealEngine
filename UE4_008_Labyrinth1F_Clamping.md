@@ -69,4 +69,9 @@ That's all there is to it!
 
 The *Floor* Actor's rotation is now limited - disallowing the player from completely inverting it.
 
+<br><br>
 
+#### Continued in UE4_009_Labyrinth1G_Geometry
+
+
+---
