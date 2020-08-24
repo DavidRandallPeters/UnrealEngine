@@ -15,7 +15,7 @@ Using: Unreal Engine 4.25.3
 
 <br>
 
-Okay - I totally just made up that term. But it describes a small issue with our core gameplay mechanic.
+Okay - I totally just made that term up. But it describes a small issue with our core gameplay mechanic.
 
 Let's demonstrate:
 
