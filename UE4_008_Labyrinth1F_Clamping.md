@@ -59,5 +59,14 @@ This one's quick and easy. Let's go:
 
 <br>
 
-- 
+That's all there is to it.
+
+<br>
+
+- Compile and try it out
+
+<br>
+
+The *Floor* Actor's rotation is now limited - disallowing the player from completely inverting it.
+
 
