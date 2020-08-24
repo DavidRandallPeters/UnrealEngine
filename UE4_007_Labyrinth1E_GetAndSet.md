@@ -71,6 +71,10 @@ In order to *set* values to suit our needs, we first need to *get* them.
 - Start typing **Break Rotator** and choose it when it becomes available
 > This is just another way to access those three values
 
+<br>
+
+![BreakRotator](https://user-images.githubusercontent.com/36719180/91004073-44c38a00-e627-11ea-8110-945b44538f4c.png)
+
 <br><br>
 
 ### Setting values
