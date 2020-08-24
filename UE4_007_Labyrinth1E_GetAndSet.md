@@ -32,6 +32,11 @@ We're going to solve this with some new and versatile coding tricks.
 
 <br>
 
+- Go into your **Level Blueprint**
+- Locate your *EventTick* sequence, select the **AddActorWorldRotation** node and delete it
+>It's served us well so far - but we need a little more control
+- 
+
 
 
 <br><br>
