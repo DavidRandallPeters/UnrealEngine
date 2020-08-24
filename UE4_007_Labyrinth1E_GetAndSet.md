@@ -28,6 +28,10 @@ Let's demonstrate:
 
 As you continually pitch and roll, the *Floor* Actor becomes offset around its *yaw*.. It gradually creeps around the *Z-axis* and we don't want that because it'll mess up the synchronous between the orientation of our mouse-pad and the game-board - resulting in awkward gameplay.
 
+<br><br>
+
+### Getting values
+
 We're going to solve this with some new and versatile coding tricks.
 
 <br>
@@ -49,7 +53,10 @@ We're going to solve this with some new and versatile coding tricks.
 >We now have access to the three axis values
 - **Right-click** one of the new **Return Value** pins (X, Y or Z) and choose **Recombine Struct Pin** to collapse them back down to a single return pin
 > (Just wanted you to see that a *Rotation* variable actually contains three values)
-- Click and drag off the **
+- Click and drag off the singular **Return Value** pin and release
+- Start typing **Break Rotator** and choose it when it becomes available
+> This is another way to access those three values
+
 
 
 
