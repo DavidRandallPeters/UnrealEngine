@@ -55,7 +55,7 @@ We can halve that with a few tweaks.
 
 <br>
 
-Previously, we obtained the mouse axis information via the *Mouse X* and *Mouse Y* axis Events.
+Previously, we obtained the mouse axis information via the *Mouse X* and *Mouse Y* **Input Axis Events.**
 
 These were found in the *All Actions for this Blueprint* menu under *Input »* ***Mouse Events*** *» ..* 
 
