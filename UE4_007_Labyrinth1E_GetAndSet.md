@@ -153,9 +153,15 @@ We now need to introduce the mouse axis values to the system so that we can tame
 
 ![Float+FloatY](https://user-images.githubusercontent.com/36719180/91006685-28771b80-e62e-11ea-9f71-5d94854707e1.png)
 
-<br>
+<br><br>
 
-- ass
+Okay. So you're probably thinking 'Grrrreat - we've learned yet another way to do the same thing'.
+
+Well, you're right.. but crucially, we're restraining the yaw as we set out to do..
+
+Look at the *Make Rotator* node.. the *Z (Yaw)* input field is set to zero.
+
+Whatever we do with the mouse, the yaw is being set back to zero on every frame.
 
 
 
