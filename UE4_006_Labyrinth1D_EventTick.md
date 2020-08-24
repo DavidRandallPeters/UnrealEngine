@@ -23,8 +23,12 @@ We can halve that with a few tweaks.
 
 - Open your **Level Blueprint**
 - Drag a selection marquee around your mouse input control system and hit **C** to add a comment box
-- Name it **Mouse input Control System Mk.1**
+- Name it **Mk.1 mouse input control system**
 - Break the links on the **Mouse X** and **Mouse Y** *Execution* pins (**Alt-click**)
+
+<br>
+
+![Mk1Mouse](https://user-images.githubusercontent.com/36719180/90993932-00c28c00-e60b-11ea-8151-94e1d53c6e5e.png)
 
 <br>
 
