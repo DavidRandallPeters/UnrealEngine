@@ -67,7 +67,7 @@ We're now going to solve this problem with some new and versatile coding tricks.
 
 - Click and drag off the singular **Return Value** pin and release to bring up the context-sensitive menu
 - Start typing **Break Rotator** and choose it when it becomes available
-> This is another way to access those three values
+> This is just another way to access those three values
 
 <br>
 
