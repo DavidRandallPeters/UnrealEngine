@@ -155,13 +155,13 @@ We now need to introduce the mouse axis values to the system so that we can tame
 
 <br><br>
 
-Okay. So you're probably thinking 'Grrrreat - we've learned yet another way to do the same thing'.
+Okay. So you're probably thinking *'Grrrreat - we've learned yet another way to do the same thing'.*
 
-Well, you're right.. but crucially, we're restraining the yaw as we set out to do..
+Well, you're right - we have. But crucially, we're *restraining the yaw* which is what we set out to do.
 
-Look at the *Make Rotator* node.. the *Z (Yaw)* input field is set to zero.
+Look at the *Make Rotator* node ... the *Z (Yaw)* input field is set to zero.
 
-Whatever we do with the mouse, the yaw is being set back to zero on every frame.
+So, whatever we do with the mouse, the yaw is being set back to zero on every frame.
 
 
 
