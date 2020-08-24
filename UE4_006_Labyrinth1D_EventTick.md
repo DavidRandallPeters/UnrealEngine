@@ -34,7 +34,7 @@ We can halve that with a few tweaks.
 
 <br>
 
-![Mk1Mouse](https://user-images.githubusercontent.com/36719180/90993932-00c28c00-e60b-11ea-8151-94e1d53c6e5e.png)
+![Mk1Mouse](https://user-images.githubusercontent.com/36719180/90996658-877b6700-e613-11ea-84c5-4f9fbc8cffad.png)
 
 <br>
 
