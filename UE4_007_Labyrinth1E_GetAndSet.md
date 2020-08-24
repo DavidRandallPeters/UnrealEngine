@@ -44,8 +44,9 @@ We're now going to solve this problem with some new and versatile coding tricks.
 - Locate your *EventTick* sequence, select the **AddActorWorldRotation** node and delete it
 >It's served us well so far - but we need a little more control
 - Click and drag out from the Reference to **Floor**'s blue (Object) output pin and release
-- Drill down to **Utilities » Transformation** - this is where we previously found *AddActorWorldRotation*
-- Keep scrolling down and locate and choose **GetActorRotation**
+- Drill down to **Utilities » Transformation**
+>This is where we previously found *AddActorWorldRotation*
+- Keep scrolling down.. Locate and choose **GetActorRotation**
 
 <br>
 
