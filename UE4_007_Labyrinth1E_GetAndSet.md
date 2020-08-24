@@ -77,7 +77,7 @@ In order to *set* values to suit our needs, we first need to *get* them.
 
 <br><br>
 
-### Setting values
+### Setting values A
 
 We're now successfully retreiving the values we need. Now we'll see about setting those values to better suit our needs.
 
@@ -118,6 +118,9 @@ Instead, we'll create a new Rotator value and input that:
 
 <br><br>
 
+
+### Setting values B
+
 So we've retreived the existing rotation values of the *Floor* Actor that we wish to have control of.
 
 We've also set up the infrastructure for setting those values to suit our needs.
@@ -126,7 +129,7 @@ The now need to introduce the mouse axis values to the system so that we can tam
 
 <br>
 
-![Diagram01](https://user-images.githubusercontent.com/36719180/91004918-93722380-e629-11ea-849a-8408bff901a8.png)
+![Diagram01](https://user-images.githubusercontent.com/36719180/91005163-50fd1680-e62a-11ea-99ea-ddb228874da3.png)
 
 <br><br>
 
