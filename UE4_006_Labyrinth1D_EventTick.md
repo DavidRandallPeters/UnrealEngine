@@ -13,9 +13,9 @@ Using: Unreal Engine 4.25.3
 
 ## 006.001 | Event Tick
 
-### Refactoring in Blueprints
-
 <br>
+
+### Refactoring in Blueprints
 
 Hopefully you're familiar with the concept of refactoring. It's the practice of reviewing code with a view to reduce resource costs and optimise performance, code resuability (elsewhere within your programme) and make your scripts more intuitive - for yourself and any other coders who might work on them in future.
 
