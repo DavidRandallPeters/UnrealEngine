@@ -69,6 +69,12 @@ We're now going to solve this problem with some new and versatile coding tricks.
 - Start typing **Break Rotator** and choose it when it becomes available
 > This is just another way to access those three values
 
+<br><br>
+
+### Setting values
+
+We're now successfully retreiving the values we need. Now we'll see about setting those values to better suit our needs.
+
 <br>
 
 - Select your *Reference* to **Floor** and duplicate it (**Ctrl+W**)
