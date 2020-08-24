@@ -109,6 +109,20 @@ At this point, you can delete the entire *Mk.1 Mouse input control system* if yo
 
 <br>
 
+- Compile and test the game
+
+<br>
+
+We now have the exact same functionality as we did before - only we're using less code to achieve it.
+
+We've also learned three different ways to capture input:
+
+1. Key input Events
+2. Mouse Axis Events
+3. Get Mouse Values
+
+Noice.
+
 <br><br>
 
 ---
