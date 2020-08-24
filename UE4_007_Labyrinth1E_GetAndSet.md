@@ -65,13 +65,18 @@ We're now going to solve this problem with some new and versatile coding tricks.
 
 <br>
 
-- Click and drag off the singular **Return Value** pin and release
+- Click and drag off the singular **Return Value** pin and release to bring up the context-sensitive menu
 - Start typing **Break Rotator** and choose it when it becomes available
 > This is another way to access those three values
 
 <br>
 
-- 
+- Select your *Reference* to **Floor** and duplicate it (**Ctrl+W**)
+- Click and drag off its return pin and release to bring up the menu
+- Drill down to **Utilities » Transformation** and scroll until you find **SetActorRotation** and select it
+>Your sequence should currently look something like this:
+
+
 
 
 
