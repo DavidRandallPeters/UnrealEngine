@@ -32,13 +32,13 @@ This one's quick and easy. Let's go:
 - **Alt-click** the **float+float** node's **Return** pin to break the connection
 - Click and drag off the **float+float** node's **Return** pin and release
 - Drill down to **Math » Float** and select **Clamp (float)**
-- Set the **Clamp (float)**'s **Min** value to **-40.0**
-- Set the **Clamp (float)**'s **Max** value to **40.0**
+- Set the **Clamp (float)**'s **Min** value to **-20.0**
+- Set the **Clamp (float)**'s **Max** value to **20.0**
 - Reconnect the **Clamp (float)**'s **Return** node to the **Make Rotator** node's **X (Roll)** input
 
 <br>
 
-![ClampingX](https://user-images.githubusercontent.com/36719180/91009073-ddf89d80-e633-11ea-8c83-bce634ebd1b6.png)
+![ClampingX](https://user-images.githubusercontent.com/36719180/91009451-ba822280-e634-11ea-866c-a945d9df29bc.png)
 
 <br><br>
 
@@ -46,6 +46,15 @@ This one's quick and easy. Let's go:
 
 <br>
 
+- Locate the **float+float** node that handles the **Mouse Y** values
+- **Alt-click** that **float+float** node's **Return** pin to break the connection
+- Select the existing **Clamp (float)** node and hit **Ctrl+W** to duplicate it
+- Add it to the *Y-Axis* calculations as we did just now
+- Maybe you'd like to rename the operation to **Mk.3 Mouse input control**?
+
+<br>
+
+![ClampingY](https://user-images.githubusercontent.com/36719180/91009620-0b921680-e635-11ea-9154-b7ece1e22656.png)
 
 
 <br>
