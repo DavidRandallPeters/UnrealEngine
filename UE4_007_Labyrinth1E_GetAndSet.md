@@ -42,7 +42,7 @@ We're going to solve this with some new and versatile coding tricks.
 <br>
 
 ![GetActorRotation](https://user-images.githubusercontent.com/36719180/91001768-c06e0880-e620-11ea-86fa-df18ab451dfe.png)
->If you hover your cursor over the return pin, you'll notice that the return value (variable) is of type 'Rotator'
+>If you read the return pin's tooltip, you'll notice that the return value (variable) is of type 'Rotator'
 <br>
 
 - 
