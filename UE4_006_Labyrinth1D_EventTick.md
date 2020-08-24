@@ -83,7 +83,7 @@ This time, we'll fetch *Mouse Values.*
 
 <br>
 
-!GetMouseY](https://user-images.githubusercontent.com/36719180/90995659-b5ab7780-e610-11ea-82a5-7ce433f411e8.png)
+![GetMouseY](https://user-images.githubusercontent.com/36719180/90995659-b5ab7780-e610-11ea-82a5-7ce433f411e8.png)
 
 <br>
 
