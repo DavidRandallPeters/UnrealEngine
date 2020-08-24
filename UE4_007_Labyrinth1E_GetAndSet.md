@@ -45,6 +45,7 @@ We're going to solve this with some new and versatile coding tricks.
 >If you read the return pin's tooltip, you'll notice that the Return Value [variable] is of type 'Rotator'
 <br>
 
+- **Right-click** the **GetActorRotation** pin's **Return Value** pin and choose **Split Struct Pin**
 - 
 
 
