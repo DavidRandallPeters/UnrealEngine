@@ -15,6 +15,8 @@ Using: Unreal Engine 4.25.3
 
 <br>
 
+### The problem
+
 Okay - I totally just made that term up. But it describes a small issue with our core gameplay mechanic.
 
 Let's demonstrate:
@@ -32,7 +34,7 @@ As you continually pitch and roll, the *Floor* Actor becomes offset around its *
 
 ### Getting values
 
-We're going to solve this with some new and versatile coding tricks.
+We're now going to solve this problem with some new and versatile coding tricks.
 
 <br>
 
