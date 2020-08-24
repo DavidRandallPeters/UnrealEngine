@@ -86,6 +86,7 @@ We're now successfully retreiving the values we need. Now we'll see about settin
 - Select your *Reference* to **Floor** and duplicate it (**Ctrl+W**)
 - Click and drag off its return pin and release to bring up the menu
 - Drill down to **Utilities » Transformation** and scroll until you find **SetActorRotation** and select it
+- Connect the **Execuction** pins as you see below
 
 <br>
 
