@@ -64,6 +64,13 @@ This time, we'll fetch *Mouse Values.*
 
 <br>
 
+![GetMouseX](https://user-images.githubusercontent.com/36719180/90994907-5f3d3980-e60e-11ea-886f-96538d5ff786.png)
+
+>This node allows us to get the mouse axis value without using a dedicated Event.
+
+<br>
+
+- 
 
 
 <br><br>
