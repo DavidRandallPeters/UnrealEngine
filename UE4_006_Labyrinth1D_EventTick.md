@@ -49,8 +49,18 @@ We can halve that with a few tweaks.
 
 >The Floor should spin by 5 units on every frame.. just spinning constantly like a windmill.
 
-- blah
+<br>
 
+Previously, we obtained the mouse axis information via the *Mouse X* and *Mouse Y* axis Events.
+
+These were found in the *All Actions for this Blueprint* menu under *Input » **Mouse Events** » .. *
+
+This time, we'll 
+
+<br>
+
+- Back in the **Level Blueprint**, **right-click** in the graph near the **Event Tick**
+- Drill down to **Input » 
 
 
 
