@@ -13,7 +13,7 @@ Using: Unreal Engine 4.25.3
 
 ## 006.001 | Refactoring in Blueprints
 
-Hopefully you're familiar with the concept of refactoring. It's the practice of reviewing code with a view to reduce resource costs and optimise performance, code resuability (elsewhere within your programme) and make your scripts more intuitive - for yourself and any other coders who might work on your them in future.
+Hopefully you're familiar with the concept of refactoring. It's the practice of reviewing code with a view to reduce resource costs and optimise performance, code resuability (elsewhere within your programme) and make your scripts more intuitive - for yourself and any other coders who might work on them in future.
 
 Currently, our mouse input control system runs checks on each mouse axis between 50-100 times every second.. that's 100-200 calls every second.
 
