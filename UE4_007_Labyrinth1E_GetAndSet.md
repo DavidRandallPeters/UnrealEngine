@@ -56,11 +56,22 @@ We're now going to solve this problem with some new and versatile coding tricks.
 
 - **Right-click** the **GetActorRotation** pin's **Return Value** pin and choose **Split Struct Pin**
 >We now have access to the three axis values
+
+<br>
+
+
 - **Right-click** one of the new **Return Value** pins (X, Y or Z) and choose **Recombine Struct Pin** to collapse them back down to a single return pin
 > (Just wanted you to see that a *Rotation* variable actually contains three values)
+
+<br>
+
 - Click and drag off the singular **Return Value** pin and release
 - Start typing **Break Rotator** and choose it when it becomes available
 > This is another way to access those three values
+
+<br>
+
+- 
 
 
 
