@@ -32,6 +32,12 @@ We can halve that with a few tweaks.
 
 <br>
 
+- Find some space on the graph near *EventBeginPlay*, right-click and add an **Event Tick** node
+>As you'll recall, this node runs on every frame
+- sadsdg
+
+<br>
+
 Blah
 
 
