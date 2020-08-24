@@ -116,8 +116,17 @@ Instead, we'll create a new Rotator value and input that:
 
 - At the bottom of that list, choose **Make Rotator**
 
+<br><br>
 
+So we've retreived the existing rotation values of the *Floor* Actor that we wish to have control of.
 
+We've also set up the infrastructure for setting those values to suit our needs.
+
+The now need to introduce the mouse axis values to the system so that we can tame them (removing the yaw-creep).
+
+<br>
+
+![Diagram01](https://user-images.githubusercontent.com/36719180/91004918-93722380-e629-11ea-849a-8408bff901a8.png)
 
 <br><br>
 
