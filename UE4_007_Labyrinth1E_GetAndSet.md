@@ -96,6 +96,11 @@ We're now successfully retreiving the values we need. Now we'll see about settin
 
 <br>
 
+- In the **SetActorRotation** node, check **Teleport Physics**
+>read the tooltip if you've forgotten what this does
+
+<br>
+
 - 
 
 
