@@ -1,11 +1,19 @@
-# UnrealEngine
-Material, blueprints and assets for Massey University's 289.210 Game Technology Project course.
+# Unreal Engine | 007 | Marble Labyrinth 1E | Getting and Setting
+
+![UnrealEngineLogo002](https://user-images.githubusercontent.com/36719180/90347960-a4e68900-e087-11ea-9349-f5a59105b4d2.png)
 
 
+Notes prepared by David Peters
 
+Using: Unreal Engine 4.25.3 
 
+<br><br>
 
-## 006.XXX | Removing 'Yaw-Creep'
+---
+
+## 007.001 | Removing 'Yaw-Creep'
+
+<br>
 
 Okay - I totally just made up that term. But it describes a small issue with our core gameplay mechanic:
 
@@ -18,6 +26,6 @@ As you continually pitch and roll, the *Floor* Actor becomes offset around its *
 
 <br><br>
 
-UE4_007_Labyrinth1E_GetAndSet
+
 
 ---
