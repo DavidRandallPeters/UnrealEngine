@@ -77,7 +77,7 @@ In order to *set* values to suit our needs, we first need to *get* them.
 
 <br><br>
 
-### Setting values A
+### Setting values Pt.1
 
 We're now successfully retreiving the values we need. Now we'll see about setting those values to better suit our needs.
 
@@ -119,7 +119,7 @@ Instead, we'll create a new Rotator value and input that:
 <br><br>
 
 
-### Setting values B
+### Setting values Pt.2
 
 So we've retreived the existing rotation values of the *Floor* Actor that we wish to have control of.
 
