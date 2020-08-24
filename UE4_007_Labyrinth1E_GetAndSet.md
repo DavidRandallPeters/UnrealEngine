@@ -32,11 +32,13 @@ Let's demonstrate:
 
 As you continually pitch and roll, the *Floor* Actor becomes offset around its *yaw*.. It gradually creeps around the *Z-axis* and we don't want that because it'll mess up the synchronous between the orientation of our mouse-pad and the game-board - resulting in awkward gameplay.
 
+We're now going to solve this problem with some new and versatile coding tricks.
+
 <br><br>
 
 ### Getting values
 
-We're now going to solve this problem with some new and versatile coding tricks.
+In order to *set* values to suit our needs, we first need to *get* them.
 
 <br>
 
