@@ -79,7 +79,7 @@ This time, we'll fetch *Mouse Values.*
 - Add a **Get Mouse Y** node as we did just before
 - We again need to invert the *Y* - Drag off the **Get Mouse Y** node's float output, release and search for **float*float**
 - Set the **float*float** node -1.0 (to flip the value)
-- Connect the new **Get Mouse Y** node to the **Delta Rotation Y (Pitch)** input
+- Connect the **float*float** node to the **Delta Rotation Y (Pitch)** input
 
 <br>
 
