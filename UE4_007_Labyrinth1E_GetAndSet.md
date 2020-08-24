@@ -165,6 +165,16 @@ Look at the *Make Rotator* node ... the *Z (Yaw)* input field is set to zero.
 
 So, whatever we do with the mouse, the yaw is being set back to zero on every frame.
 
+<br>
+
+- Compile and test it out
+
+<br>
+
+Problem solved!
+
+<br><br>
+
 
 
 ---
