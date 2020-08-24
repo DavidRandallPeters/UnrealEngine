@@ -74,7 +74,17 @@ This time, we'll fetch *Mouse Values.*
 
 <br>
 
-- 
+- If the **Delta Rotation** pin isn't already split, split it now (**Right-click** it and choose **Split Struct Pin**)
+- Connect the **Get Mouse X** node to the **Delta Rotation X (Roll)** input
+- Add a **Get Mouse Y** node as we did just before
+- Connect the new **Get Mouse Y** node to the **Delta Rotation Y (Pitch)** input
+
+<br>
+
+![GetMouseY](https://user-images.githubusercontent.com/36719180/90995417-07073700-e610-11ea-8745-e8725ef9aca4.png)
+
+<br>
+
 
 
 <br><br>
