@@ -21,6 +21,10 @@ We can achieve this by clamping values.
 
 This one's quick and easy. Let's go:
 
+<br><br>
+
+### Clamping the X axis
+
 <br>
 
 - Go into your **Level Blueprint**
@@ -30,7 +34,15 @@ This one's quick and easy. Let's go:
 - Drill down to **Math » Float** and select **Clamp (float)**
 - Set the **Clamp (float)**'s **Min** value to **-40.0**
 - Set the **Clamp (float)**'s **Max** value to **40.0**
-- Reconnect the **Clamp (float)**'s **Return** node to the **Make Rotator** node's **X (Roll)** input 
+- Reconnect the **Clamp (float)**'s **Return** node to the **Make Rotator** node's **X (Roll)** input
+
+<br>
+
+![ClampingX](https://user-images.githubusercontent.com/36719180/91009073-ddf89d80-e633-11ea-8c83-bce634ebd1b6.png)
+
+<br><br>
+
+### Clamping the Y axis
 
 <br>
 
