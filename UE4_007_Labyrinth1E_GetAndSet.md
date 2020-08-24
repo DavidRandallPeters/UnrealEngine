@@ -125,13 +125,23 @@ So we've retreived the existing rotation values of the *Floor* Actor that we wis
 
 We've also set up the infrastructure for setting those values to suit our needs.
 
-The now need to introduce the mouse axis values to the system so that we can tame them (removing the yaw-creep).
+We now need to introduce the mouse axis values to the system so that we can tame them (removing the yaw-creep).
 
 <br>
 
 ![Diagram01](https://user-images.githubusercontent.com/36719180/91005163-50fd1680-e62a-11ea-99ea-ddb228874da3.png)
 
 <br><br>
+
+- Drag your **Mouse X** node and position it near the **Break Rotator** node
+- Click and drag out from its **Return Value** pin and search for **float+float**
+- Connect the **Break Rotator** node's **X (Roll)** output to the **float+float** node's empty input like so:
+
+<br>
+
+![Float+FloatX](https://user-images.githubusercontent.com/36719180/91006216-eef1e080-e62c-11ea-8615-325b1cd6ec96.png)
+
+<br>
 
 
 
