@@ -177,6 +177,10 @@ So we'll take a few more steps to flip that axis input - we'll invert the invers
 - In the new **float*float** node, enter a value of -1 - this will invert the float value
 - Finally, connect the **float*float** node's output to the **Delta Rotation Y (Pitch)** pin
 
+<br>
+
+So. When you play-test, this should be feeling much better.
+
 <br><br>
 
 #### Continued in UE4_006_Labyrinth1D_EventTick.md
