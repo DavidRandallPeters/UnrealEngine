@@ -34,7 +34,7 @@ As you continually pitch and roll, the *Floor* Actor becomes offset around its *
 
 We're now going to solve this problem with some new and versatile coding tricks.
 
-<br><br>
+<br>
 
 ### Getting values
 
