@@ -151,6 +151,7 @@ Let's start working towards achieving that.
 >We'll use this to make it so that when we press *D*, the floor will roll right and when we press *A*, the floor will roll left.  
 
 <br>
+
 - Select the **Print String** node that's attached to the *W Input Action Event* node and delete it
 - Select the **W** *Input Action Event* node
 - Duplicate it by hitting **CTRL+W** on your keyboard - position it below the first one somewhere
