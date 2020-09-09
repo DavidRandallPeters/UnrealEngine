@@ -145,7 +145,11 @@ Let's start working towards achieving that.
 - **Right-click** in empty graph space (somewhere below the *W Input Action Event* node) - notice that, because we have the floor selected, the first entries in the list pertain directly to the *Floor* actor - handy!
 - Select **Create a Reference to Floor** - a *Static Mesh Actor Object Reference* node is created
 
+<br>
+
 ![FloorReference](https://user-images.githubusercontent.com/36719180/90589480-4d385100-e232-11ea-81a1-e2dbc6d8e48b.png)
+
+<br>
 
 - Click and drag off the lil' blue pin (in the new *Reference* node) - and release - notice that the menu is context-sensitive to actions that relate to this type of pin
 - Scroll down the list and locate the **Utilities** section
@@ -153,9 +157,10 @@ Let's start working towards achieving that.
 - Expand that and select **AddActorWorldRotation**
 - Drag the nodes to tidy up a little
 
-<br><br>
+<br>
 
 ![AddActorWorldRotation](https://user-images.githubusercontent.com/36719180/90590189-f9c70280-e233-11ea-8a57-03bce55666ae.png)
+
 <br>
 
 >This node allows us to affect the *Roll* (X-axis), *Pitch* (Y-axis) and *Yaw* (Z-axis) of the associated Actor.
