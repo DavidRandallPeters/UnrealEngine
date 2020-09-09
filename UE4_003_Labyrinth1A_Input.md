@@ -2,6 +2,7 @@
 
 ![UnrealEngineLogo002](https://user-images.githubusercontent.com/36719180/90347960-a4e68900-e087-11ea-9349-f5a59105b4d2.png)
 
+<br>
 
 Notes prepared by David Peters
 
@@ -176,14 +177,24 @@ Let's start working towards achieving that.
 - Choose **Keyboard » D** - the node now handles a *D* key input
 - Connect the **D** *Input Action Event*'s **Pressed** Execution pin to the **AddActorWorldRotation** node's input *Execution* pin
 
+<br>
+
 ![DInput](https://user-images.githubusercontent.com/36719180/90591133-63e0a700-e236-11ea-8685-448addb9f991.png)
+
+<br>
 
 - Again, drag off the **Floor** *Reference* node's lil' blue pin (there is no limit as to how many times you can use a reference), start typing **AddActorWorldRotation** and select it - this will create a second *AddActorWorldRotation* node, connected to the *Reference* node
 
+<br>
+
 ![AddActorWorldRotation](https://user-images.githubusercontent.com/36719180/90592654-3269da80-e23a-11ea-8fd5-4355d0a7ef62.png)
+
+<br>
 
 - Duplicate the **D** *Input Action Event* node (**CTRL+W**) and give it an **A** key input - as we did above
 - Connect the **A** *Input Action Event*'s **Pressed** Execution pin to the new **AddActorWorldRotation** node's input *Execution* pin
+
+<br>
 
 ![AddActorWorldRotation](https://user-images.githubusercontent.com/36719180/90592883-be7c0200-e23a-11ea-811a-9b065c20e6da.png)
 
