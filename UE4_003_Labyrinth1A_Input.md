@@ -44,6 +44,7 @@ Events can be of course called in response to player input - such as a keypress.
 - Scroll down the list to the **Inputs** category and expand it
 - Find **Keyboard Events** and expand it. Here, we see all the keys on a keyboard
 - Find and select the **W** key. This will create an *Input Action Event* for *W*
+
 <br>
 
 ![W](https://user-images.githubusercontent.com/36719180/90584788-81f2db00-e227-11ea-95cc-9bf3b8e0faea.png)
@@ -82,6 +83,7 @@ Notice that we no longer do move forward.. That's because we've hijacked that de
 <br>
 
 Rather than using *W* to control a Pawn, we'll use it to tilt a 'floor' Actor in our labyrinth, instead.
+
 <br><br>
 
 ---
@@ -129,6 +131,7 @@ Now, the *Floor StaticMeshActor* will:
 In our game, we'll need this floor actor to rotate on its own pivot.. causing the marble to roll in various directions - ultimately allowing it to reach its destination. We'll do this by somehow affecting its *Transform*..
 
 Let's start working towards achieving that.
+
 <br><br>
 
 - With the *Floor StaticMeshActor* still selected in the main viewport, head back into the **Level Blueprint**
@@ -142,6 +145,7 @@ Let's start working towards achieving that.
 - Expand that and locate **Transformation**
 - Expand that and select **AddActorWorldRotation**
 - Drag the nodes to tidy up a little
+
 <br><br>
 
 ![AddActorWorldRotation](https://user-images.githubusercontent.com/36719180/90590189-f9c70280-e233-11ea-8a57-03bce55666ae.png)
@@ -185,6 +189,7 @@ Let's start working towards achieving that.
 <br>
 
 >Before we test this, we'll quickly move the *PlayerStart* actor to the side so that we have a better view of the action at runtime. 
+
 <br>
 
 - Select the **PlayerStart** actor and move it backwards (that's negatively along its [red] X-axis) so that it's off the *Floo*r
