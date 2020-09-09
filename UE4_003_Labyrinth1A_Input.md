@@ -58,7 +58,11 @@ Just quickly, let's check for input by printing a string in response to a *W* ke
 - Drag off the **Pressed** execution pin of the **W** *Input Action Event* and choose **Print String**
 - Enter the string: *MOVE FORWARD*
 
+<br>
+
 ![PrintMoveForward](https://user-images.githubusercontent.com/36719180/90586515-7dc8bc80-e22b-11ea-9160-1dd515e03a4c.png)
+
+<br>
 
 - Compile, head back to the main viewport and hit **Play**
 - Click inside the viewport to make sure it's focused
@@ -98,6 +102,7 @@ Rather than using *W* to control a Pawn, we'll use it to tilt a 'floor' Actor in
 
 - Out in the main viewport, select the *StaticMeshActor* called **Floor** - it's the thing that looks like a floor
 - With it selected, look in the **Transform** section of the **Details** panel - specifically, the row marked **'Mobility'**
+
 <br>
 
 Currently, the floor actor is set to *Static.* This has implications on its mobility of course - but also on the way UE4 will render it. You may recall from Unity days that a static object can be included in baked lightmaps, improving performance at runtime. The same is true here.
@@ -109,6 +114,8 @@ Take a moment to view and bookmark [this](https://docs.unrealengine.com/en-US/En
 When you're ready:
 
 - Set the *Floor StaticMeshActor*'s *Mobility* to **Moveable**
+
+<br>
 
 ![Mobility](https://user-images.githubusercontent.com/36719180/90589183-a489f180-e231-11ea-8efc-077d7d0b5be2.png)
 
