@@ -71,18 +71,30 @@ The board should now be tilting as we want it to - but the ball falls through th
 
 ---
 
-## 010.003 | Replacing references
+## 010.003 | Adding collision
 
 <br>
 
+To stop the marble from falling through the floor, we need to apply collisions to the *Maze001* Static Mesh.
 
+Here's how:
 
-
-
-
+<br>
 
 - Browse your **Content Browser** to the **Mazes** folder
 
 - Double-click the **Maze001** Static mesh to open it in its own window - (maybe dock this window alongside *Level01* etc.)
+
+- In the top menu bar, here in the *Mesh Editor*, choose **Collisions » Box Simplified Collision**
+
+> Just did that for observation - this won't work for us because it's just a big box that covers our whole maze - but I wanted you to see *one way* of applying collisions to meshes. 
+
+- Delete the **Collision** that we just added
+
+- Locate the **Collision** section of the **Details** panel on the right
+
+- Via the **Collision Complexity** dropdown, choose **Use Complex Collision As Simple**
+
+> Note that this method would get a bit heavy on resources in a larger production - the preferred method for generating collisions for larger games would be ex-Maya .. but this method will be perfectly fine for our wee maze game
 
 - 
