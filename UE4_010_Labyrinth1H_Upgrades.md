@@ -95,7 +95,7 @@ Here's how:
 
 > This won't work for us as it is, because it's just a big box that covers our whole maze.. but I wanted to show you an alternative method for creating Collisions to the one we're about to use:
 
-- SDelete the **Collision** that we just added
+- Delete the **Collision** that we just added
 
 - Locate the **Collision** section of the **Details** panel on the right
 
