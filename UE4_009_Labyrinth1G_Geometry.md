@@ -156,6 +156,12 @@ So let's apply some materials to this wall..
 
 ![Walls done](https://user-images.githubusercontent.com/36719180/93285305-acd14e80-f828-11ea-93bb-76be82590e04.png)
 
+<br><br>
+
+---
+
+## 009.003 | Build a maze
+
 <br>
 
 - Using these skills, **design a simple maze** that has a start and a finish
@@ -166,7 +172,37 @@ So let's apply some materials to this wall..
 
 ![Maze built](https://user-images.githubusercontent.com/36719180/93287484-c923ba00-f82d-11ea-88c8-64205257286f.png)
 
+<br><br>
+
+---
+
+## 009.004 | Cutting an escape hole
+
 <br>
+
+We'll make a hole in the floor for the marble to escape through. 
+
+This involcves blah
+
+So:
+
+<br>
+
+- Look at the bottom of the **Geometry** category in the **Place Actors** panel - we have *Add* and *Subtract* modes for the geometry - set it to **Subtract**
+
+- Drag a **Box** brush into the viewport as we've done before - placing it at the end of your maze
+
+- Name the new brush *EscapeHatch*
+
+- Reposition the new brush in such a way that it cuts a hole at the end of your maze
+
+<br>
+
+![Escape hatch](https://user-images.githubusercontent.com/36719180/93288046-1f452d00-f82f-11ea-8f0f-add4cd1083b4.png)
+
+<br>
+
+- 
 
 
 
