@@ -71,7 +71,7 @@ To make the game use the new maze we built instead of the old floor Actor, we si
 
 <br>
 
-The board should now be tilting as we want it to - but the ball falls through the floor..
+The board should now be tilting as we want it to - but the marble falls through the floor..
 
 <br><br>
 
