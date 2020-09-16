@@ -162,6 +162,12 @@ So let's apply some materials to this wall..
 
 - Drag your marble into the starting position
 
+<br>
+
+![Maze built](https://user-images.githubusercontent.com/36719180/93287484-c923ba00-f82d-11ea-88c8-64205257286f.png)
+
+<br>
+
 
 
 
