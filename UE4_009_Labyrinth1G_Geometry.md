@@ -158,7 +158,7 @@ So let's apply some materials to this wall..
 
 <br>
 
-- Using these skills, design a simple maze that has a start and a finish
+- Using these skills, **design a simple maze** that has a start and a finish
 
 - Drag your marble into the starting position
 
