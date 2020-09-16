@@ -63,7 +63,7 @@ You should see the time printed on the side of the screen at the end of the run.
 
 The number that was printed had a few too many decimal places after the point.. it's overkill.
 
-So we'll 
+So we'll use one (of many) methods to clip those extra decimal numbers off the end.
 
 <br>
 
@@ -75,7 +75,7 @@ So we'll
 
 - Drag off the **ToText (float)** node's **Return Value** and plug it into **In String** - a *Conversion* node is created
 
-- Expand the **drop-down** at the bottom of the **ToText (float** node
+- Expand the **drop-down** at the bottom of the **ToText (float)** node
 
 - Set **Maximum Fractional Digits** to **2**
 
@@ -84,6 +84,18 @@ So we'll
 ![Max digits](https://user-images.githubusercontent.com/36719180/93319441-fa1ee180-f863-11ea-9c57-e0fa6214a019.png)
 
 <br>
+
+- Compile and go test it out
+
+<br>
+
+The time is now displayed in a more truncated form.
+
+Noice.
+
+<br><br>
+
+
 
 
 
