@@ -246,15 +246,6 @@ Grrrrrrrrreat.
 
 <br><br>
 
-#### Continued in UE4_010_Labyrinth1F_Upgrade
+#### Continued in UE4_011_Labyrinth1G_Triggers
 
 ---
-
-
-
-
-
-
-
-
-
