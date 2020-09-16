@@ -177,16 +177,29 @@ Before we wrap this one up, let's add a a wee pause (to give the player time to 
 
 - Drag off the **Delay** node's **Completed** *Execution Pin* and navigate to **Game » Open Level**
 
-- Type your level's name - *verbatim!* - in the **Level Name** field - (you can check it against the tab in the editor or the *Level* file in the **Maps** folder)
+- Type your level's name - *verbatim!* - in the **Level Name** field - (you can check it against the tab in the editor or the *Level* file in the **Maps** folder) - this does need to be exact
 
-- 
+<br>
 
+![Delay and restart](https://user-images.githubusercontent.com/36719180/93327740-e167f900-f86e-11ea-9d44-7cbcb4cde667.png)
 
+<br>
 
+- Compile and go test it out
 
+<br>
 
+The appended string should now display for 5 seconds before the level is reloaded.
 
+That's all for now.
 
+In the next session, we'll clean up our code and try to address any bugs we have.
+
+After that, we'll package the game to make it playable outside of UE4 and move on to our 3rd person game.
+
+<br><br>
+
+---
 
 
 
