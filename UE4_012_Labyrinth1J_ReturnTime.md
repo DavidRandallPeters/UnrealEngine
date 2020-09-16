@@ -11,7 +11,7 @@ Using: Unreal Engine 4.25.3
 
 ---
 
-## 012.001 | 
+## 012.001 | Returning Game Time in Seconds
 
 In this one, we'll count how long a player takes to get through the maze and return that time in seconds.
 
@@ -59,7 +59,7 @@ You should see the time printed on the side of the screen at the end of the run.
 
 ---
 
-## 012.002 | 
+## 012.002 | Manipulating text
 
 The number that was printed had a few too many decimal places after the point.. it's overkill.
 
@@ -94,6 +94,42 @@ The time is now displayed in a more truncated form.
 Noice.
 
 <br><br>
+
+---
+
+## 012.003 | Append String
+
+In order to construct a sentence that contains variable data, such as:
+
+>*Congratulations! You Escaped the Maze in 45.64 seconds!*
+
+.. we'd need to break it down into three parts: the words at the start, the variable data, and the words at the end.
+
+Let's dive straight in:
+
+<br>
+
+- Open your **Level Blueprint**
+
+- Hold **Alt** and click the **Print String** node's **In String** pin tp break the link
+
+- Minimise the **ToText (float)** node's extra bits
+
+- Drag those three connected nodes out of the way for a tic
+
+- Drag out from the **Print String** node's **In String** pin and navigate to **Utilities » String » Append**
+
+<br>
+
+![Append string](https://user-images.githubusercontent.com/36719180/93324345-dd85a800-f869-11ea-8987-3ec37e21f9e9.png)
+
+<br>
+
+> This node allows us to combine strings
+
+- dssdg
+
+
 
 
 
