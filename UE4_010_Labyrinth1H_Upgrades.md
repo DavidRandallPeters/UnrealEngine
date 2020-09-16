@@ -93,22 +93,9 @@ Here's how:
 
 - In the top menu bar, here in the *Mesh Editor*, choose **Collisions » Box Simplified Collision**
 
-<br>
+> This won't work for us as it is, because it's just a big box that covers our whole maze.. but I wanted to show you an alternative method for creating Collisions to the one we're about to use:
 
-This won't work for us as it is, because it's just a big box that covers our whole maze.. 
-
-However, if one of the following two conditions are true for you personally, you may wish to come back to this method, scale *Box Simplified Collisions* to fit your walls, and duplicate and scale multiple successive collision boxes - as this method will yield more accurate physical response - at least in the case of our marble labyrinth game. It should also be slightly lighter on resources.
-
-<br>
-
-Here are those conditions:
-
-1. You have time.
-2. Your marble gets snagged on the collisions we're about to create.
-
-<br>
-
-- For now, delete the **Collision** that we just added
+- SDelete the **Collision** that we just added
 
 - Locate the **Collision** section of the **Details** panel on the right
 
@@ -130,13 +117,13 @@ Here are those conditions:
 
 The marble now rolls around inside our labyrinth.
 
-If you find that your marble gets snagged on the Collision we made, take the time to apply multiple *BoxSimplified Collisions*, as mentioned above.
+If you find that your marble gets snagged on the Collision we made, try scaling up your **Maze001** Static Mesh - the auto-generated collisions aren't very precise - (it's best taken care of in Maya).
 
 You may find that the marble still clips through the floor sometimes - this will likely happen when you rotate the board too quickly.
 
 Simply put, the marble is on one side of the floor in one frame, and on the other side the next.
 
-I'll offer a quick pseudo-fix right now.. but we'll come back and fix bugs like these later in the piece (eg. clamping the mouse input so the board doesn't move too fast).
+I'll offer a quick *pseudo-fix* right now.. but we'll come back and fix bugs like these later in the piece (eg. clamping the mouse input so the board doesn't move too fast).
 
 <br><br>
 
