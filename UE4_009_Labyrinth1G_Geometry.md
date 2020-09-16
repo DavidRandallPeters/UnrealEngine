@@ -29,9 +29,11 @@ We do already have a floor.. but we won't use this one in the end-product. So:
 
 - Select the **Geometry** category
 
-> Perhaps counter-intuitively, these objects are considered 'brushes' 
+> These objects are referred to as 'brushes' 
 
 - Click and drag the **Box** brush into the viewport
+
+- Rename this new Actor to *FloorBoxBrush* in the **Outliner**
 
 - Using the **Transform** section of the **Details** panel, send the box to **origin** (0,0,0)
 
@@ -52,5 +54,18 @@ We do already have a floor.. but we won't use this one in the end-product. So:
 
 <br>
 
-- Sfsaf
+- Drag another **Box** brush out from the **Place Actors** panel into the scene
 
+- Rename this new Actor to *WallBoxBrush01* in the **Outliner**
+
+- With **WallBoxBrush01** selected, change its **Y** dimension to **100** in **Brush Settings**
+
+- Set the **grid snap** value to **50** - so that we can precisely match our box placement to the checker pattern on the floor
+
+<br>
+
+![Grid snap](https://user-images.githubusercontent.com/36719180/93279913-8e655600-f81c-11ea-96bf-71964819214d.png)
+
+<br>
+
+- 
