@@ -59,11 +59,13 @@ We can easily solve this by parenting it to the Maze001 Actor (ie. making it a c
 
 ---
 
-## 011.003 | 
+## 011.003 | Overlap Events
 
 <br>
 
-sdgg
+We're now going to set things up so that the marble does indeed generate an event of some sort.
+
+We're going to use *Overlap Events* to achieve this.
 
 <br>
 
@@ -122,6 +124,10 @@ sdgg
 ![Marble escaped](https://user-images.githubusercontent.com/36719180/93314459-de184180-f85d-11ea-94e7-bf72ebbbe06b.png)
 
 <br><br>
+
+#### Continued in UE4_012_Labyrinth1J_ReturnTime
+
+---
 
 
 
