@@ -138,13 +138,11 @@ Simply put, the marble is on one side of the floor in one frame, and on the othe
 
 I'll offer a quick maybe-fix right now.. but we'll come back and fix bugs like these later in the piece (eg. clamping the mouse input so the board doesn't move too fast)
 
-<br>
+<br><br>
 
 ### Quick bug fix: Marble clipping
 
 Hokay! Quick maybe-fix:
-
-<br>
 
 - Select the **Marble** Actor
 
