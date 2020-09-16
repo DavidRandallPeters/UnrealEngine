@@ -123,13 +123,21 @@ Let's dive straight in:
 
 ![Append string](https://user-images.githubusercontent.com/36719180/93324345-dd85a800-f869-11ea-8987-3ec37e21f9e9.png)
 
-<br>
-
 > This node allows us to combine strings
 
-- dssdg
+<br>
 
+- Hit the **+** symbol in the **Append** node to add another input
 
+- Connect the nodes and enter text something like this:
+
+<br>
+
+![Append string 2](https://user-images.githubusercontent.com/36719180/93325059-d27f4780-f86a-11ea-9283-3340fd789489.png)
+
+<br>
+
+> Note the space in the A string after *'in' and the space in the C string before *'seconds'*
 
 
 
