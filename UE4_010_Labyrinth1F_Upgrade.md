@@ -124,7 +124,11 @@ Here are those conditions:
 
 If you find that your marble gets snagged, take the time to apply multiple *BoxSimplified Collisions*, as mentioned above.
 
-You may find that the marble still clips through the floor sometimes. This will likely happen when you rotate the board too quickly.. The marble is on one side of the floor in one frame, and on the other side the next. I'll offer a quick-maybe-fix right now.. but we'll come back and fix bugs like these later in the piece.
+You may find that the marble still clips through the floor sometimes. This will likely happen when you rotate the board too quickly..
+
+The marble is on one side of the floor in one frame, and on the other side the next.
+
+I'll offer a quick maybe-fix right now.. but we'll come back and fix bugs like these later in the piece.
 
 <br><br>
 
