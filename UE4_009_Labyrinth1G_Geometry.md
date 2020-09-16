@@ -25,7 +25,7 @@ We do already have a floor.. but we won't use this one in the end-product. So:
 
 - Select the **Floor** Actor, **Shift-select** the **Marble** Actor and move them off to the side - somewhere out of the way
 
-- Locate the **Place Actors** panel. This is likely on the left of your screen - otherwise, go to **Window » Place Actors**
+- Locate the **Place Actors** panel (formerly known as the *Modes* panel). This is likely on the left of your screen - otherwise, go to **Window » Place Actors** (may be called *Modes* in your version of Unreal)
 
 - Select the **Geometry** category
 
@@ -72,8 +72,28 @@ We do already have a floor.. but we won't use this one in the end-product. So:
 
 - Place **WallBoxBrush01** in the lower-left corner of the **FloorBoxBrush** Actor
 
+<br>
+
 ![Put wall in corner](https://user-images.githubusercontent.com/36719180/93281799-fae25400-f820-11ea-8c1b-86c32eaea14f.png)
 
 <br>
 
-- 
+> To change the length of that wall, we'll use *Brush Editing* mode
+
+- Locate the **Modes** dropdown at the top of the viewport and expand it - select **Brush Editing** - a new tab should open next to *Place Actors*
+
+- Reselect **WallBoxBrush01** if it's not selected and blue manipulators will appear
+
+- Hit **F** to focus on **WallBoxBrush01** and select the face that we'll need to extend to cover the edge of the floor
+
+- Drag that face out until it's flush with the edge of **FloorBoxBrush**
+
+<br>
+
+![Brush editing](https://user-images.githubusercontent.com/36719180/93282552-c079b680-f822-11ea-98b0-0af8b3ad92dc.png)
+
+<br>
+
+- sddg
+
+
