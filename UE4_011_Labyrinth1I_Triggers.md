@@ -93,13 +93,27 @@ sdgg
 
 > To test this out, we'll print a messsage to the screen:
 
-- Drag off the **Execution pin** and start typing **Print String** (and select *Print String*)
+- Drag off the **Execution pin** and start typing **Print String** (and choose *Print String*)
+
+- In the **In String** field, replace *Hello* with something like *Marble escaped*
 
 - Compile and hop back over to the editor
 
 > If we tested this now, it wouldn't work - the reason is that the Marble has not been told to generate *Overlap Events*
 
-- 
+- Select the **Marble**
+
+- In the **Details** panel, locate the **Collisions** section
+
+- Check the **Generate Overlap Events** checkbox
+
+> You may want to move your marble so that it's just next to the exit to save you time
+
+- Hit **Play** and try it out
+
+
+
+
 
 
 
