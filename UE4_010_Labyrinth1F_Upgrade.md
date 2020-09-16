@@ -122,11 +122,13 @@ Here are those conditions:
 
 <br>
 
-If you find that your marble gets snagged, take the time to apply multiple *BoxSimplified Collisions*, as mentioned above.
+The marble now rolls around inside our labyrinth.
 
-You may find that the marble still clips through the floor sometimes. This will likely happen when you rotate the board too quickly..
+If you find that your marble gets snagged on the Collision we made, take the time to apply multiple *BoxSimplified Collisions*, as mentioned above.
 
-The marble is on one side of the floor in one frame, and on the other side the next.
+You may find that the marble still clips through the floor sometimes - this will likely happen when you rotate the board too quickly.
+
+Simply put, the marble is on one side of the floor in one frame, and on the other side the next.
 
 I'll offer a quick maybe-fix right now.. but we'll come back and fix bugs like these later in the piece.
 
