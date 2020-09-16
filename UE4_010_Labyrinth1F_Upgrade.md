@@ -144,6 +144,8 @@ I'll offer a quick maybe-fix right now.. but we'll come back and fix bugs like t
 
 Hokay! Quick maybe-fix:
 
+<br>
+
 - Select the **Marble** Actor
 
 - In the **Collision** section of the **Details** panel, hit the downward pointing white arrow to **Show Advanced** settings
