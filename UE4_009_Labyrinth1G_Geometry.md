@@ -60,11 +60,19 @@ We do already have a floor.. but we won't use this one in the end-product. So:
 
 - With **WallBoxBrush01** selected, change its **Y** dimension to **100** in **Brush Settings**
 
+- Send **WallBoxBrush01** to **origin** (0,0,0)
+
 - Set the **grid snap** value to **50** - so that we can precisely match our box placement to the checker pattern on the floor
 
 <br>
 
 ![Grid snap](https://user-images.githubusercontent.com/36719180/93279913-8e655600-f81c-11ea-96bf-71964819214d.png)
+
+<br>
+
+- Place **WallBoxBrush01** in the lower-left corner of the **FloorBoxBrush** Actor
+
+![Put wall in corner](https://user-images.githubusercontent.com/36719180/93281799-fae25400-f820-11ea-8c1b-86c32eaea14f.png)
 
 <br>
 
