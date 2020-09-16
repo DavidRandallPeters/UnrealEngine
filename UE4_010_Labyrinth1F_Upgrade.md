@@ -136,13 +136,13 @@ You may find that the marble still clips through the floor sometimes - this will
 
 Simply put, the marble is on one side of the floor in one frame, and on the other side the next.
 
-I'll offer a quick maybe-fix right now.. but we'll come back and fix bugs like these later in the piece (eg. clamping the mouse input so the board doesn't move too fast)
+I'll offer a quick pseudo-fix right now.. but we'll come back and fix bugs like these later in the piece (eg. clamping the mouse input so the board doesn't move too fast).
 
 <br><br>
 
 ### Quick bug fix: Marble clipping
 
-Hokay! Quick maybe-fix:
+Hokay! Quick pseudo-fix:
 
 <br>
 
