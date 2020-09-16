@@ -75,6 +75,14 @@ So we'll
 
 - Drag off the **ToText (float)** node's **Return Value** and plug it into **In String** - a *Conversion* node is created
 
+- Expand the **drop-down** at the bottom of the **ToText (float** node
+
+- Set **Maximum Fractional Digits** to **2**
+
+<br>
+
+![Max digits](https://user-images.githubusercontent.com/36719180/93319441-fa1ee180-f863-11ea-9c57-e0fa6214a019.png)
+
 <br>
 
 
