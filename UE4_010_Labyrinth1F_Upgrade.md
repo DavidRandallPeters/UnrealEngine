@@ -87,14 +87,39 @@ Here's how:
 
 - In the top menu bar, here in the *Mesh Editor*, choose **Collisions » Box Simplified Collision**
 
-> Just did that for observation - this won't work for us because it's just a big box that covers our whole maze - but I wanted you to see *one way* of applying collisions to meshes. 
+<br>
 
-- Delete the **Collision** that we just added
+This won't work for us as it is, because it's just a big box that covers our whole maze.. 
+
+However, if one of the following two conditions are true for you, personally, you may wish to come back to this method, scale *Box Simplified Collisions* to fit your walls, and duplicate and scale multiple successive collision boxes - as this method will yield more accurate physical response - at least in the case of our marble labyrinth game. It should also be slightly lighter on resources. 
+
+Here are those conditions:
+
+1. You have time.
+2. Your marble gets snagged on the collisions we're about to create.
+
+<br>
+
+- For now, delete the **Collision** that we just added
 
 - Locate the **Collision** section of the **Details** panel on the right
 
 - Via the **Collision Complexity** dropdown, choose **Use Complex Collision As Simple**
 
-> Note that this method would get a bit heavy on resources in a larger production - the preferred method for generating collisions for larger games would be ex-Maya .. but this method will be perfectly fine for our wee maze game
+> Note that this method would get a bit heavy on resources in a larger production - the preferred method for generating collisions for larger games would be via modeling software such as Maya .. but this method will be perfectly fine for our wee maze game.
 
-- 
+- Hop back over to the main editor/viewport
+
+- Hit **Play** to test this out
+
+<br>
+
+If you find that your marble gets snagged, take the time to apply multiple *BoxSimplified Collisions*, as mentioned above.
+
+You may find that the marble still clips through the floor sometimes. This will likely happen when you rotate the board too quickly.. The marble is on one side of the floor in one frame, and on the other side the next. I'll offer a quick-maybe-fix right now.. but we'll come back and fix bugs like these later in the piece.
+
+<br><br>
+
+### Quick bug fix: Marble clipping
+
+
