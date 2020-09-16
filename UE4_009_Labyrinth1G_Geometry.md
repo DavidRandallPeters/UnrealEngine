@@ -102,8 +102,6 @@ We do already have a floor.. but we won't use this one in the end-product. So:
 
 - Select the top face of **WallBoxBrush01** and increase the height of the wall to whatever height feels good
 
-- Hit **escape** a couple o' times to exit this mode
-
 <br><br>
 
 ---
@@ -140,7 +138,25 @@ So let's apply some materials to this wall..
 
 - With that material still selected in the **Content Browser** create another **Box** brush, as we did before (drag it out from the **Place Actors** panel**)
 
-> Because the material was selected, this brush was created with that material applied.
+> Because the material was selected, this brush was created with that material already applied to all faces.
 
-- sdgdsg
+- Name this new brush *WallBoxBrush02*
+
+- Give **WallBoxBrush02** an **X** value of **100** in the **Brush Settings** section of the **Details** panel
+
+- Via the **Modes** dropdown (above the viewport) choose **Select** mode
+
+- Position **WallBoxBrush02** on another edge of the floor and repeat previous steps to extend it out
+
+- Finish up the outside wall of the labyrinth in this way
+
+<br>
+
+
+
+<br>
+
+adgsdg
+
+
 
