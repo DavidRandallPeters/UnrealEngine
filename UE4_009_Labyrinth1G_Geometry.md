@@ -15,6 +15,8 @@ Using: Unreal Engine 4.25.3
 
 <br>
 
+[Matthew Wadstein awkwardly explains](https://www.youtube.com/watch?v=3Kc2VzxBFqQ&ab_channel=MathewWadstein):
+
 Let's start adding some walls to our labyrinth so that this poject begins qualifying as a game.
 
 We'll being by adding a floor plane which we'll later cut a hole in so that the marble has an escape point.
@@ -94,6 +96,14 @@ We do already have a floor.. but we won't use this one in the end-product. So:
 
 <br>
 
-- sddg
+- Select the top face of **WallBoxBrush01** and increase the height of the wall to whatever height feels good
+
+<br><br>
+
+---
+
+## 009.002 | Applying materials to BSP brushes
+
+<br>
 
 
