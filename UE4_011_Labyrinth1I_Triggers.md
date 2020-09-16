@@ -11,7 +11,7 @@ Using: Unreal Engine 4.25.3
 
 ---
 
-## 011.001 | 
+## 011.001 | Box Triggers
 
 The goal here is to create an event when the marble passes through the escape hatch - allowing us to do things like congratulate the player and start loading the next level.
 
@@ -54,3 +54,43 @@ We can easily solve this by parenting it to the Maze001 Actor (ie. making it a c
 - Uncheck **Actor Hidden In Game** - the *TriggerBox* will now render during gameplay
 
 - Hit **Play** to double-check that the *TriggerBox* is moving with the *Maze001* Actor
+
+<br><br>
+
+---
+
+## 011.003 | 
+
+<br>
+
+sdgg
+
+<br>
+
+- Ensure that the **TriggerBox** is selected
+
+- Open your **Level Blueprint**
+
+- **Right-click** in empty graph space and expand the **Add Event For Trigger Box 1** option (top of the list)
+
+- Expand **Collision** to show *Collision* events
+
+- Choose **Add On Actor End Overlap** - this will generate an event when the marble *leaves* the trigger box having made contact with it
+
+> *OnActorBeginOverlap* fires when the Actor first touches it
+
+<br>
+
+![OnActorEndOverlap](https://user-images.githubusercontent.com/36719180/93311840-980dae80-f85a-11ea-8bfe-0dc2d23e9d26.png)
+
+<br>
+
+> *Overlapped Actor* is (in this case) essentially a reference to self - ie. THIS TriggerBox was overlapped
+
+> *Other Actor* is a reference to whatever interacted with the TriggerBox
+
+<br>
+
+- 
+
+
