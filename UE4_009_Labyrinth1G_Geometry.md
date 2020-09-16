@@ -25,6 +25,32 @@ We do already have a floor.. but we won't use this one in the end-product. So:
 
 - Select the **Floor** Actor, **Shift-select** the **Marble** Actor and move them off to the side - somewhere out of the way
 
-- 
+- Locate the **Place Actors** panel. This is likely on the left of your screen - otherwise, go to **Window » Place Actors**
 
+- Select the **Geometry** category
+
+> Perhaps counter-intuitively, these objects are considered 'brushes' 
+
+- Click and drag the **Box** brush into the viewport
+
+- Using the **Transform** section of the **Details** panel, send the box to **origin** (0,0,0)
+
+- Briefly ast your eyes over the **Brush Settings** in the **Details** panel and notice that the brush is set to 200³ units - ie. our box was created at a scale of 200 *Unreal units* cubed
+
+- In the **Brush Settings**, set the box's **Z** value to 30 units
+
+- Set the box's **X** value to **1400**
+
+- Set the box's **Y** value to **2000**
+
+> Quick note: When adjusting brush scales, always use the *Brush Settings* - using the *Scale* tool will result in stretched materials
+
+<br>
+
+![Floor scaled](https://user-images.githubusercontent.com/36719180/93279318-0e8abc00-f81b-11ea-9c69-99a7f757e90e.png)
+
+
+<br>
+
+- Sfsaf
 
