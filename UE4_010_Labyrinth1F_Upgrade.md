@@ -160,14 +160,17 @@ It's an expensive operation to run (and not a complete fix) but we'll use it and
 
 As mentioned above, we'll also clamp our mouse input later on - to avoid such drastic changes in the board's rotational value and therefore causing clipping.
 
-<br><br>
+<br>
 
----
-
-## 010.004 | 
+- Test it out - you should notice some improvement - you *may* even notice this overcomes the bug where your marble gets snagged on the Complex Collisions. 
 
 <br>
 
+We'll leave this here, for now.
 
+<br><br>
 
+#### Continued in UE4_011_Labyrinth1G_Triggers
+
+---
 
