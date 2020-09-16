@@ -116,6 +116,12 @@ Here are those conditions:
 
 > Note that this method would get a bit heavy on resources in a larger production - the preferred method for generating collisions for larger games would be via modeling software such as Maya .. but this method will be perfectly fine for our wee maze game.
 
+<br>
+
+![Complex collision](https://user-images.githubusercontent.com/36719180/93294737-76eb9480-f83f-11ea-8d43-670eae74b0df.png)
+
+<br>
+
 - Hop back over to the main editor/viewport
 
 - Hit **Play** to test this out
