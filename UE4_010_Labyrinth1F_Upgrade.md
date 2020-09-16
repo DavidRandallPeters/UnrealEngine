@@ -97,7 +97,9 @@ Here's how:
 
 This won't work for us as it is, because it's just a big box that covers our whole maze.. 
 
-However, if one of the following two conditions are true for you, personally, you may wish to come back to this method, scale *Box Simplified Collisions* to fit your walls, and duplicate and scale multiple successive collision boxes - as this method will yield more accurate physical response - at least in the case of our marble labyrinth game. It should also be slightly lighter on resources. 
+However, if one of the following two conditions are true for you personally, you may wish to come back to this method, scale *Box Simplified Collisions* to fit your walls, and duplicate and scale multiple successive collision boxes - as this method will yield more accurate physical response - at least in the case of our marble labyrinth game. It should also be slightly lighter on resources.
+
+<br>
 
 Here are those conditions:
 
