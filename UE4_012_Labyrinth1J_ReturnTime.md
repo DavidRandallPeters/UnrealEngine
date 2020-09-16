@@ -39,4 +39,10 @@ We'll then utilise a *Delay* function to make a pause prior to restarting the ga
 
 > ![Print Game Time](https://user-images.githubusercontent.com/36719180/93317246-57fdfa00-f861-11ea-8e00-5cff934ece56.png)
 
+<br>
+
+> The logic here is that when the marble passes through the TriggerBox, we'll found out how long it took to get there.
+
+<br>
+
 - Compile
