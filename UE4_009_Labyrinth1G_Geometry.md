@@ -148,15 +148,22 @@ So let's apply some materials to this wall..
 
 - Position **WallBoxBrush02** on another edge of the floor and repeat previous steps to extend it out
 
-- Finish up the outside wall of the labyrinth in this way
+- Finish up the outside wall of the labyrinth in this way, naming new brushes as you go
+
+- Apply a material to all surfaces of the **FloorBoxBrush**
 
 <br>
 
-
+![Walls done](https://user-images.githubusercontent.com/36719180/93285305-acd14e80-f828-11ea-93bb-76be82590e04.png)
 
 <br>
 
-adgsdg
+- Using these skills, design a simple maze that has a start and a finish
+
+- Drag your marble into the starting position
+
+
+
 
 
 
