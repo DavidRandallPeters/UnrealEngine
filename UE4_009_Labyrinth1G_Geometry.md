@@ -128,8 +128,19 @@ So let's apply some materials to this wall..
 
 - Choose **Select All Adjacent Surfaces** - all faces of **WallBoxBrush01** are now selected
 
-- In the **Surface Materials** section of the **Details** panel, hit **Display *x* materials**
+- In the **Surface Materials** section of the **Details** panel, hit **Display *n* materials** - here's where we view which materials this brush is using
 
-- 
+- Drag and drop your chosen material onto any of those displayed materials to combine the elements into one unified material
 
+<br>
+
+![Surface Materials](https://user-images.githubusercontent.com/36719180/93283993-c3c27180-f825-11ea-957f-64f54cd3924a.png)
+
+<br>
+
+- With that material still selected in the **Content Browser** create another **Box** brush, as we did before (drag it out from the **Place Actors** panel**)
+
+> Because the material was selected, this brush was created with that material applied.
+
+- sdgdsg
 
