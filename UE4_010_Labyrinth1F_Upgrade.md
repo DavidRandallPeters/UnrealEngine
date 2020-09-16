@@ -1,4 +1,4 @@
-# Unreal Engine | 010 | Marble Labyrinth 1G | Upgrading the game
+# Unreal Engine | 010 | Marble Labyrinth 1G | Upgrades
 
 ![UnrealEngineLogo002](https://user-images.githubusercontent.com/36719180/90347960-a4e68900-e087-11ea-9349-f5a59105b4d2.png)
 
