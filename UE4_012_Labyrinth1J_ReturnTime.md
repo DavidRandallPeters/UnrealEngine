@@ -135,9 +135,39 @@ Let's dive straight in:
 
 ![Append string 2](https://user-images.githubusercontent.com/36719180/93325059-d27f4780-f86a-11ea-9283-3340fd789489.png)
 
+> Note the space in the A string after *'in' and the space in the C string before *'seconds'*
+
 <br>
 
-> Note the space in the A string after *'in' and the space in the C string before *'seconds'*
+- Compile and go test it out
+
+<br>
+
+![Congrats](https://user-images.githubusercontent.com/36719180/93325370-56d1ca80-f86b-11ea-800d-bc45af6011e9.png)
+
+<br>
+
+Hopefully you're also seeing something like this.
+
+Okay - so, this isn't very pretty.. we can alter the colour of the string and the duration for which it displays, but that's about it.
+
+We won't get into it just now, but a constructed string like this can readily be sent to off to Unreal's UMG Designer (used to design User Interfaces, among other things) where it can be rendered beautifully in any style you see fit.
+
+Here, we're just getting our heads around the basics.
+
+<br><br>
+
+---
+
+## 012.004 | Delay before restart
+
+Before we wrap this one up, let's add a a wee pause (to give the player time to read the message) before restarting the game to give them another shot.
+
+<br>
+
+- dsgsdg
+
+
 
 
 
