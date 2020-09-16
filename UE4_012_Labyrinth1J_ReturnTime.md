@@ -53,4 +53,35 @@ We'll then utilise a *Delay* function to make a pause prior to restarting the ga
 
 <br>
 
+You should see the time printed on the side of the screen at the end of the run.
+
+<br><br>
+
+---
+
+## 012.002 | 
+
+The number that was printed had a few too many decimal places after the point.. it's overkill.
+
+So we'll 
+
+<br>
+
+- Go back into your **Level Blueprint**
+
+- Delete the **Conversion** node
+
+- Drag off the **Get Game Time in Seconds** node's **Return Value** and find **ToText (float)**
+
+- Drag off the **ToText (float)** node's **Return Value** and plug it into **In String** - a *Conversion* node is created
+
+<br>
+
+
+
+
+
+
+
+
 
