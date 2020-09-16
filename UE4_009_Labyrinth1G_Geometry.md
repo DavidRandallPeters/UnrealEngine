@@ -200,9 +200,58 @@ So:
 
 ![Escape hatch](https://user-images.githubusercontent.com/36719180/93288046-1f452d00-f82f-11ea-8f0f-add4cd1083b4.png)
 
+<br><br>
+
+---
+
+## 009.005 | Converting BSP to Static Mesh
+
 <br>
 
-- 
+BSP can't be utilised within blueprints.. which will pose a problem for us.
+
+So we'll convert all the BSP geometry that we've made down to a single *Static Mesh*.
+
+A wee catch, though - if we select all the BSP geometry to then convert, the Static Mesh will inherit the pivot point of the last object selected.. which is going to screw up our whole tilting game mechanic.
+
+So we'll make sure we select *FloorBoxBrush* LAST - as it has a central pivot point that we can use.
+
+<br>
+
+- Select all your BSP geometry except **FloorBoxBrush**
+
+- Finally, select **FloorBoxBrush**
+
+- In the **Brush Settings** section of the **Details** panel, hit the little white downward arrow (its tooltip says **Show Advanced**) to show advanced brush settings
+
+- Hit **Create Static Mesh** - a *Select Path* dialogue pops up
+
+- **Right-click** on the **Content** folder and choose **New Folder** - don't click out before you've named it!
+
+- Name the new folder **Mazes**
+
+- In the **Static Mesh Name** field, name it *Maze001*
+
+- Hit **Create Static Mesh**
+
+<br>
+
+![Static Mesh](https://user-images.githubusercontent.com/36719180/93289312-333e5e00-f832-11ea-870f-18f908ad72dc.png)
+
+<br>
+
+We've now collapsed all that geometry into a single *Static mesh.*
+
+Grrrrrrrrreat.
+
+<br><br>
+
+#### Continued in UE4_010_Labyrinth1F_Upgrade
+
+---
+
+
+
 
 
 
