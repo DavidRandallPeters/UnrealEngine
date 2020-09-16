@@ -170,7 +170,7 @@ We'll leave this here, for now.
 
 <br><br>
 
-#### Continued in UE4_011_Labyrinth1G_Triggers
+#### Continued in UE4_011_Labyrinth1I_Triggers
 
 ---
 
