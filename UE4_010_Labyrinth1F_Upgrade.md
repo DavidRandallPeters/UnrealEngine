@@ -1,2 +1,88 @@
-# UnrealEngine
-Material, blueprints and assets for Massey University's 289.210 Game Technology Project course.
+# Unreal Engine | 010 | Marble Labyrinth 1G | Upgrading the game
+
+![UnrealEngineLogo002](https://user-images.githubusercontent.com/36719180/90347960-a4e68900-e087-11ea-9349-f5a59105b4d2.png)
+
+
+Notes prepared by David Peters
+
+Using: Unreal Engine 4.25.3 
+
+<br>
+
+---
+
+## 010.001 | Overview + mobility
+
+<br>
+
+So, we have a shiny new maze - but it just sits there when we playtest.
+
+We need to hook it up to our *Level Blueprint*
+
+Before we start, we should make sure this new *Static Mesh* doesn't remain static when we try to control it.
+
+<br>
+
+- Select the **Maze001** Actor 
+
+- In the **Transform** section of the **Details** panel, set its *Mobility* to **Movable**
+
+<br><br>
+
+---
+
+## 010.002 | Replacing references
+
+<br>
+
+To make the game use the new maze we built instead of the old floor Actor, we simply need to switch out our references.
+
+<br>
+
+- Make sure that the **Maze001** Actor is selected in the viewport
+
+- Open your **Level Blueprint**
+
+- Locate your **Event Tick** sequence
+
+- Near the reference to **Floor**, right-click and **Create a Reference to Maze001**
+
+- Delete the reference to **Floor**
+
+- Connect the reference to **Maze001** to the **GetActorRotation** node in its place
+
+- At the end of this sequence, do the same, connecting another reference to **Maze001** to the **SetActorRotation** node
+
+- Compile and hop back over to the main editor / viewport
+
+- Before we test this, adjust the location of your **Player Start** so that it has a decent view of the board
+
+- Hit **Play** and test it out
+
+<br>
+
+![First test](https://user-images.githubusercontent.com/36719180/93291393-0e001e80-f837-11ea-9690-371a2142dbc3.png)
+
+<br>
+
+The board should now be tilting as we want it to - but the ball falls through the floor..
+
+<br><br>
+
+---
+
+## 010.003 | Replacing references
+
+<br>
+
+
+
+
+
+
+
+- Browse your **Content Browser** to the **Mazes** folder
+
+- Double-click the **Maze001** Static mesh to open it in its own window - (maybe dock this window alongside *Level01* etc.)
+
+- 
