@@ -130,10 +130,38 @@ You may find that the marble still clips through the floor sometimes - this will
 
 Simply put, the marble is on one side of the floor in one frame, and on the other side the next.
 
-I'll offer a quick maybe-fix right now.. but we'll come back and fix bugs like these later in the piece.
+I'll offer a quick maybe-fix right now.. but we'll come back and fix bugs like these later in the piece (eg. clamping the mouse input so the board doesn't move too fast)
 
 <br><br>
 
 ### Quick bug fix: Marble clipping
+
+Hokay! Quick maybe-fix:
+
+<br>
+
+- Select the **Marble** Actor
+
+- In the **Collision** section of the **Details** panel, hit the downward pointing white arrow to **Show Advanced** settings
+
+- Check the checkbox next to **CCD**
+
+<br>
+
+This is *Continuous Collision Detection* - it makes the Actor more accurate with its collision detection because it runs checks more often.
+
+It's an expensive operation to run (and not a complete fix) but we'll use it and get away with it because our game is so simple - and we're only applying this to one Actor.
+
+As mentioned above, we'll also clamp our mouse input later on - to avoid such drastic changes in the board's rotational value and therefore causing clipping.
+
+<br><br>
+
+---
+
+## 010.004 | 
+
+<br>
+
+
 
 
