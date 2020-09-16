@@ -53,6 +53,12 @@ To make the game use the new maze we built instead of the old floor Actor, we si
 
 - At the end of this sequence, do the same, connecting another reference to **Maze001** to the **SetActorRotation** node
 
+<br>
+
+![Replace references](https://user-images.githubusercontent.com/36719180/93293503-376f7900-f83c-11ea-816a-7f2256615241.png)
+
+<br>
+
 - Compile and hop back over to the main editor / viewport
 
 - Before we test this, adjust the location of your **Player Start** so that it has a decent view of the board
