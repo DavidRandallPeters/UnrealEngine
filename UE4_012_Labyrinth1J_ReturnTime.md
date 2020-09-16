@@ -37,6 +37,8 @@ We'll then utilise a *Delay* function to make a pause prior to restarting the ga
 
 - Connect the **Return Value** to the **In String** pin on the **Print String** node - a *Conversion* node is automatically created
 
+<br>
+
 > ![Print Game Time](https://user-images.githubusercontent.com/36719180/93317246-57fdfa00-f861-11ea-8e00-5cff934ece56.png)
 
 <br>
@@ -45,4 +47,10 @@ We'll then utilise a *Delay* function to make a pause prior to restarting the ga
 
 <br>
 
-- Compile
+- **Compile** and hop back into the editor
+
+- Hit **Play** and try it out
+
+<br>
+
+
