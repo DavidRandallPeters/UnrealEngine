@@ -102,6 +102,8 @@ We do already have a floor.. but we won't use this one in the end-product. So:
 
 - Select the top face of **WallBoxBrush01** and increase the height of the wall to whatever height feels good
 
+- Hit **escape** a couple o' times to exit this mode
+
 <br><br>
 
 ---
@@ -109,5 +111,25 @@ We do already have a floor.. but we won't use this one in the end-product. So:
 ## 009.002 | Applying materials to BSP brushes
 
 <br>
+
+We already know how to apply materials to Actors. We have a bunch of materials ready to go in our *StarterContent* folder.
+
+So let's apply some materials to this wall..
+
+<br>
+
+- Find a suitable material and drag it onto **WallBoxBrush01**
+
+> Notice that, whereas previously the material would be applied to an entire Actor, the material here is only applied to ONE face
+
+- Select **WallBoxBrush01** in the **Outliner**
+
+- In the **Geometry** section of the **Details** panel, hit the **Select** button
+
+- Choose **Select All Adjacent Surfaces** - all faces of **WallBoxBrush01** are now selected
+
+- In the **Surface Materials** section of the **Details** panel, hit **Display *x* materials**
+
+- 
 
 
