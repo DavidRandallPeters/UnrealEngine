@@ -97,6 +97,12 @@ sdgg
 
 - In the **In String** field, replace *Hello* with something like *Marble escaped*
 
+<br>
+
+![Print string](https://user-images.githubusercontent.com/36719180/93314532-fdaf6a00-f85d-11ea-8c8d-4a6fb7fdf115.png)
+
+<br>
+
 - Compile and hop back over to the editor
 
 > If we tested this now, it wouldn't work - the reason is that the Marble has not been told to generate *Overlap Events*
@@ -110,6 +116,12 @@ sdgg
 > You may want to move your marble so that it's just next to the exit to save you time
 
 - Hit **Play** and try it out
+
+<br>
+
+![Marble escaped](https://user-images.githubusercontent.com/36719180/93314459-de184180-f85d-11ea-94e7-bf72ebbbe06b.png)
+
+<br><br>
 
 
 
