@@ -91,6 +91,15 @@ sdgg
 
 <br>
 
+> To test this out, we'll print a messsage to the screen:
+
+- Drag off the **Execution pin** and start typing **Print String** (and select *Print String*)
+
+- Compile and hop back over to the editor
+
+> If we tested this now, it wouldn't work - the reason is that the Marble has not been told to generate *Overlap Events*
+
 - 
+
 
 
