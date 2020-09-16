@@ -165,8 +165,21 @@ Before we wrap this one up, let's add a a wee pause (to give the player time to 
 
 <br>
 
-- dsgsdg
+- Go back into the **Level Blueprint**
 
+- Expand the **Print String** node's dropdown
+
+- Set the **Duration to **5.0** - (change the text colour, too, if y'like)
+
+- Drag off the **Print String** node's **Execution Pin** and find **Delay**
+
+- Set the **Duration** to **5.0**
+
+- Drag off the **Delay** node's **Completed** *Execution Pin* and navigate to **Game » Open Level**
+
+- Type your level's name - *verbatim!* - in the **Level Name** field - (you can check it against the tab in the editor or the *Level* file in the **Maps** folder)
+
+- 
 
 
 
