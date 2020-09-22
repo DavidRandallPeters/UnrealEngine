@@ -95,7 +95,7 @@ We've kind of blazed through this without maintaining clean code practices - so 
 
 You may not be experiencing this - but it's currently entirely possible for the marble to trigger the win message multiple times on its way out.
 
-Even if thishasn't been an issue for you, do add this fail-safe - and learn about the at the same time:
+Even if this hasn't been an issue for you, *do* add this fail-safe - and learn about the at the same time:
 
 <br>
 
@@ -110,6 +110,10 @@ Even if thishasn't been an issue for you, do add this fail-safe - and learn abou
 <br>
 
 ![Do Once](https://user-images.githubusercontent.com/36719180/93947087-ff61bc00-fd8e-11ea-80d8-5bd664c7159c.png)
+
+<br>
+
+- **Compile**
 
 <br><br>
 
