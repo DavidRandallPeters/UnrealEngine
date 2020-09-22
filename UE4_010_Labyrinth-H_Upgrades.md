@@ -1,4 +1,4 @@
-# Unreal Engine | 010 | Marble Labyrinth 1H | Upgrades
+# Unreal Engine | 010 | Marble Labyrinth H | Upgrades
 
 ![UnrealEngineLogo002](https://user-images.githubusercontent.com/36719180/90347960-a4e68900-e087-11ea-9349-f5a59105b4d2.png)
 
@@ -157,7 +157,7 @@ We'll leave this here, for now.
 
 <br><br>
 
-#### Continued in UE4_011_Labyrinth1I_Triggers
+#### Continued in UE4_011_Labyrinth-I_Triggers
 
 ---
 
