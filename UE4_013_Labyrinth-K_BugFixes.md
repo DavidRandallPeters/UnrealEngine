@@ -47,7 +47,27 @@ We've kind of blazed through this without maintaining clean code practices - so 
 
 <br>
 
-- 
+> We're not doing anything with the *Event BeginPlay* - but there's a *Print String* node sitting there that you might want to use to display a welcome message?
+
+- Reconnect the **Execution** pin in the **Event BeginPlay** sequence
+
+- Adjust the **Delay** so that it shows the message earlier
+
+- Double-check the **Duration** that it will be displayed for and apply something suitable
+
+- Adjust the comment to include the welcome message
+
+<br>
+
+![Event Beginplay](https://user-images.githubusercontent.com/36719180/93945877-e60b4080-fd8b-11ea-9b7b-61a88099e8f0.png)
+
+<br>
+
+
+
+- **Compile** and hop back over to the editor
+
+- Select the **Floor** Actor in the **Outliner** and delete it
 
 
 
