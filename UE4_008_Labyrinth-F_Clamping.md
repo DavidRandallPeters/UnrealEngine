@@ -1,4 +1,4 @@
-# Unreal Engine | 008 | Marble Labyrinth 1F | Clamping Values
+# Unreal Engine | 008 | Marble Labyrinth F | Clamping Values
 
 ![UnrealEngineLogo002](https://user-images.githubusercontent.com/36719180/90347960-a4e68900-e087-11ea-9349-f5a59105b4d2.png)
 
@@ -71,7 +71,7 @@ The *Floor* Actor's rotation is now limited - disallowing the player from comple
 
 <br><br>
 
-#### Continued in UE4_009_Labyrinth1G_Geometry
+#### Continued in UE4_009_Labyrinth-G_Geometry
 
 
 ---
