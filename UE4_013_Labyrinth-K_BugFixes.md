@@ -89,13 +89,19 @@ We've kind of blazed through this without maintaining clean code practices - so 
 
 ---
 
-## 013.01 | Bug fix 01 | multiple win messages
+## 013.01 | Bug fix 01 | Multiple win messages
 
 <br>
 
-We've kind of blazed through this without maintaining clean code practices - so we'll take a moment now to make everything spick and span.
+You may not be experiencing this - but it's currently entirely possible for the marble to trigger the win message multiple times on its way out.
+
+Even if thishasn't been an issue for you, do add this fail-safe - and learn about the at the same time:
 
 <br>
+
+- Hop back into your **Level Blueprint**
+
+- In your 
 
 
 
