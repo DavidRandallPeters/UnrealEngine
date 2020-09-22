@@ -11,7 +11,7 @@ Using: Unreal Engine 4.25.3
 
 ---
 
-## 013.01 | Code cleanup
+## 013.001 | Code cleanup
 
 <br>
 
@@ -89,7 +89,7 @@ We've kind of blazed through this without maintaining clean code practices - so 
 
 ---
 
-## 013.01 | Bug fix 01 | Multiple win messages
+## 013.002 | Bug fix 01 | Multiple win messages
 
 <br>
 
@@ -119,9 +119,21 @@ Even if this hasn't been an issue for you, *do* add this fail-safe:
 
 ---
 
-## 013.01 | Bug fix 01 | Multiple win messages
+## 013.003 | Bug fix 02 | Marble clipping
 
 <br>
+
+Issue: The marble sometimes clips through the floor when the board tilts quickly.
+
+This happens because of UE4's teleport physics which instantly repositions Actors between frames.
+
+We've briefly addressed this already by adding *CCD (Continuous Collision Detection)* to the marble in an attempt to improve its physics simlutation.
+
+The next simplest fix we can attempt is to throttle the mouse input so that those changes in board position can't become quite so drastic.
+
+<br>
+
+- 
 
 
 
