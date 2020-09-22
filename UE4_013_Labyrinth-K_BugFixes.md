@@ -101,11 +101,23 @@ Even if thishasn't been an issue for you, do add this fail-safe - and learn abou
 
 - Hop back into your **Level Blueprint**
 
-- In your 
+- In your **Escape detection** sequence, drag off the **OnActorEndOverlap** node..
 
+- .. navigate to: **Utilities » Flow Control » Do Once**
 
+> This node does what it says on the can; everything downstream of this node will only be allowed to fire once - meaning we won't receive multiple 'win' messages 
 
+<br>
 
+![Do Once](https://user-images.githubusercontent.com/36719180/93947087-ff61bc00-fd8e-11ea-80d8-5bd664c7159c.png)
+
+<br><br>
+
+---
+
+## 013.01 | Bug fix 01 | Multiple win messages
+
+<br>
 
 
 
