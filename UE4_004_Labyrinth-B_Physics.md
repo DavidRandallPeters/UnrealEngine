@@ -1,4 +1,4 @@
-# Unreal Engine | 003 | Marble Labyrinth 1B | Adding Physics
+# Unreal Engine | 003 | Marble Labyrinth B | Adding Physics
 
 ![UnrealEngineLogo002](https://user-images.githubusercontent.com/36719180/90347960-a4e68900-e087-11ea-9349-f5a59105b4d2.png)
 
@@ -188,7 +188,7 @@ But that's okay - we're going to add programming that makes this a smoother expe
 
 <br><br>
 
-#### Continued in UE4_005_Labyrinth1C_AxisEvents.md
+#### Continued in UE4_005_Labyrinth-C_AxisEvents.md
 
 ---
 
