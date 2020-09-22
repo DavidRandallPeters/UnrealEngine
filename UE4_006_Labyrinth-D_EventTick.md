@@ -1,4 +1,4 @@
-# Unreal Engine | 006 | Marble Labyrinth 1D | Event Tick
+# Unreal Engine | 006 | Marble Labyrinth D | Event Tick
 
 ![UnrealEngineLogo002](https://user-images.githubusercontent.com/36719180/90347960-a4e68900-e087-11ea-9349-f5a59105b4d2.png)
 
@@ -131,6 +131,6 @@ Noice.
 
 <br><br>
 
-#### Continued in UE4_007_Labyrinth1E_GetAndSet
+#### Continued in UE4_007_Labyrinth-E_GetAndSet
 
 ---
