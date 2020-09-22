@@ -93,7 +93,7 @@ We've kind of blazed through this without maintaining clean code practices - so 
 
 <br>
 
-You may not be experiencing this - but it's currently entirely possible for the marble to trigger the win message multiple times on its way out.
+Issue: [you may not be experiencing this] - but it's currently entirely possible for the marble to trigger the win message multiple times on its way out.
 
 Even if this hasn't been an issue for you, *do* add this fail-safe:
 
