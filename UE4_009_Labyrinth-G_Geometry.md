@@ -1,4 +1,4 @@
-# Unreal Engine | 009 | Marble Labyrinth 1G | Adding Geometry
+# Unreal Engine | 009 | Marble Labyrinth G | Adding Geometry
 
 ![UnrealEngineLogo002](https://user-images.githubusercontent.com/36719180/90347960-a4e68900-e087-11ea-9349-f5a59105b4d2.png)
 
@@ -246,6 +246,6 @@ Grrrrrrrrreat.
 
 <br><br>
 
-#### Continued in UE4_010_Labyrinth1H_Upgrades
+#### Continued in UE4_010_Labyrinth-H_Upgrades
 
 ---
