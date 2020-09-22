@@ -125,7 +125,7 @@ We're going to use *Overlap Events* to achieve this.
 
 <br><br>
 
-#### Continued in UE4_012_Labyrinth1J_ReturnTime
+#### Continued in UE4_012_Labyrinth-J_ReturnTime
 
 ---
 
