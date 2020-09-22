@@ -199,8 +199,6 @@ After that, we'll package the game to make it playable outside of UE4 and move o
 
 <br><br>
 
-<br><br>
-
 #### Continued in UE4_013_Labyrinth-K_BugFixes
 
 ---
