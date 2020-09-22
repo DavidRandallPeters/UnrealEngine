@@ -1,4 +1,4 @@
-# Unreal Engine | 003 | Marble Labyrinth 1A | Input Actions
+# Unreal Engine | 003 | Marble Labyrinth A | Input Actions
 
 ![UnrealEngineLogo002](https://user-images.githubusercontent.com/36719180/90347960-a4e68900-e087-11ea-9349-f5a59105b4d2.png)
 
@@ -274,7 +274,7 @@ The whole input system should now look something like this:
 
 <br><br>
 
-#### Continued in UE4_004_Labyrinth1B_Physics
+#### Continued in UE4_004_Labyrinth-B_Physics
 
 ---
 
