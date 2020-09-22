@@ -63,11 +63,27 @@ We've kind of blazed through this without maintaining clean code practices - so 
 
 <br>
 
+- If you still have your **Mk.1 Mouse input control** kicking around, delete that too
 
+<br>
+
+![Mk.1 Mouse Input](https://user-images.githubusercontent.com/36719180/93946137-9416ea80-fd8c-11ea-93d2-da35459f6ec8.png)
+
+<br>
+
+> Everything should now be lookin' nice and tidy.
+
+<br>
+
+![All tidy](https://user-images.githubusercontent.com/36719180/93946250-e0fac100-fd8c-11ea-931c-1d9796d76d63.png)
+
+<br>
 
 - **Compile** and hop back over to the editor
 
-- Select the **Floor** Actor in the **Outliner** and delete it
+- Select the **Floor** Actor in the **Outliner** and delete it - we're done with that
+
+
 
 
 
