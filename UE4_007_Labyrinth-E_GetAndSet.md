@@ -1,4 +1,4 @@
-# Unreal Engine | 007 | Marble Labyrinth 1E | Getting and Setting
+# Unreal Engine | 007 | Marble Labyrinth E | Getting and Setting
 
 ![UnrealEngineLogo002](https://user-images.githubusercontent.com/36719180/90347960-a4e68900-e087-11ea-9349-f5a59105b4d2.png)
 
@@ -175,7 +175,7 @@ Problem solved!
 
 <br><br>
 
-#### Continued in UE4_008_Labyrinth1F_ClampingValues
+#### Continued in UE4_008_Labyrinth-F_ClampingValues
 
 
 ---
