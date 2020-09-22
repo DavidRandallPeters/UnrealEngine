@@ -1,4 +1,4 @@
-# Unreal Engine | 012 | Marble Labyrinth 1J | Return Game Time
+# Unreal Engine | 012 | Marble Labyrinth J | Return Game Time
 
 ![UnrealEngineLogo002](https://user-images.githubusercontent.com/36719180/90347960-a4e68900-e087-11ea-9349-f5a59105b4d2.png)
 
@@ -198,6 +198,10 @@ In the next session, we'll clean up our code and try to address any bugs we have
 After that, we'll package the game to make it playable outside of UE4 and move on to our 3rd person game.
 
 <br><br>
+
+<br><br>
+
+#### Continued in UE4_013_Labyrinth-K_BugFixes
 
 ---
 
