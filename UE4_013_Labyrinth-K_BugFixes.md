@@ -95,13 +95,13 @@ We've kind of blazed through this without maintaining clean code practices - so 
 
 You may not be experiencing this - but it's currently entirely possible for the marble to trigger the win message multiple times on its way out.
 
-Even if this hasn't been an issue for you, *do* add this fail-safe - and learn about the at the same time:
+Even if this hasn't been an issue for you, *do* add this fail-safe:
 
 <br>
 
 - Hop back into your **Level Blueprint**
 
-- In your **Escape detection** sequence, drag off the **OnActorEndOverlap** node..
+- In your **Escape detection** sequence, drag off the **OnActorEndOverlap** node's **Execution** pin
 
 - .. navigate to: **Utilities » Flow Control » Do Once**
 
