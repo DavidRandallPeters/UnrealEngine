@@ -1,4 +1,4 @@
-# Unreal Engine | 005 | Marble Labyrinth 1C | Axis Events
+# Unreal Engine | 005 | Marble Labyrinth C | Axis Events
 
 ![UnrealEngineLogo002](https://user-images.githubusercontent.com/36719180/90347960-a4e68900-e087-11ea-9349-f5a59105b4d2.png)
 
@@ -183,7 +183,7 @@ So. When you play-test, this should be feeling much better.
 
 <br><br>
 
-#### Continued in UE4_006_Labyrinth1D_EventTick.md
+#### Continued in UE4_006_Labyrinth-D_EventTick.md
 
 ---
 
