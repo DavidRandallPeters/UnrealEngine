@@ -13,6 +13,8 @@ Using: Unreal Engine 4.25.3
 
 ## 013.01 | Code cleanup
 
+<br>
+
 We've kind of blazed through this without maintaining clean code practices - so we'll take a moment now to make everything spick and span.
 
 <br>
@@ -55,7 +57,7 @@ We've kind of blazed through this without maintaining clean code practices - so 
 
 - Double-check the **Duration** that it will be displayed for and apply something suitable
 
-- Adjust the comment to include the welcome message
+- Comment as you see fit
 
 <br>
 
@@ -75,13 +77,25 @@ We've kind of blazed through this without maintaining clean code practices - so 
 
 <br>
 
-![All tidy](https://user-images.githubusercontent.com/36719180/93946250-e0fac100-fd8c-11ea-931c-1d9796d76d63.png)
+![All tidy](https://user-images.githubusercontent.com/36719180/93946489-87df5d00-fd8d-11ea-950c-c310502c7a10.png)
 
 <br>
 
 - **Compile** and hop back over to the editor
 
 - Select the **Floor** Actor in the **Outliner** and delete it - we're done with that
+
+<br><br>
+
+---
+
+## 013.01 | Bug fix 01 | multiple win messages
+
+<br>
+
+We've kind of blazed through this without maintaining clean code practices - so we'll take a moment now to make everything spick and span.
+
+<br>
 
 
 
