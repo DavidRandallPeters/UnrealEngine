@@ -38,7 +38,7 @@ This mobility is reserved for Actors that are *not intended* to move or update i
 
 **TLDR**:
 
-This is the least expensive option. Use this wherever possible for Actors and Lights, alike. Objects and lights will be included in a precalculated lightmap and everything will looking pretty.. but lights won't cast shadows on moving objects.
+This is the *least* expensive option. Use this wherever possible for Actors and Lights alike. Objects and lights will be included in a precalculated lightmap and everything will looking pretty.. but static lights won't cast shadows on moving objects.
 
 <br>
 
