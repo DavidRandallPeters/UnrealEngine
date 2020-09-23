@@ -221,8 +221,6 @@ Mine looks like this at the moment:
 
 ![Initial level build](https://user-images.githubusercontent.com/36719180/93980247-7ec4af00-fdd2-11ea-9fd7-c0ef9490a30b.png)
 
-<br>
-
 ![Track](https://user-images.githubusercontent.com/36719180/93980919-5e492480-fdd3-11ea-8afa-bf75e5de5794.png)
 
 <br><br>
