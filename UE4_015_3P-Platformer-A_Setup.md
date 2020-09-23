@@ -169,12 +169,17 @@ I'll give you some basic parameters, then invite you go to forth and block out y
 
 <br>
 
+![Floor made](https://user-images.githubusercontent.com/36719180/93980028-31484200-fdd2-11ea-8d62-e57984914b09.png)
 
 <br>
 
 - Hold **Left-Alt** and again slide **Floor1** positively in the **X-axis**
 
 > This time, a duplicate is created called *Floor2*
+
+<br>
+
+![Two floors made](https://user-images.githubusercontent.com/36719180/93980037-36a58c80-fdd2-11ea-89ed-b01b2db4c95f.png)
 
 <br><br>
 
@@ -214,9 +219,16 @@ Mine looks like this at the moment:
 
 <br>
 
+![Initial level build](https://user-images.githubusercontent.com/36719180/93980247-7ec4af00-fdd2-11ea-9fd7-c0ef9490a30b.png)
 
 <br><br>
 
 ---
+
+## 015.004 | sdgsdhsd
+
+<br>
+
+sdgsdg
 
 
