@@ -19,9 +19,9 @@ We're going to make an arcade-style game that can switch between top-down, third
 
 The player will control a rolling marble that must get from A to B (in a 3D environment of your design) and collect all instances of a given item before they're allowed to exit the level.
 
-We'll again us BSP geometry to contruct mesh assets within UE4 - but I *do* invite you create your own level components in your favourite 3D software and import these. You may wish to view [these tutorials](https://github.com/DavidRandallPeters/3DModeling) to achieve this.
+We'll again us BSP geometry to construct mesh assets within UE4 - but I *do* invite you create your own level components in your favourite 3D software and import these. You may wish to view [these tutorials](https://github.com/DavidRandallPeters/3DModeling) to achieve this.
 
-We'll include stationery adversaries who will shoot projectiles, look at UE4's lighting system and I'll try to include particular features in these tutorials at your request - and if time permits. 
+We'll include stationery adversaries that will shoot projectiles, take a look at UE4's lighting system and I'll try to include particular features in these tutorials at your request - and if time permits. 
 
 Of course, I invite you to do any of your own research that might contribute to you making the game that you want to make.
 
@@ -42,4 +42,6 @@ Let's go.
 
 - Determine a sensible folder location
 
-- Name the project something like *ThirdPerson* or give it something more imaginative if you already have ideas for it in mind
+- Name the project something like *3P* or give it something more imaginative if you already have ideas for it in mind
+
+- 
