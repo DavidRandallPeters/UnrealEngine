@@ -159,9 +159,52 @@ The next simplest fix we can attempt is to throttle the mouse input so that thos
 
 <br>
 
-- **Compile** and go try to break it..
+- **Compile** and go try breaking it.
 
 <br>
+
+Hopefully, that's helped. As I said, you may need to go back and adjust those values if they're affecting gameplay.
+
+<br><br>
+
+---
+
+## 013.004 | Restart on key input
+
+<br>
+
+This is the final fail-safe we'll add. 
+
+We're simply mitigating against a situation where the marble gets stuck or gameplay otherwise grinds to a halt.
+
+We'll give the player the ability to restart the level on a keypress.
+
+<br>
+
+- Open your **Level Blueprint**
+
+- Add an **R** key input event anywhere in your graph (**Input » Keyboard Events » R**)
+
+- Connect an **Open Level** function to the **Pressed** execution
+
+- Enter the name of your level (as you've done before)
+
+- Comment the mini-sequence accodingly
+
+<br>
+
+![Restart level](https://user-images.githubusercontent.com/36719180/93950094-af86f300-fd96-11ea-8373-1d6acd4af0ec.png)
+
+<br><br>
+
+That's it for this one.
+
+Next, we'll package the game so that it can beplayed independently of the UE4 editor.
+
+<br><br>
+
+
+
 
 
 
