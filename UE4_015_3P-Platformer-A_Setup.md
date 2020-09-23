@@ -223,6 +223,10 @@ Mine looks like this at the moment:
 
 ![Track](https://user-images.githubusercontent.com/36719180/93980919-5e492480-fdd3-11ea-8afa-bf75e5de5794.png)
 
+<br>
+
+Get yours to about this stage before continuing.
+
 <br><br>
 
 ---
