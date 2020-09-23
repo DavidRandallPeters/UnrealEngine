@@ -58,9 +58,30 @@ Using: Unreal Engine 4.25.3
 
 ---
 
-## 014.002 | Project settings
+## 014.002 | Packaging
 
 <br>
+
+You may have noticed when we created our various *Print String* nodes that written at the bottom of that node is: *Development only*
+
+<br>
+
+![Print string](https://user-images.githubusercontent.com/36719180/93953322-3fc93600-fd9f-11ea-9a7f-dc0d20affad9.png)
+
+<br>
+
+The tooltip when for this node states:
+
+*This node will only be executed in the editor and in Development buildsin a packaged game (it will be treated as disabled in Shipping or Test builds cooked from a commandlet)*
+
+So, those messages that we've carefully prepared won't be included in a *Shipping* build
+
+We're about to package our game - and we'll be presented with the option to do a *Development* build or a *Shipping* build. We'll obviously be better off choosing *Development*, this time around.
+
+
+- In the top menu bar, choose **File » Package Project** and select the platform that you're currently working on
+
+- 
 
 
 
