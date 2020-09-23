@@ -145,6 +145,8 @@ That's about all I need to stipulate, for now.
 
 Using this forward orientation and rough scale, go ahead and design an initial level.
 
+> You may wish to review this [Geometry turorial](https://github.com/DavidRandallPeters/UnrealEngine/blob/master/UE4_009_Labyrinth-G_Geometry.md) as a refresher
+
 <br><br>
 
 **Some considerations:**
@@ -175,7 +177,9 @@ Mine looks like this at the moment:
 
 <br>
 
-> You may wish to review this [Geometry turorial](https://github.com/DavidRandallPeters/UnrealEngine/blob/master/UE4_009_Labyrinth-G_Geometry.md) as a refresher
 
+<br><br>
+
+---
 
 
