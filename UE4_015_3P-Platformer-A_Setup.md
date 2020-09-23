@@ -129,7 +129,7 @@ So, if you want to, bring a little lighting in and switch back to *Lit* mode.
 
 > I suggest setting these to *Static* for now
 
-> At certain intervals, you may wish to bake you lighting to better see how it might look in-game. To achieve this, simply hit the **Build** button above the viewport.
+> At certain intervals, you may wish to bake your lighting to better see how it might look in-game. To achieve this, simply hit the **Build** button above the viewport.
 
 <br>
 
