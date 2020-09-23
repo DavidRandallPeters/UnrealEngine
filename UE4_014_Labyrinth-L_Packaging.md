@@ -48,7 +48,7 @@ Using: Unreal Engine 4.25.3
 
 > That part states that we want to be selective - now we need to determine what to include
 
-- Hit the **+** button to the right of **List of maps to include in a packaged build*
+- Hit the **+** button to the right of **List of maps to include in a packaged build**
 
 - Navigate to the map that you're using and select it - mine's called *Level01.umap* (don't choose any 'BuiltData' you find)
 
