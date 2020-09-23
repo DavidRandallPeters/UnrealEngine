@@ -101,7 +101,7 @@ If you look in the top-right of the viewport, you'll see that we're currently in
 
 <br>
 
-> We can now see.
+We can now see what we're doing.
 
 <br><br>
 
@@ -110,6 +110,10 @@ If you look in the top-right of the viewport, you'll see that we're currently in
 I'll give you some basic parameters, then invite you go to forth and block out your own level as you see fit.
 
 <br>
+
+- In the **Brush Settings** section of the **Details** panel (NOT the *Transform* section), set the **Box** brush's **Z** value to **20**
+
+> This will be a simple floor asset.
 
 - 
 
