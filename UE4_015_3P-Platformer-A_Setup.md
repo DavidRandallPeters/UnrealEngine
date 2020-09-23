@@ -205,7 +205,7 @@ Using this forward orientation and rough scale, **go ahead and design an initial
 
 6. I'd suggest an overall path-length of around 20,000 units - though the level needn't be linear
 
-7. Include boundary walls
+7. Include boundary walls? Or allow falling into oblivion?
 
 8. Consider including thin, winding pathways
 
