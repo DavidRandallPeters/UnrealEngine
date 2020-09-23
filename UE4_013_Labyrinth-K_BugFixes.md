@@ -1,4 +1,4 @@
-# Unreal Engine | 013 | Marble Labyrinth K | Bug Fixes and Code Cleanup
+# Unreal Engine | 013 | Marble Labyrinth K | Bug Fixes and Cleanup
 
 ![UnrealEngineLogo002](https://user-images.githubusercontent.com/36719180/90347960-a4e68900-e087-11ea-9349-f5a59105b4d2.png)
 
