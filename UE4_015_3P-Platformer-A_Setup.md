@@ -145,7 +145,9 @@ That's about all I need to stipulate, for now.
 
 Using this forward orientation and rough scale, go ahead and design an initial level.
 
-Some things to consider:
+<br><br>
+
+Some considerations:
 
 <br>
 
