@@ -113,27 +113,32 @@ I'll give you some basic parameters, then invite you go to forth and block out y
 
 - Position this first **Box** brush at **origin** (0,0,0)
 
-- Rename it *OriginBox* in the **Outliner** 
-
-- In the **Brush Settings** section of the **Details** panel (NOT the *Transform* section), set the **Box** brush's **X**, **Y** and **Z** values to **100** each
-
-> Think of this box as the player's starting point and scale - (the marble will be about this big).
-
-> You may wish to give it a material to better distinguish it from other geometry
-
-- Create a second **Box** brush and send it to **origin**
-
 - Rename it *Floor1* in the **Outliner** 
 
-- In the **Brush Settings** section of the **Details** panel, set the **Box** brush's **Z** value to **20**
-
 > This will be a simple floor asset that you can use as a guide for scale and orientation.
+
+- In the **Brush Settings** section of the **Details** panel, set the **Box** brush's **Z** value to **20**
 
 - Set its **Y** value to about **1000**
 
 - Set its **X** value to about **2000**
 
+- In the **Content Browser**, navigate to **Content » StarterContent » Shapes**
+
+- Drag a **Shape_Sphere** into the scene and position it at **origin**
+
+> Think of this sphere as the player's starting point and scale - (the player's marble avatar will be about this big).
+
+- Move **Floor1** downwards a little so that the shpere sits on top of it
+
 - Slide **Floor1** forwards as you see below (ie. **positively** in the **X-axis**)
+
+> I suggest using a grid snap of **100**
+
+<br>
+
+
+<br>
 
 - Hold **Left-Alt** and again slide **Floor1** positively in the **X-axis**
 
