@@ -46,7 +46,7 @@ This means they will have their shadows contribute to pre-calculated lightmaps u
 
 This means it will contribute to pre-calculated lightmaps using Lightmass. They will illuminate the scene for Static and Stationary Actors and for Movable ones, use an indirect lighting method (like Indirect Lighting Samples or Volumetric Lightmaps ) to illuminate these dynamic objects.
 
-<br><br>
+<br>
 
 ---
 
@@ -72,6 +72,8 @@ For Light Actors, this means they can change in some way during gameplay, such a
 ### Moveable
 
 This mobility is reserved for Actors that need to be added, removed, or moved during gameplay.
+
+<br>
 
 **For Static Mesh Actors**:
 
