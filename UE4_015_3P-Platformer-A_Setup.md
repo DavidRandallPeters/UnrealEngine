@@ -71,6 +71,16 @@ White boxing is simply the process of placing primitives to represent the final 
 
 But you're judge, jury and executioner on this project, so right now, we'll do it as a means to start sketching out your level design.
 
+<br><br>
+
+### Switch view mode
+
+This level is empty - so we have no lights by which to see what we're doing. Placed Actors will pretty much be invisible.
+
+If you look in the top-right of the viewport, you'll see that we're currently in *Lit* mode - but this shit ain't lit.
+
 <br>
+
+- So, instead, choose **Unlit** 
 
 - 
