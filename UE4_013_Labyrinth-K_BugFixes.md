@@ -139,7 +139,19 @@ The next simplest fix we can attempt is to throttle the mouse input so that thos
 
 - Drag off its **Return Value** pin and add a **Clamp (float)** node
 
-- Drag off the **Clamp (float)** node's **Return Value** and replace the top connection in the **+** node for the *X(Roll)* calculation (see below)
+- Drag off the **Clamp (float)** node's **Return Value** and replace the top connection in the **+** node for the *X (Roll)* calculation (see below)
+
+> The required value will be specific to your labyrinth, depending on scale the extent of your issues.. The following clamp value is indicative. You may wish to come back and adjust these values later.
+
+- Enter a **Min** clamp value of **-1.0**
+
+<br>
+
+![Mouse clamp - roll](https://user-images.githubusercontent.com/36719180/93949191-6e8ddf00-fd94-11ea-9956-c7af5843c076.png)
+
+<br>
+
+- Repeat these steps for the **Y (Pitch)** calculation:
 
 
 
