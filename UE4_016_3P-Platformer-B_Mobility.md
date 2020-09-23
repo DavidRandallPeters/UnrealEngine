@@ -65,7 +65,7 @@ This means that they can be changed but not moved. They do not contribute to pre
 
 For Light Actors, this means they can change in some way during gameplay, such as having their color changed or their intensity changed to be brighter or softer or even completely off. Stationary lights still contribute to pre-calculated lightmaps using Lightmass but can also cast dynamic shadows for moving objects. Note that care must be used to not have too many Stationary Lights affecting a given Actor. See Stationary Lights for more details.
 
-<br><br>
+<br>
 
 ---
 
