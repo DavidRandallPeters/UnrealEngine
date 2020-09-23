@@ -113,7 +113,7 @@ I'll give you some basic parameters, then invite you go to forth and block out y
 
 - In the **Brush Settings** section of the **Details** panel (NOT the *Transform* section), set the **Box** brush's **Z** value to **20**
 
-> This will be a simple floor asset.
+> This will be a simple floor asset that you can use as a guide for scale and orientation.
 
 - 
 
