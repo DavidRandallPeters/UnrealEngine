@@ -19,7 +19,9 @@ We're going to make an arcade-style game that can switch between top-down, third
 
 The player will control a rolling marble that must get from A to B (in a 3D environment of your design) and collect all instances of a given item before they're allowed to exit the level.
 
-We'll again us BSP geometry to construct mesh assets within UE4 - but I *do* invite you create your own level components in your favourite 3D software and import these. You may wish to view [these tutorials](https://github.com/DavidRandallPeters/3DModeling) to achieve this.
+We'll again us BSP geometry to construct mesh assets within UE4 - but I *do* invite you create your own level components in your favourite 3D software and import these. You may wish to view [these tutorials](https://github.com/DavidRandallPeters/3DModeling) to achieve this. 
+
+I still suggest you do your white-boxing with BSP.
 
 We'll include stationery adversaries that will shoot projectiles, take a look at UE4's lighting system and I'll try to include particular features in these tutorials at your request - and if time permits. 
 
@@ -107,7 +109,7 @@ We can now see what we're doing.
 
 ### Work lights
 
-We could work in *Unlit* mode.. Though, I dunno about you, but I prefer to see things a little more the way they'll look in the end-product.
+We *could* work in *Unlit* mode.. Though, I dunno about you, but I prefer to see things a little more the way they'll look in the end-product.
 
 So, if you want to, bring a little lighting in and switch back to *Lit* mode.
 
@@ -124,6 +126,10 @@ So, if you want to, bring a little lighting in and switch back to *Lit* mode.
 > Note: this can stay set as *Stationary* as we'll want this to affect moving objects in our game
 
 - As you work to build your level, feel free to add **Point Lights** to shine the way.
+
+> I suggest setting these to *Static* for now
+
+> At certain intervals, you may wish to bake you lighting to better see how it might look in-game. To achieve this, simply hit the **Build** button above the viewport.
 
 <br>
 
