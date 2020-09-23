@@ -111,10 +111,71 @@ I'll give you some basic parameters, then invite you go to forth and block out y
 
 <br>
 
-- In the **Brush Settings** section of the **Details** panel (NOT the *Transform* section), set the **Box** brush's **Z** value to **20**
+- Position this first **Box** brush at **origin** (0,0,0)
+
+- Rename it *OriginBox* in the **Outliner** 
+
+- In the **Brush Settings** section of the **Details** panel (NOT the *Transform* section), set the **Box** brush's **X**, **Y** and **Z** values to **100** each
+
+> Think of this box as the player's starting point and scale - (the marble will be about this big).
+
+> You may wish to give it a material to better distinguish it from other geometry
+
+- Create a second **Box** brush and send it to **origin**
+
+- Rename it *Floor1* in the **Outliner** 
+
+- In the **Brush Settings** section of the **Details** panel, set the **Box** brush's **Z** value to **20**
 
 > This will be a simple floor asset that you can use as a guide for scale and orientation.
 
-- 
+- Set its **Y** value to about **1000**
+
+- Set its **X** value to about **2000**
+
+- Slide **Floor1** forwards as you see below (ie. **positively** in the **X-axis**)
+
+- Hold **Left-Alt** and again slide **Floor1** positively in the **X-axis**
+
+> This time, a duplicate is created called *Floor2*
+
+<br><br>
+
+That's about all I need to stipulate, for now.
+
+Using this forward orientation and rough scale, go ahead and design an initial level.
+
+Some things to consider:
+
+<br>
+
+1. The marble will be controlled by key input
+
+2. The marble will roll and have basic physics (eg. gravity) 
+
+3. We'll give it variable torque, acceleration and deceleration 
+
+4. We can create moving platforms (but suggest you save those for subsequent levels)
+
+5. This is just the first level - so perhaps don't make it too difficult to clock this one - suggest you ramp up the diffulty in subsequent levels
+
+6. I'd suggest an overall length of around 20,000 units
+
+7. Include boundary walls
+
+8. Consider including thin, winding pathways
+
+9. Consider including drops to lower levels
+
+10. Consider where you might place pickups (remember; the player will need to collect 'em all before being allowed to proceed)
+
+<br><br>
+
+Mine looks like this at the moment:
+
+<br>
 
 > You may wish to review this [Geometry turorial](https://github.com/DavidRandallPeters/UnrealEngine/blob/master/UE4_009_Labyrinth-G_Geometry.md) as a refresher
+
+
+
