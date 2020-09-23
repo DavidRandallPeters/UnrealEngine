@@ -1,6 +1,6 @@
 # Unreal Engine | 015 | Marble Third Person A | Setup
 
-![UnrealEngineLogo002](https://user-images.githubusercontent.com/36719180/90347960-a4e68900-e087-11ea-9349-f5a59105b4d2.png)
+![Banner](https://user-images.githubusercontent.com/36719180/93958681-1a422980-fdab-11ea-8c2b-e665e08294da.png)
 
 
 Notes prepared by David Peters
