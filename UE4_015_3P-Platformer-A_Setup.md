@@ -15,7 +15,15 @@ Using: Unreal Engine 4.25.3
 
 <br>
 
-We'll make a 
+We're going to make an arcade-style game that can switch between top-down, third person and platformer as you see fit.
+
+The player will control a rolling marble that must get from A to B (in a 3D environment of your design) and collect all instances of a given item before they're allowed to exit the level.
+
+We'll again us BSP geometry to contruct mesh assets within UE4 - but I *do* invite you create your own level components in your favourite 3D software and import these. You may wish to view [These tutorials](https://github.com/DavidRandallPeters/3DModeling) to achieve this:
+
+We'll include stationery adversaries who will shoot projectiles, look at lighting and I'll try to include particular features in these tutorials at your request and if time permits. 
+
+Of course, I invite you to do any of your own research that might contribute to you making the game that you want to make.
 
 <br><br>
 
