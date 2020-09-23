@@ -105,11 +105,11 @@ We can now see what we're doing.
 
 <br><br>
 
-### Static lighting
+### Work lights
 
-We could work in *Unlit* mode.. but, I don't know about you, I prefer to see things a little more the way they'll look in the end-product.
+We could work in *Unlit* mode.. Though, I dunno about you, but I prefer to see things a little more the way they'll look in the end-product.
 
-So, if you like, bring a little lighting in and switch back to *Lit* mode.
+So, if you want to, bring a little lighting in and switch back to *Lit* mode.
 
 <br>
 
@@ -120,6 +120,14 @@ So, if you like, bring a little lighting in and switch back to *Lit* mode.
 - Switch back to **Lit** mode
 
 - Adjust the **Directional Light**'s properties in the **Details** panel
+
+> Note: this can stay set as *Stationary* as we'll want this to affect moving objects in our game
+
+- As you work to build your level, feel free to add **Point Lights** to shine the way.
+
+<br>
+
+We'll look at lighting in a little more depth later on.
 
 <br><br>
 
@@ -151,7 +159,7 @@ I'll give you some basic parameters, then invite you go to forth and block out y
 
 - Slide **Floor1** forwards as you see below (ie. **positively** in the **X-axis**)
 
-> I suggest using a grid snap of **100**
+> I suggest using a grid snap of **100** to start with
 
 <br>
 
