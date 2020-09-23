@@ -11,7 +11,35 @@ Using: Unreal Engine 4.25.3
 
 ---
 
-## 014.001 | Project settings
+## 014.002 | Adding a 'quit' key
+
+<br>
+
+If we build this game now, the player won't have the ability to exit the game without hitting **CTRL + ALT + DELETE** or **ALT + F4** (PC) or otherwise hard-quitting.
+
+So we'll quickly add an escape button before we build.
+
+<br>
+
+- Open your **Level Blueprint**
+
+- Find some space, **Right-click** and add an **Escape** key event (**Input » Keyboard Events » Escape**)
+
+- Drag off the **Execution** pin and add a **Quit Game** node
+
+- Finally, give this sequence a comment
+
+<br>
+
+![Quit game](https://user-images.githubusercontent.com/36719180/93955825-c46a8300-fda4-11ea-9930-6e191ed42502.png)
+
+<br>
+
+> Note that this key won't work in the editor - but it will work in a build
+
+<br><br>
+
+## 014.002 | Project settings
 
 <br>
 
@@ -26,8 +54,6 @@ Using: Unreal Engine 4.25.3
 ![Labyrinth icon](https://user-images.githubusercontent.com/36719180/93951560-c62f4900-fd9a-11ea-8f03-fa978f7df6f1.png)
 
 <br>
-
-- Enter a name for your game in the **Project Name** field
 
 > There are other details here that you can fill out, if you like. But We probably don't need to worry too much about these for this particular project
 
@@ -58,7 +84,7 @@ Using: Unreal Engine 4.25.3
 
 ---
 
-## 014.002 | Packaging
+## 014.003 | Packaging
 
 <br>
 
@@ -83,14 +109,43 @@ We're about to be presented with the option to do a *Development* build or a *Sh
 
 - Go to **File » Package Project** and select the platform that you're currently working on
 
-- Choose a destination for the packaged game and hit ** **
+- Choose a destination for the packaged game and hit **Select Folder** / **Open** (depending on your platform)
 
 > UE4 will immediatey begin packaging your game
 
-- Navigate your OS file browser to the destination you chose - UE4ll have a folder called something like *WindowsNoEditor* or *Mac
+- Once it's done, navigate your OS file browser to the destination you chose - UE4 will have created a folder called *WindowsNoEditor* or *MacNoEditor* etc.
 
 - Change the folder name to something more suitable or pull its contents out and delete the folder
 
+- **Launch your game and play it!!**
+
+<br><br>
+
+### If your custom icon didn't apply (Mac)
+
+- Open your icon in **Photoshop**
+
+- Select all (**CMND + A**) and **copy**
+
+- Navigate to the Game build
+
+- **Right-click** it and choose **Get Info**
+
+- Select the icon swatch at the top of the pop-up 
+
+- **Paste** the image
+
+<br><br>
+
+### If your custom icon didn't apply (PC)
+
+- No idea! It's complicated! Something about reating .ico format files!?!? Don't even getme started.
+
+<br><br>
+
+<br><br>
+
+### That's it for the Labyrinth game! Let's move onto some cooler stuff!
 
 
 
