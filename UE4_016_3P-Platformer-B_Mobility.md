@@ -25,7 +25,9 @@ When available, the Mobility property has 3 states: *Static*, *Stationary* and *
 
 It's pretty important to understand the differences between these:
 
-<br><br>
+<br>
+
+---
 
 ### Static
 
