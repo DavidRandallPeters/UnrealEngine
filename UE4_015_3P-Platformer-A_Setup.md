@@ -87,7 +87,7 @@ It's basically invisible.
 
 ### Switch view mode
 
-This level is empty - so we have no lights by which to see what we're doing. Placed Actors will all pretty much be invisible.
+This level is empty - therefore, we have no lights by which to see what we're doing. Placed Actors will all pretty much be invisible.
 
 If you look in the top-right of the viewport, you'll see that we're currently in *Lit* mode - but this shit ain't lit.
 
