@@ -71,16 +71,36 @@ White boxing is simply the process of placing primitives to represent the final 
 
 But you're judge, jury and executioner on this project, so right now, we'll do it as a means to start sketching out your level design.
 
+<br>
+
+- Start by getting a simple **Box** brush into the level (via the **Geometry** section of the **Modes** panel - aka **Place Actors** panel)
+
+<br>
+
+![Lit Box brush](https://user-images.githubusercontent.com/36719180/93967381-2f26b900-fdbb-11ea-8312-85dd314bf9ce.png)
+
+<br>
+
+It's basically invisible.
+
 <br><br>
 
 ### Switch view mode
 
-This level is empty - so we have no lights by which to see what we're doing. Placed Actors will pretty much be invisible.
+This level is empty - so we have no lights by which to see what we're doing. Placed Actors will all pretty much be invisible.
 
 If you look in the top-right of the viewport, you'll see that we're currently in *Lit* mode - but this shit ain't lit.
 
 <br>
 
 - So, instead, choose **Unlit** 
+
+<br>
+
+![Unlit Box brush](https://user-images.githubusercontent.com/36719180/93967381-2f26b900-fdbb-11ea-8312-85dd314bf9ce.png)
+
+<br>
+
+> We can now see.
 
 - 
