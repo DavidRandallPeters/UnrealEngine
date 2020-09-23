@@ -139,7 +139,7 @@ We're about to be presented with the option to do a *Development* build or a *Sh
 
 ### If your custom icon didn't apply (PC)
 
-- No idea! It's complicated! Something about reating .ico format files!?!? Don't even getme started.
+- No idea! It's complicated! Something about converting to .ico format files!?!? (Don't even get me started).
 
 <br><br>
 
