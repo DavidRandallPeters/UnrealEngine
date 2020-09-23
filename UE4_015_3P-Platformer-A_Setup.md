@@ -77,7 +77,7 @@ But you're judge, jury and executioner on this project, so right now, we'll do i
 
 <br>
 
-![Lit Box brush](https://user-images.githubusercontent.com/36719180/93967381-2f26b900-fdbb-11ea-8312-85dd314bf9ce.png)
+![Lit Box brush](https://user-images.githubusercontent.com/36719180/93967466-5aa9a380-fdbb-11ea-8242-eea18cbba46a.png)
 
 <br>
 
