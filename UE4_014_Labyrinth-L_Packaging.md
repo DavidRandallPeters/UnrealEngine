@@ -117,6 +117,8 @@ We're about to be presented with the option to do a *Development* build or a *Sh
 
 - Change the folder name to something more suitable or pull its contents out and delete the folder
 
+- Rename the executable file to reflect your own game title
+
 - **Launch your game and play it!!**
 
 <br><br>
