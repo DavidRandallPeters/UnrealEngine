@@ -159,7 +159,7 @@ Using this forward orientation and rough scale, go ahead and design an initial l
 
 5. This is just the first level - so perhaps don't make it too difficult to clock this one - suggest you ramp up the diffulty in subsequent levels
 
-6. I'd suggest an overall length of around 20,000 units
+6. I'd suggest an overall path-length of around 20,000 units - though the level needn't be linear
 
 7. Include boundary walls
 
