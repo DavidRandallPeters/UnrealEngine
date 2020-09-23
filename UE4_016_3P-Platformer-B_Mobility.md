@@ -36,6 +36,12 @@ This mobility is reserved for Actors that are *not intended* to move or update i
 
 <br>
 
+**TLDR**:
+
+This is the least expensive option. Use this wherever possible for Actors and Lights, alike. Objects and lights will be included in a precalculated lightmap and everything will looking pretty.. but lights won't cast shadows on moving objects.
+
+<br>
+
 **For Static Mesh Actors**:
 
 This means they will have their shadows contribute to pre-calculated lightmaps using Lightmass to generate and process them. This mobility makes them ideal for structural or decorative meshes that never need to relocate during gameplay.
@@ -59,13 +65,21 @@ This mobility is reserved for Actors that can change during gameplay but not mov
 
 <br>
 
+**TLDR**:
+
+This is a trade-off between *Static* and *Moveable*. Medium expense. Stationary lights will contribute to lightmaps but still contribute to moving shadows.
+
+<br>
+
 **For Static Mesh Actors**: 
 
 This means that they can be changed but not moved. They do not contribute to pre-calculated lightmaps using Lightmass and are lit like Movable Actors when lit by a Static or Stationary Light. However, when lit by a Movable Light, they will use a Cached Shadow Map to reuse for the next frame when the light is not moving, which can improve performance for projects using dynamic lighting.
 
 <br>
 
-For Light Actors, this means they can change in some way during gameplay, such as having their color changed or their intensity changed to be brighter or softer or even completely off. Stationary lights still contribute to pre-calculated lightmaps using Lightmass but can also cast dynamic shadows for moving objects. Note that care must be used to not have too many Stationary Lights affecting a given Actor. See Stationary Lights for more details.
+**For Light Actors**:
+
+This means they can change in some way during gameplay, such as having their color changed or their intensity changed to be brighter or softer or even completely off. Stationary lights still contribute to pre-calculated lightmaps using Lightmass but can also cast dynamic shadows for moving objects. Note that care must be used to not have too many Stationary Lights affecting a given Actor. See Stationary Lights for more details.
 
 <br>
 
@@ -74,6 +88,12 @@ For Light Actors, this means they can change in some way during gameplay, such a
 ### Moveable
 
 This mobility is reserved for Actors that need to be added, removed, or moved during gameplay.
+
+<br>
+
+**TLDR**:
+
+Most expensive. Fully dynamic. Will not contribute to lightmaps in any way.
 
 <br>
 
