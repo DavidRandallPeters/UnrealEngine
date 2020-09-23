@@ -153,6 +153,19 @@ The next simplest fix we can attempt is to throttle the mouse input so that thos
 
 - Repeat these steps for the **Y (Pitch)** calculation:
 
+<br>
+
+![Mouse clamp - pitch](https://user-images.githubusercontent.com/36719180/93949618-36d36700-fd95-11ea-8ddc-2474c78c7aef.png)
+
+<br>
+
+- **Compile** and go try to break it..
+
+<br>
+
+
+
+
 
 
 
