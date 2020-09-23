@@ -74,14 +74,22 @@ The tooltip when for this node states:
 
 *"This node will only be executed in the editor and in Development builds in a packaged game (it will be treated as disabled in Shipping or Test builds cooked from a commandlet)"*
 
-So, those messages that we've carefully prepared won't be included in a *Shipping* build
+So, those messages to the player that we've carefully prepared won't be included in a *Shipping* build.
 
-We're about to package our game - and we'll be presented with the option to do a *Development* build or a *Shipping* build. We'll obviously be better off choosing *Development*, this time around.
+We're about to be presented with the option to do a *Development* build or a *Shipping* build. We'll obviously be better off choosing *Development*, this time around.
 
 
-- In the top menu bar, choose **File » Package Project** and select the platform that you're currently working on
+- In the top menu bar, go to **File » Package Project » Build Configuration** and just check that it's set for **Development**
 
-- 
+- Go to **File » Package Project** and select the platform that you're currently working on
+
+- Choose a destination for the packaged game and hit ** **
+
+> UE4 will immediatey begin packaging your game
+
+- Navigate your OS file browser to the destination you chose - UE4ll have a folder called something like *WindowsNoEditor* or *Mac
+
+- Change the folder name to something more suitable or pull its contents out and delete the folder
 
 
 
