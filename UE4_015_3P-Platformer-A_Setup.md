@@ -109,7 +109,7 @@ We can now see what we're doing.
 
 ### Work lights
 
-We *could* work in *Unlit* mode.. Though, I dunno about you, but I prefer to see things a little more the way they'll look in the end-product.
+We *could* work in *Unlit* mode.. Though, I dunno about you, but I prefer to start thinking about art and aesthetic early in the process. Given that we're working solo, this is a luxury we can absolutely afford.
 
 So, if you want to, bring a little lighting in and switch back to *Lit* mode.
 
@@ -127,7 +127,7 @@ So, if you want to, bring a little lighting in and switch back to *Lit* mode.
 
 - As you work to build your level, feel free to add **Point Lights** to shine the way.
 
-> I suggest setting these to *Static* for now
+> I suggest setting these to *Static* for now.
 
 > At certain intervals, you may wish to bake your lighting to better see how it might look in-game. To achieve this, simply hit the **Build** button above the viewport.
 
@@ -227,10 +227,6 @@ Mine looks like this at the moment:
 
 ---
 
-## 015.004 | sdgsdhsd
 
-<br>
-
-sdgsdg
 
 
