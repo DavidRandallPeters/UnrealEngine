@@ -103,4 +103,12 @@ If you look in the top-right of the viewport, you'll see that we're currently in
 
 > We can now see.
 
+<br><br>
+
+### Basic parameters
+
+I'll give you some basic parameters, then invite you go to forth and block out your own level as you see fit.
+
 - 
+
+> You may wish to review this [Geometry turorial](https://github.com/DavidRandallPeters/UnrealEngine/blob/master/UE4_009_Labyrinth-G_Geometry.md) as a refresher
