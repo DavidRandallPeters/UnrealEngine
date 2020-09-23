@@ -87,7 +87,7 @@ It's basically invisible.
 
 ### Switch view mode
 
-This level is empty - therefore, we have no lights by which to see what we're doing. Placed Actors will all pretty much be invisible.
+This level is empty - therefore, we have no lights by which to see what we're doing. 
 
 If you look in the top-right of the viewport, you'll see that we're currently in *Lit* mode - but this shit ain't lit.
 
@@ -108,6 +108,8 @@ If you look in the top-right of the viewport, you'll see that we're currently in
 ### Basic parameters
 
 I'll give you some basic parameters, then invite you go to forth and block out your own level as you see fit.
+
+<br>
 
 - 
 
