@@ -105,6 +105,24 @@ We can now see what we're doing.
 
 <br><br>
 
+### Static lighting
+
+We could work in *Unlit* mode.. but, I don't know about you, I prefer to see things a little more the way they'll look in the end-product.
+
+So, if you like, bring a little lighting in and switch back to *Lit* mode.
+
+<br>
+
+- In the **Place Assets / Modes** panel, there's a **Lights** section.
+
+- Drag a **Directional Light** into the scene
+
+- Switch back to **Lit** mode
+
+- Adjust the **Directional Light**'s properties in the **Details** panel
+
+<br><br>
+
 ### Basic parameters
 
 I'll give you some basic parameters, then invite you go to forth and block out your own level as you see fit.
