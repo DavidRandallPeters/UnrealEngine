@@ -147,9 +147,7 @@ Using this forward orientation and rough scale, go ahead and design an initial l
 
 <br><br>
 
-Some considerations:
-
-<br>
+**Some considerations:**
 
 1. The marble will be controlled by key input
 
