@@ -72,7 +72,7 @@ You may have noticed when we created our various *Print String* nodes that writt
 
 The tooltip when for this node states:
 
-*This node will only be executed in the editor and in Development buildsin a packaged game (it will be treated as disabled in Shipping or Test builds cooked from a commandlet)*
+*"This node will only be executed in the editor and in Development builds in a packaged game (it will be treated as disabled in Shipping or Test builds cooked from a commandlet)"*
 
 So, those messages that we've carefully prepared won't be included in a *Shipping* build
 
