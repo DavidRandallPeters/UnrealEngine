@@ -1,4 +1,4 @@
-# Unreal Engine | 015 | 3rd Person / Platformer A | Setup
+# Unreal Engine | 015 | 3P / PLATFORMER | Setup
 
 ![Banner](https://user-images.githubusercontent.com/36719180/93958681-1a422980-fdab-11ea-8c2b-e665e08294da.png)
 
