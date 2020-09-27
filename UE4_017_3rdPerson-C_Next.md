@@ -1,4 +1,4 @@
-# Unreal Engine | 017 | 3RD PERSON / PLATFORMER C | Setup
+# Unreal Engine | 017 | 3RD PERSON C | Setup
 
 ![Banner](https://user-images.githubusercontent.com/36719180/93958681-1a422980-fdab-11ea-8c2b-e665e08294da.png)
 
