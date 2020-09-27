@@ -81,9 +81,4 @@ You can keep working while the the message displays for as long as you like, but
 
 ---
 
-## 017.004 | Building Lighting
-
-<br>
-
-
 
