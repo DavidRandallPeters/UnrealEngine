@@ -29,7 +29,30 @@ You can keep working while the the message displays for as long as you like, but
 
 ---
 
-## 017.002 | Getting started
+## 017.002 | Lighting
 
 <br>
+
+We've covered mobility and touched on lightmaps - I don't think y'all need me to go over the types of lights available in Unreal in very much detail as they're essentially the same set that Unity makes available.
+
+But I'll provide links below to the Unreal documentation, should you wish to know more. 
+
+I would suggest taking a quick look at *Rect Lights* and *Sky Lights* - as these are a little bit special.
+
+<br>
+
+1. [Directional Light](https://docs.unrealengine.com/en-US/Engine/Rendering/LightingAndShadows/LightTypes/Directional/index.html)
+2. [Point Light](https://docs.unrealengine.com/en-US/Engine/Rendering/LightingAndShadows/LightTypes/Point/index.html)
+3. [Spot Light](https://docs.unrealengine.com/en-US/Engine/Rendering/LightingAndShadows/LightTypes/Spot/index.html)
+4. [Rect Light](https://docs.unrealengine.com/en-US/Engine/Rendering/LightingAndShadows/LightTypes/RectLights/index.html)
+5. [Sky Light](https://docs.unrealengine.com/en-US/Engine/Rendering/LightingAndShadows/LightTypes/SkyLight/index.html)
+
+<br><br>
+
+---
+
+## 017.002 | Lighting
+
+<br>
+
 
