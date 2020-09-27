@@ -119,6 +119,16 @@ Every Actor needs a *root* component - its transform in the level is derived fro
 
 Your chosen mesh has been added to the *Static Mesh* component
 
+<br>
+
+- Repeat these steps until you're happy with an initial visual representation of your main pickup
+
+<br>
+
+Here's mine, so far:
+
+<br>
+
 
 
 
