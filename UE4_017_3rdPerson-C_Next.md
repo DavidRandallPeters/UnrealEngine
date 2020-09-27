@@ -33,9 +33,9 @@ You can keep working while the the message displays for as long as you like, but
 
 <br>
 
-We've covered mobility and touched on lightmaps - I don't think y'all need me to go over the types of lights available in Unreal in very much detail as they're essentially the same set that Unity makes available.
+We've covered mobility and touched on lightmaps - I don't think y'all need me to go over the types of lights available in Unreal in very much detail as they're essentially the same set that Unity makes available and are controlled in very similar ways.
 
-But I'll provide links below to the Unreal documentation, should you wish to know more. 
+I will provide links below to the Unreal documentation, should you wish to know more. 
 
 I would suggest taking a quick look at *Rect Lights* and *Sky Lights* - as these are a little bit special.
 
@@ -47,12 +47,33 @@ I would suggest taking a quick look at *Rect Lights* and *Sky Lights* - as these
 4. [Rect Light](https://docs.unrealengine.com/en-US/Engine/Rendering/LightingAndShadows/LightTypes/RectLights/index.html)
 5. [Sky Light](https://docs.unrealengine.com/en-US/Engine/Rendering/LightingAndShadows/LightTypes/SkyLight/index.html)
 
+<br>
+
+Lights can be added to your scene via the **Place Actors** / **Modes** panel.
+
 <br><br>
 
 ---
 
-## 017.002 | Lighting
+## 017.002 | Adding a Cubemap to a Sky Light
 
 <br>
+
+As you may have just read in the Unreal documentaion; the *Sky Light* captures the distant parts of your level and applies that to the scene as a light. That means the sky's appearance and its lighting/reflections will match, even if your sky is coming from atmosphere, or layered clouds on top of a skybox, or distant mountains. You can also manually specify a cubemap to use.
+
+We don't have any distant objects or a sky to speak of, but Unreal provides us with a default Cubemap which can use to try this out. Maybe you'll want to keep this cubemap or maybe you'll want to import your own or one you've found online.
+
+<br>
+
+- Add a **Sky Light** to your scene
+- In the **Light** section of the **Details** panel, set **Source Type** to **SLS Specified Cubemap**
+- Set the **Cubemap** to **HDRI_Epic_Courtyard_Daylight** (or whichever HDRI map is availble to you personally)
+
+<br>
+
+You'll notice the ambient colours change in your scene.
+
+
+
 
 
