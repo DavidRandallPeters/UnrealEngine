@@ -11,25 +11,7 @@ Using: Unreal Engine 4.25.3
 
 ---
 
-## 017.001 | Building Lighting
-
-<br>
-
-If you receive the message 'LIGHTING NEEDS TO BE REBUILT', this means that you've designated Mobility to *Light* or *Static Mesh* Actors that make them able to be added to the game's precaluclated lightmaps.
-
-You can keep working while the the message displays for as long as you like, but should you want to do a build (and see things as they'd look in the game + get rid of the message):
-
-<br>
-
-- Use the **Build** dropdown above the main viewport and choose **Build Lighting Only**
-
-> Note that you can use **Build » Lighting Quality** to determine the quality of the lighting build. During development, *Preview* quality will be fine.
-
-<br><br>
-
----
-
-## 017.002 | Lighting
+## 017.001 | Lighting
 
 <br>
 
@@ -77,7 +59,31 @@ We don't have any distant objects or a sky to speak of, but Unreal provides us w
 
 You'll notice the ambient colours change in your scene.
 
+<br><br>
 
+---
+
+## 017.003 | Building Lighting
+
+<br>
+
+If you receive the message 'LIGHTING NEEDS TO BE REBUILT', this means that you've designated Mobility to *Light* or *Static Mesh* Actors that make them able to be added to the game's precaluclated lightmaps.
+
+You can keep working while the the message displays for as long as you like, but should you want to do a build (and see things as they'd look in the game + get rid of the message):
+
+<br>
+
+- Use the **Build** dropdown above the main viewport and choose **Build Lighting Only**
+
+> Note that you can use **Build » Lighting Quality** to determine the quality of the lighting build. During development, *Preview* quality will be fine.
+
+<br><br>
+
+---
+
+## 017.004 | Building Lighting
+
+<br>
 
 
 
