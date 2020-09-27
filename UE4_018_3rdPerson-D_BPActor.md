@@ -167,6 +167,20 @@ Let's roll a few of these out to start getting a sense of how they'll look and b
 - Go back to the **BP_MainPickup** blueprint and make any adjustments you wish to make
 - Add a few more instances of this to the level
 
+<br>
+
+![Pickup placement](https://user-images.githubusercontent.com/36719180/94378254-94482900-0184-11eb-8b5e-30233291cc39.png)
+
+<br>
+
+We'll leave this blueprint there, for now. 
+
+Next, we'll add what's called a *Player Pawn* to the level so that we can begin rolling and controlling our main marble.
+
+<br><br>
+
+___
+
 
 
 
