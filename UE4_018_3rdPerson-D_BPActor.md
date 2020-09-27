@@ -68,7 +68,7 @@ So:
 
 A *Blueprint Actor* contains *components*. In this case, our *Blueprint Actor* will contain a mesh, a light and a trigger.
 
-*Actor Blueprints* also contain *graphs* (as we've so far only seen in the *Level Blueprint*. This is how we can also add custom funcationality to objects in addition to the components mentioned above.
+*Actor Blueprints* also contain *graphs* (as we've so far only seen in the *Level Blueprint*. This is how we can also add custom functionality to objects in addition to the components mentioned above.
 
 Here inside the *BP_Pickup001* blueprint, as with the *Prefab* editor in Unity, we see a visualisation of the Actor and have the ability to assemble and transform its components. 
 
