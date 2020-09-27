@@ -81,4 +81,32 @@ You can keep working while the the message displays for as long as you like, but
 
 ---
 
+## 017.004 | Auto Exposure
+
+<br>
+
+You may notice that each time you adjust your main lights, Unreal adjusts them back again in the viewport.
+
+By default, Unreal uses *Auto Exposure* to homogenise light intensity. Imagine a 1st person game in which you run from the interior of a cave out into bright sunshine - in that instance, this would be useful. 
+
+While this is an often handy feature, this may become frustrating for us.
+
+<br>
+
+- Open **Project Settings** (in the main menu go to **Edit » Project Settings**)
+- Locate **Engine » Rendering » Default Settings**
+- In the **Default Settings** section, uncheck **Auto Exposure**
+
+<br>
+
+In our case, given the nature of our game, this will probably suit us better.
+
+See what you think. You may wish to revert, depending on your level design.
+
+<br><br>
+
+---
+
+
+
 
