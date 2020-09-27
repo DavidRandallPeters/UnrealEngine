@@ -25,6 +25,12 @@ The in-built [Player Start](https://docs.unrealengine.com/en-US/Engine/Actors/Pl
 
 - Position it at the start of your level where you'd like the player to start / respawn
 
+<br>
+
+![Player Start](https://user-images.githubusercontent.com/36719180/94376080-b934a000-0174-11eb-8673-027fed6bad35.png)
+
+<br>
+
 > Note: if you get a *BAD size* icon - this usually means that Unreal is detecting a collision overlap. Moving the *Player Start* clear of any conflict will remove this icon. It may detect the *Shape_Sphere*'s collision for a few moments after its been deleted.
 
 <br><br>
