@@ -106,7 +106,7 @@ Every Actor needs a *root* component - its transform in the level is derived fro
 
 > The pickups will spin on their *Z* axis so choose something (or some *things*) that will allow us to see that - eg. you won't notice any spinning if you only choose a single sphere.
 
-> I'm choosing a *Sphere*, but I'll add additional spheres and position them so that we can see them spinning (something like electrons orbiting a nucleus inside an atom)
+> I'm choosing a *QuadPyramid*
 
 - **Select** that initial shape and go back into **BP_Pickup001**
 - In the **Static Mesh** section of the **Details** panel, hit the **Use Selected Asset from Content Browser** button - it's the left-pointing arrow
@@ -128,6 +128,31 @@ Your chosen mesh has been added to the *Static Mesh* component
 Here's mine, so far:
 
 <br>
+
+![Initial pickup](https://user-images.githubusercontent.com/36719180/94378020-69f56c00-0182-11eb-9fdd-57b38d72e3f0.png)
+
+<br>
+
+It's just two *QuadPyramids*, one rotated 180°. I've scaled components down to about 0.4 to better match the scale of the marble.
+
+<br>
+
+- In the **Components** panel, drag one of your **StaticMesh** components on top of the **DefaultSceneRoot** to make it the new *Root*
+- In this way, make other components children of that Root
+- Rename components in a sensible way
+
+<br>
+
+Your **Components** hierarchy should look something like this:
+
+<br>
+
+![Components 001](https://user-images.githubusercontent.com/36719180/94378027-78438800-0182-11eb-91c9-ccc3073d42b0.png)
+
+<br>
+
+
+
 
 
 
