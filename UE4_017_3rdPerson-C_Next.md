@@ -15,9 +15,9 @@ Using: Unreal Engine 4.25.3
 
 <br>
 
-If you receive the message 'LIGHTING NEEDS TO BE REBUILT', this means that you've employed light or objects that are available to be added to the game's precaluclated lightmaps.
+If you receive the message 'LIGHTING NEEDS TO BE REBUILT', this means that you've designated Mobility to *Light* or *Static Mesh* Actors that make them able to be added to the game's precaluclated lightmaps.
 
-You can keep working with the message for as long as you like, but should you want to do a build (and see things as they'd look in the game):
+You can keep working while the the message displays for as long as you like, but should you want to do a build (and see things as they'd look in the game + get rid of the message):
 
 <br>
 
