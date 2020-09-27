@@ -72,7 +72,9 @@ A *Blueprint Actor* contains *components*. In this case, our *Blueprint Actor* w
 
 Here inside the *BP_Pickup001* blueprint, as with the *Prefab* editor in Unity, we see a visualisation of the Actor and have the ability to assemble and transform its components. 
 
-You'll notice a list of its components in the **Components** panel (top-left by default). Currently, we only see a *DefaultSceneRoot* - represented by the white sphere positioned at origin.
+You'll notice a list of its components in the **Components** panel (top-left by default).
+
+Currently, we only see a *DefaultSceneRoot* - represented by the white sphere positioned at origin.
 
 Every Actor needs a *root* component - its transform in the level is derived from this - additional components beyond the *root*, are *children of the root* (cool band name, right there) and are therefore positioned relative to the *root*.
 
