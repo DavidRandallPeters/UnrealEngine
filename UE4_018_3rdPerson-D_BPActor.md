@@ -59,6 +59,7 @@ So:
 - Name the new Actor *BP_Pickup001*
 > 'BP' is obviously an abbreviation of 'Blueprint' (so that we can readily identify it in lists etc. later on) and we're calling it 'Pickup 001' because a) it's our main pickup and b) you may wish to subsequently create other pickups that have different properties.
 - **Double-click** **BP_Pickup001** to open it up
+- Dock this tab alongside the *Level01* / main editor tab
 
 <br>
 
@@ -86,6 +87,18 @@ Every Actor needs a *root* component - its transform in the level is derived fro
 ## 018.003 | Adding components to a Blueprint Actor
 
 <br>
+
+- Hit the big green **Add Component** button
+- Take a quick tour of the components that are available
+- Locate and choose **Static Mesh** 
+> Notice that the *Static Mesh* component is listed as a child of *DefaultSceneRoot*
+> Also notice that the *Static Mesh* section of the *Details* panel is currently empty
+- Briefly hop back over into your *Level01* / editor tab - we need the **Content Browser**
+- Navigate the **Content Browser** to **Content » StarterContent » Shapes**
+- Choose a mesh to represent your main pickup 
+> Remember, you can come back and add additional shapes to additional Mesh components
+> The pickups will spin on their *Z* axis so choose something (or some *things*) that will allow us to see that - eg. you won't notice any spinning if you only choose a sphere.
+> I'm choosing a *Sphere*, but I'll add additional spheres and position them so that we can see them spinning (something like electrons orbiting a nucleus inside an atom)
 
 
 
