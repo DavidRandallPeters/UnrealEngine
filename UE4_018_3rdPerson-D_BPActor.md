@@ -138,18 +138,19 @@ It's just two *QuadPyramids*, one rotated 180°. I've scaled components down to 
 <br>
 
 - In the **Components** panel, drag one of your **StaticMesh** components on top of the **DefaultSceneRoot** to make it the new *Root*
-- In this way, make other components children of that Root
 - Rename components in a sensible way
 
 <br>
 
-Your **Components** hierarchy should look something like this:
+Your **Components** hierarchy should look soooomething like this:
 
 <br>
 
 ![Components 001](https://user-images.githubusercontent.com/36719180/94378027-78438800-0182-11eb-91c9-ccc3073d42b0.png)
 
 <br>
+
+
 
 
 
