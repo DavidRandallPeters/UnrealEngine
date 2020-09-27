@@ -59,6 +59,10 @@ Lights can be added to your scene via the **Place Actors** / **Modes** panel.
 
 <br>
 
+![Sky Light](https://user-images.githubusercontent.com/36719180/94375288-26ddcd80-016f-11eb-9ed6-c3f3ebe24c51.png)
+
+<br>
+
 As you may have just read in the Unreal documentaion; the *Sky Light* captures the distant parts of your level and applies that to the scene as a light. That means the sky's appearance and its lighting/reflections will match, even if your sky is coming from atmosphere, or layered clouds on top of a skybox, or distant mountains. You can also manually specify a cubemap to use.
 
 We don't have any distant objects or a sky to speak of, but Unreal provides us with a default Cubemap which can use to try this out. Maybe you'll want to keep this cubemap or maybe you'll want to import your own or one you've found online.
