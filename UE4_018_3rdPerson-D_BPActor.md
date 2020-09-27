@@ -56,9 +56,9 @@ So:
 - Create a **New Folder** in the **Content** root directory called **Blueprints** 
 - Go into that folder, **right-click** and create a **Blueprint Class** - a pop-up appears
 - From the **Pick Parent Class** pop-up, choose **Actor**
-- Name the new Actor *BP_Pickup001*
-> 'BP' is obviously an abbreviation of 'Blueprint' (so that we can readily identify it in lists etc. later on) and we're calling it 'Pickup 001' because a) it's our main pickup and b) you may wish to subsequently create other pickups that have different properties.
-- **Double-click** **BP_Pickup001** to open it up
+- Name the new Actor *BP_MainPickup*
+> 'BP' is obviously an abbreviation of 'Blueprint' - we use this so that we can readily identify it in lists etc. later on.
+- **Double-click** **BP_MainPickup** to open it up
 - Dock this tab alongside the *Level01* / main editor tab
 
 <br>
@@ -71,7 +71,7 @@ A *Blueprint Actor* contains *components*. In this case, our *Blueprint Actor* w
 
 *Actor Blueprints* also contain *graphs* (as we've so far only seen in the *Level Blueprint*. This is how we can also add custom functionality to objects in addition to the components mentioned above.
 
-Here inside the *BP_Pickup001* blueprint, as with the *Prefab* editor in Unity, we see a visualisation of the Actor and have the ability to assemble and transform its components. 
+Here inside the *BP_MainPickup* blueprint, as with the *Prefab* editor in Unity, we see a visualisation of the Actor and have the ability to assemble and transform its components. 
 
 You'll notice a list of its components in the **Components** panel (top-left by default).
 
@@ -108,7 +108,7 @@ Every Actor needs a *root* component - its transform in the level is derived fro
 
 > I'm choosing a *QuadPyramid*
 
-- **Select** that initial shape and go back into **BP_Pickup001**
+- **Select** that initial shape and go back into **BP_MainPickup**
 - In the **Static Mesh** section of the **Details** panel, hit the **Use Selected Asset from Content Browser** button - it's the left-pointing arrow
 
 <br>
@@ -148,7 +148,25 @@ Your **Components** hierarchy should look soooomething like this:
 
 ![Components 001](https://user-images.githubusercontent.com/36719180/94378027-78438800-0182-11eb-91c9-ccc3073d42b0.png)
 
+<br><br>
+
+---
+
+## 018.004 | Placing Blueprint Actors
+
 <br>
+
+This is ridiculously easy. 
+
+Let's roll a few of these out to start getting a sense of how they'll look and behave in the level.
+
+<br>
+
+- **Compile** the **BP_MainPickup** blueprint and hope back over into the main editor
+- Navigate to **Content » Blueprints** and drag an instance of **BP_MainPickup** into the scene
+- Go back to the **BP_MainPickup** blueprint and make any adjustments you wish to make
+- Add a few more instances of this to the level
+
 
 
 
