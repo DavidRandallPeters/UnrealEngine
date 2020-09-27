@@ -102,6 +102,8 @@ Every Actor needs a *root* component - its transform in the level is derived fro
 
 > Remember, you can come back and add additional shapes to additional Mesh components
 
+> Of course, you can also import an .fbx and apply a custom mesh
+
 > The pickups will spin on their *Z* axis so choose something (or some *things*) that will allow us to see that - eg. you won't notice any spinning if you only choose a single sphere.
 
 > I'm choosing a *Sphere*, but I'll add additional spheres and position them so that we can see them spinning (something like electrons orbiting a nucleus inside an atom)
