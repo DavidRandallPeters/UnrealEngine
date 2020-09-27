@@ -90,16 +90,32 @@ Every Actor needs a *root* component - its transform in the level is derived fro
 
 - Hit the big green **Add Component** button
 - Take a quick tour of the components that are available
-- Locate and choose **Static Mesh** 
+- Locate and choose **Static Mesh**
+
 > Notice that the *Static Mesh* component is listed as a child of *DefaultSceneRoot*
+
 > Also notice that the *Static Mesh* section of the *Details* panel is currently empty
+
 - Briefly hop back over into your *Level01* / editor tab - we need the **Content Browser**
 - Navigate the **Content Browser** to **Content » StarterContent » Shapes**
 - Choose a mesh to represent your main pickup 
+
 > Remember, you can come back and add additional shapes to additional Mesh components
+
 > The pickups will spin on their *Z* axis so choose something (or some *things*) that will allow us to see that - eg. you won't notice any spinning if you only choose a sphere.
+
 > I'm choosing a *Sphere*, but I'll add additional spheres and position them so that we can see them spinning (something like electrons orbiting a nucleus inside an atom)
 
+- **Select** that initial shape and go back into **BP_Pickup001**
+- In the **Static Mesh** section of the **Details** panel, hit the **Use Selected Asset from Content Browser** button - it's the left-pointing arrow
+
+<br>
+
+![Add selected](https://user-images.githubusercontent.com/36719180/94377088-264b3400-017b-11eb-8679-964ac69b75ec.png)
+
+<br>
+
+Your chosen mesh has been added to the *Static Mesh* component
 
 
 
