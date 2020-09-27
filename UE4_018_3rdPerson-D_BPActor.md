@@ -37,11 +37,56 @@ The in-built [Player Start](https://docs.unrealengine.com/en-US/Engine/Actors/Pl
 
 ---
 
-## 018.002 | Blueprint Actors
+## 018.002 | Blueprint Actor Class
 
 <br>
 
-The 
+The first *Blueprint Actor* that we'll create will be the collectable objects - the items that the player must collect ALL of in order to complete the level.
+
+The object needs a mesh (so that we can see something), a trigger of some sort so that the player can collect it, some motion (eg. spinning or bobbing up and down) and possibly some light emission?
+
+The main property it should have, however, is *resuability.* That is, a lightweight asset that can deployed over and over again without costing the earth in resources.
+
+The *Blueprint Actor Class* will achieve that. This is essentially Unreal's equivalent of a *Prefab*.
+
+So:
+
+<br>
+
+- Create a **New Folder** in the **Content** root directory called **Blueprints** 
+- Go into that folder, **right-click** and create a **Blueprint Class** - a pop-up appears
+- From the **Pick Parent Class** pop-up, choose **Actor**
+- Name the new Actor *BP_Pickup001*
+> 'BP' is obviously an abbreviation of 'Blueprint' (so that we can readily identify it in lists etc. later on) and we're calling it 'Pickup 001' because a) it's our main pickup and b) you may wish to subsequently create other pickups that have different properties.
+- **Double-click** **BP_Pickup001** to open it up
+
+<br>
+
+![Default Root](https://user-images.githubusercontent.com/36719180/94376680-8096c580-0178-11eb-80b3-45837e6870b1.png)
+
+<br>
+
+A *Blueprint Actor* contains *components*. In this case, our *Blueprint Actor* will contain a mesh, a light and a trigger.
+
+*Actor Blueprints* also contain *graphs* (as we've so far only seen in the *Level Blueprint*. This is how we can also add custom funcationality to objects in addition to the components mentioned above.
+
+Here inside the *BP_Pickup001* blueprint, as with the *Prefab* editor in Unity, we see a visualisation of the Actor and have the ability to assemble and transform its components. 
+
+You'll notice a list of its components in the **Components** panel (top-left by default). Currently, we only see a *DefaultSceneRoot* - represented by the white sphere positioned at origin.
+
+Every Actor needs a *root* component - its transform in the level is derived from this - additional components beyond the *root*, are *children of the root* (cool band name, right there) and are therefore positioned relative to the *root*.
+
+
+<br><br>
+
+---
+
+## 018.003 | Adding components to a Blueprint Actor
+
+<br>
+
+
+
 
 
 
