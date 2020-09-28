@@ -75,7 +75,57 @@ ___
 
 We need to get this Player Pawn to respond to player input so that we can move it around the map.
 
-Remember that there are two different types of input: *Action Events* (such as a keypress) and *Axis Events* (such as mouse input - these continually fire).
+Remember that there are two main types of input: *Action Events* (such as a keypress - these fire once at a time) and *Axis Events* (such as mouse positional input - these continually fire and send an input value).
+
+In addition to this, we can create custom input mappings that can bebound to multiple inputs.
+
+<br>
+
+- Open **Project Settings** (**Edit » Project Settings** in the main menu)
+- Navigate to **Engine » Input** and locate the **Bindings** section
+
+<br>
+
+We'll make the pawn move forwards and backwards (using the *W* and *S* keys) and we'll make it move left and right (using the *A* and *D* keys).
+
+As we want our key signal to continuously fire (for continuous movement), we'll need to use an *Axis Mapping*.
+
+<br>
+
+### Forwards-Backwards movement
+
+- Hit the **+** button next to **Axis Mappings**
+- Expand **Axis Mappings** (if it's not already expanded)
+- Rename the event to *Movement forwards-backwards*
+- Expand the event itself
+- Click where it says **None** and locate and select **W** *Keyboard* input - leave *Scale* set to *1.0*
+- Hit the **+** button next to the **Movement forwards-backwards** Event to add a second input
+- Apply **S** *Keyboard* input
+- Set the **Scale** of **S** to -1.0 - so that the marble moves backwards on this keypress
+
+<br>
+
+### Left-Right movement
+
+- Again, hit the **+** button next to **Axis Mappings**
+- Expand **Axis Mappings** (if it's not already expanded)
+- Rename the new event to *Movement left-right*
+- Expand the event itself
+- Click where it says **None** and locate and select **D** *Keyboard* input - leave *Scale* set to *1.0*
+- Hit the **+** button next to the **Movement left-right** Event to add a second input
+- Apply **A** *Keyboard* input
+- Set the **Scale** of **A** to **-1.0** - so that the marble moves oppositely on this keypress
+
+Your Axis Mappings should look like this:
+
+<br>
+
+![Axis Mappings](https://user-images.githubusercontent.com/36719180/94497027-78ab5400-0252-11eb-8262-1b0f6944a998.png)
+
+
+
+
+
 
 
 
