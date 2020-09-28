@@ -63,9 +63,6 @@ The Spring Arm is represented in the Blueprint editor by a red line.
 
 - Tweak the values just mentioned - but don't stress - we'll fine-tune this later
 - To make the **StaticMesh** the root of the scene, drag it (in the **Components** panel) and drop it on top of **DefaultSceneRoot**
-- **Compile** and **Save**
-- Hop back over to the main editor
-- Drag the Player
 
 <br>
 
@@ -74,6 +71,16 @@ The Spring Arm is represented in the Blueprint editor by a red line.
 <br>
 
 We now have a Camera that will render the action attached to a Spring Arm that's attached to our Player Pawn.
+
+<br>
+
+- **Compile** and **Save**
+- Hop back over to the main editor
+- Drag **BP_PlayerPawn** into the level and position it somewhere around the start - no need to be accurate at this stage
+
+<br>
+
+![Player pawn in level](https://user-images.githubusercontent.com/36719180/94387189-dfbeff00-01a5-11eb-8227-d3031ed33ca6.png)
 
 <br><br>
 
@@ -98,6 +105,18 @@ The PlayerController tells Unreal which pawn to *possess* (on the player's behal
 <br><br>
 
 ### Possession
+
+PlayerControllers allow players to *posses* and *unpossess* Pawns - ie. they allow players to take control and stop controlling avatars, characters etc.
+
+A player can only possess ONE Pawn at a time.
+
+<br><br>
+
+- Selec
+
+
+
+
 
 
 
