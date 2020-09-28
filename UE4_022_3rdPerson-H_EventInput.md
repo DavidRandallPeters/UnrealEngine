@@ -17,9 +17,9 @@ Using: Unreal Engine 4.25.3
 
 In the previous [Labyrinth] project, we exclusively used the *Level Blueprint* to achieve everything.
 
-That was fine while we were getting to grips with Blueprints - but you'll remember from Unity days that it's best practice to localise code on the object that uses it.
+That was fine while we were getting to grips with things and working within a singular level - but this won't always/often be the right approach.
 
-Blueprint classes each have their own *Event Graphs* - which we can use to achieve just that.
+Blueprint classes each have their own *Event Graphs* - which we can *a)* use to write code directly where it's needed and *b)* reuse that code anywhere in the game, across multiple levels.
 
 Let's take a look at the Player Pawn's Event Graph:
 
