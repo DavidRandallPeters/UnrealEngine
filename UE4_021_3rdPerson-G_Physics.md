@@ -72,6 +72,10 @@ So we need to mitigate.
 
 Problem solved - the spring arm no longer inherits its parent's rotation.
 
+<br>
+
+- Delete the ramp
+
 <br><br>
 
 ---
