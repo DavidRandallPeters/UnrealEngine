@@ -110,9 +110,27 @@ PlayerControllers allow players to *posses* and *unpossess* Pawns - ie. they all
 
 A player can only possess ONE Pawn at a time.
 
+<br>
+
+- Select **BP_PlayerPawn** and locate the **Pawn** section of the **Details** panel
+- Set **Auto Possess Player** to **Player 0** - (use this for single-player games)
+- Hit **Play** to test it out - we now possess the Player Pawn that we created - more than that, we view the game through the attached camera
+
+<br>
+
+We don't yet have the ability to control the Player Pawn - simply because we haven't added any programming. But we'll get onto that shortly.
+
+Now is a good time to adjust your **Target Arm Length** parameter and Spring Arm rotation to better suit the game.
+
+Mine's currently set to a length of **1000uu** and a **Y** rotation of **-35°**:
+
+<br>
+
+![Player pawn possessed and Spring Arm adjusted](https://user-images.githubusercontent.com/36719180/94387779-a7b8bb80-01a7-11eb-85f8-6908973f2ad8.png)
+
 <br><br>
 
-- Selec
+
 
 
 
