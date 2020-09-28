@@ -34,7 +34,7 @@ Part of that includes assigning the default Pawn class. It will also look for a 
 - Close it again!
 - Open it up again!
 
-Curiously, we see a different view when we open it up for the second time.. This is a concise breakdown of its most important features.
+> Curiously, we see a different view when we open it up for the second time.. This is a concise breakdown of its most important features.
 
 > Note: We can still access the full blueprint by hitting *Open Full Blueprint Editor* at the top of this page. But there's no need to do that right now.
 
