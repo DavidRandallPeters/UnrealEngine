@@ -75,6 +75,7 @@ Problem solved - the spring arm no longer inherits its parent's rotation.
 <br>
 
 - Delete the ramp (or keep it)
+- Go to **File » Save All** or hit **Ctrl+Shift+S**
 
 <br><br>
 
