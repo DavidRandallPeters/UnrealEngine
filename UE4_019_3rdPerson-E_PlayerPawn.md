@@ -63,7 +63,7 @@ The Spring Arm is represented in the Blueprint editor by a red line.
 
 - Tweak the values just mentioned - but don't stress - we'll fine-tune this later
 - To make the **StaticMesh** the root of the scene, drag it (in the **Components** panel) and drop it on top of **DefaultSceneRoot**
-- **Compile**
+- **Compile** and **Save**
 
 <br>
 
