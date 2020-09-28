@@ -13,6 +13,8 @@ Using: Unreal Engine 4.25.3
 
 ## 021.001 | Applying Physics
 
+<br>
+
 We need our Player Pawn to respond to physics for the game to even begin being enjoyable.
 
 The first part of achieving this is easy. We've done it before (in the Labyrinth game). 
@@ -46,7 +48,7 @@ That's it.. That works.. The marble drops and the camera follows it. Grrrreat.
 
 Shit.
 
-When the ball started rolling, the camera rolls with it..
+When the ball starts rolling, the camera rolls with it..
 
 This is because it's attached and relatively positioned to its parent; the Sphere Static Mesh.
 
@@ -58,9 +60,20 @@ So we need to mitigate.
 
 ## 021.002 | World Rotation vs. Relative Rotation
 
+<br>
+
 - Open **BP_PlayerPawn**
 - Select the **SpringArm** in the **Components** panel
 - In the **Transform** section of the **Details** panel, hit the drop-down arrow just to the right of **Rotation**
 - Choose **World**
-- **Compile**, **Save** and go test it out021
+- **Compile**, **Save** and go test it out
+
+<br>
+
+Problem solved - the spring arm no longer inherits its parent's rotation.
+
+<br><br>
+
+---
+
 
