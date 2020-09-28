@@ -62,9 +62,26 @@ The Spring Arm is represented in the Blueprint editor by a red line.
 > Rotating the Spring Arm around its **Y** axis adjusts its vantage point
 
 - Tweak the values just mentioned - but don't stress - we'll fine-tune this later
-- Finally, to make the **StaticMesh** the root of the scene, drag it (in the **Components** panel) and drop it on top of **DefaultSceneRoot**
+- To make the **StaticMesh** the root of the scene, drag it (in the **Components** panel) and drop it on top of **DefaultSceneRoot**
+- **Compile**
 
-We now have a Camera that will render the action attached to a Spring Arm that's attached to our Player Pawn
+<br>
+
+![Camera and Spring Arm](https://user-images.githubusercontent.com/36719180/94384799-efd3e000-019f-11eb-8fce-d2650ef7240a.png)
+
+<br>
+
+We now have a Camera that will render the action attached to a Spring Arm that's attached to our Player Pawn.
+
+<br><br>
+
+---
+
+## 019.003 | dsgdsg
+
+<br>
+
+A *Spri
 
 
 
