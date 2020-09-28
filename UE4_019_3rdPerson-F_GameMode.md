@@ -43,7 +43,19 @@ Curiously, we see a different view when we open it up for the second time.. This
 - Set  **Default Pawn Class** to the Player Pawn we created - **BP_PlayerPawn**
 - **Compile**, **Save** and close this Blueprint
 
-If we were to hit Play right now, we still wouldn't be spawned at PlayerStart, as we haven't yet assigned our Game Mode.
+> If we were to hit Play right now, we still wouldn't be spawned at PlayerStart, as we haven't yet assigned our Game Mode.
 
-- sdgdsg
+- Use the **Settings** drop-down above the main viewport and choose **World Settings** - a new tab is opened alongside the *Details* panel
+- In the **Game Mode** section of the **World Settings** panel, set **GameMode Override** to use **BP_GameMode**
+
+> If we were to hit Play now, we STILL wouldn't be spawned at PlayerStart as we still have our Player Pawn manually added to the level. Unreal will default to that when present. To make this fully dynamic, we'll delete the PlayerPawn and hand Unreal the reigns.
+
+- Select **BP_PlayerPawn** in the level (or the **Outliner**) and delete it
+- Hit **Play** to test it out.
+
+Our Player Pawn is now spawned at Player Start, wherever that may be. 
+
+
+
+
 
