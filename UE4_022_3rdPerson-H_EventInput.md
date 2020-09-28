@@ -63,6 +63,8 @@ This isn't possible with Event Graphs - because, unlike the Level Blueprint, a B
 
 Blueprint Classes can absolutely still make references - we just need to take a different approach to achieve that.
 
+We'll get to that soon.
+
 <br><br>
 
 ___
