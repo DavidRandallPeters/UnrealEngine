@@ -30,6 +30,29 @@ Let's get that into the game:
 - Navigate to your **Blueprints** folder in the **Content Browser**
 - **Right-click** inside that folder and choose **Blueprint Class**
 - From the pop-up that appears, select **Pawn** - *".. an Actor that can be 'possessed' and receive input from a controller"*
+- Name the new **Pawn** blueprint *BP_PlayerPawn*
+- **Double-click** it to open it up
+- Add a **Static Mesh** component
+- Add a **Shape_Sphere** static mesh in the **Stative Mesh** section of the **Details** panel - you can do this way we did before.. or you can use the drop-down to manually search for it
+
+<br><br>
+
+---
+
+## 019.002 | Spring Arms
+
+<br>
+
+A *Spring Arm* is a component that won't render in the game - but acts to determine the distance between a camera and an Actor - in this case our marble.
+
+The Spring Arm is represented in the Blueprint editor by a red line.
+
+<br>
+
+- With the **StaticMesh** selected in the **Components** panel, add a **Spring Arm** component - it becomes a child of *StaticMesh*
+- With the **SpringArm** selected in the **Components** panel, add a **Camera** component - it becomes a child of *SpringArm*
+> The camera is now positioned at the end of the Spring Arm and faces the Static Mesh
+- sdgdsg
 
 
 
