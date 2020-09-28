@@ -48,10 +48,14 @@ So, in fact, the Level Blueprint should only be used for very specific [local] l
 
 You'll remember, in the Level Blueprint, we could easily reference Actors in our scene by:
 
+<br>
+
 1. Selecting them in the Outliner (or viewport),
 2. entering the Level Blueprint,
 3. right-clicking..
 4. ..and simply creating a reference to that Actor.
+
+<br>
 
 Easy peasy. Just like that, you're talking to the Actor in question.
 
