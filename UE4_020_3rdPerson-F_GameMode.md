@@ -11,7 +11,7 @@ Using: Unreal Engine 4.25.3
 
 ---
 
-## 019.001 | Spawn at Player Start
+## 020.001 | Spawn at Player Start
 
 <br>
 
@@ -54,6 +54,38 @@ Part of that includes assigning the default Pawn class. It will also look for a 
 - Hit **Play** to test it out.
 
 Our Player Pawn is now spawned at Player Start, wherever that may be. 
+
+<br>
+
+---
+
+## 019.002 | Setting a custom Game Mode as default
+
+<br>
+
+There's one more thing we can do.
+
+The method we've used to make Unreal use our custom Game Mode (and not the default) involved overriding the default (we did that via the World Settings).
+
+When we create subsequent settings, we'd need to keep doing this override.
+
+A better approach for our game would be to set the Game Mode that we created as the default throughout our project.
+
+Do do this:
+
+<br>
+
+- Open the **Project Settings** (**Edit » Project Settings**)
+- Go to the **Maps & Modes** section
+- Set the **Default GameMode** to **BP_GameMode**
+
+<br>
+
+Aaaaaand we're done. Moving on.
+
+<br><br>
+
+---
 
 
 
