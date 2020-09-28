@@ -65,13 +65,13 @@ Our Player Pawn is now spawned at Player Start, wherever that may be.
 
 There's one more thing we can do.
 
-The method we've used to make Unreal use our custom Game Mode (and not the default) involved overriding the default (we did that via the World Settings).
+The method we've used to make Unreal use our custom Game Mode (and not the default) involved overriding the default for this level (we did that via the World Settings).
 
-When we create subsequent settings, we'd need to keep doing this override.
+When we create subsequent levels, we'll need to keep applying this override as often as we create levels.
 
-A better approach for our game would be to set the Game Mode that we created as the default throughout our project.
+As our requirements are universal, a better approach for our game would be to set the Game Mode that we created as the default Game Mode throughout our project.
 
-Do do this:
+To do this:
 
 <br>
 
