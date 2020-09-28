@@ -11,7 +11,7 @@ Using: Unreal Engine 4.25.3
 
 ---
 
-## 021.001
+## 021.001 | Applying Physics
 
 We need our Player Pawn to respond to physics for the game to even begin being enjoyable.
 
@@ -32,7 +32,23 @@ The same approach applies here, only we'll be asking the sphere inside our Playe
 
 That's it.. That works.. The marble drops and the camera follows it. Grrrreat.
 
-BUT! If the ball were to start rolling, the camera would roll with it.. because it's attached and relatively positioned to the Sphere.
+<br>
+
+- Bring a **Basic » Cube** into the level from the **Place Actors / Modes** panel
+- Quickly shape it like a ramp and position it under the **PlayerStart**
+- Hit **Play** and test it out.
+
+<br>
+
+![Ramp](https://user-images.githubusercontent.com/36719180/94394501-fb340500-01b9-11eb-9228-350495a8b592.png)
+
+<br>
+
+Shit.
+
+When the ball started rolling, the camera rolls with it..
+
+This is because it's attached and relatively positioned to its parent; the Sphere Static Mesh.
 
 So we need to mitigate.
 
@@ -40,6 +56,11 @@ So we need to mitigate.
 
 ---
 
-## 021.002
+## 021.002 | World Rotation vs. Relative Rotation
 
-We nee
+- Open **BP_PlayerPawn**
+- Select the **SpringArm** in the **Components** panel
+- In the **Transform** section of the **Details** panel, hit the drop-down arrow just to the right of **Rotation**
+- Choose **World**
+- **Compile**, **Save** and go test it out021
+
