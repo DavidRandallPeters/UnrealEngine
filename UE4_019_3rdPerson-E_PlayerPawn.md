@@ -64,6 +64,8 @@ The Spring Arm is represented in the Blueprint editor by a red line.
 - Tweak the values just mentioned - but don't stress - we'll fine-tune this later
 - To make the **StaticMesh** the root of the scene, drag it (in the **Components** panel) and drop it on top of **DefaultSceneRoot**
 - **Compile** and **Save**
+- Hop back over to the main editor
+- Drag the Player
 
 <br>
 
@@ -77,11 +79,17 @@ We now have a Camera that will render the action attached to a Spring Arm that's
 
 ---
 
-## 019.003 | dsgdsg
+## 019.003 | Controllers and Possession
 
 <br>
 
-A *Spri
+Don't think of *Controllers* as input or anything akin to a PlayStation controller or a keyboard.. a [Controller](https://docs.unrealengine.com/en-US/Gameplay/Framework/Controller/index.html) is:
+
+"Controllers are non-physical Actors that can possess a Pawn (or Pawn-derived class like Character) to control its actions."
+
+That is, these are an invisible entity that's spawned into the game at run-time to look after the needs of both Player Pawns and AI.
+
+See also: [PlayerController](https://docs.unrealengine.com/en-US/Gameplay/Framework/Controller/PlayerController/index.html) and [AIController](https://docs.unrealengine.com/en-US/Gameplay/Framework/Controller/AIController/index.html).
 
 
 
