@@ -83,13 +83,21 @@ We now have a Camera that will render the action attached to a Spring Arm that's
 
 <br>
 
-Don't think of *Controllers* as input or anything akin to a PlayStation controller or a keyboard.. a [Controller](https://docs.unrealengine.com/en-US/Gameplay/Framework/Controller/index.html) is:
+### Controllers
 
-"Controllers are non-physical Actors that can possess a Pawn (or Pawn-derived class like Character) to control its actions."
+Don't think of *Controllers* as input exactly.. or anything akin to a PlayStation controller or a keyboard.. [Controllers](https://docs.unrealengine.com/en-US/Gameplay/Framework/Controller/index.html) are:
 
-That is, these are an invisible entity that's spawned into the game at run-time to look after the needs of both Player Pawns and AI.
+".. non-physical Actors that can possess a Pawn (or Pawn-derived class like Character) to control its actions."
+
+That is, these are invisible entities that are spawned into the game at run-time to look after the needs of both Player Pawns and AI.
 
 See also: [PlayerController](https://docs.unrealengine.com/en-US/Gameplay/Framework/Controller/PlayerController/index.html) and [AIController](https://docs.unrealengine.com/en-US/Gameplay/Framework/Controller/AIController/index.html).
+
+The PlayerController tells Unreal which pawn to *possess* (on the player's behalf) and which pawn should listen to our input.
+
+<br><br>
+
+### Possession
 
 
 
