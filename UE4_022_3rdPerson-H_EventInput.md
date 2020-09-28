@@ -11,7 +11,7 @@ Using: Unreal Engine 4.25.3
 
 ---
 
-## 022.001 | Event Graphs
+## 022.001 | Blueprint Classes + Event Graphs
 
 <br>
 
