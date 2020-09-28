@@ -68,8 +68,6 @@ The Spring Arm is represented in the Blueprint editor by a red line.
 
 ![Components hierarchy](https://user-images.githubusercontent.com/36719180/94493261-a25f7d80-0248-11eb-99b2-7b8306f75671.png)
 
-<br>
-
 ^ Check that your hierarchy looks like this.
 
 <br>
