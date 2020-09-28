@@ -39,11 +39,11 @@ Let's get that into the game:
 
 ---
 
-## 019.002 | Spring Arms
+## 019.002 | Spring Arms and Cameras
 
 <br>
 
-A *Spring Arm* is a component that won't render in the game - but acts to determine the distance between a camera and an Actor - in this case our marble.
+A *Spring Arm* is a component that won't render in the game - but acts to determine the distance between a Camera and an Actor - in this case our marble.
 
 The Spring Arm is represented in the Blueprint editor by a red line.
 
@@ -51,8 +51,20 @@ The Spring Arm is represented in the Blueprint editor by a red line.
 
 - With the **StaticMesh** selected in the **Components** panel, add a **Spring Arm** component - it becomes a child of *StaticMesh*
 - With the **SpringArm** selected in the **Components** panel, add a **Camera** component - it becomes a child of *SpringArm*
-> The camera is now positioned at the end of the Spring Arm and faces the Static Mesh
-- sdgdsg
+> The camera is now positioned at the end of the Spring Arm and faces the DefaultSceneRoot
+
+> The Spring Arm is currently originating from 0,0,0 - we need it to originate from the centre of the sphere so that the camera is looking in the right place
+
+- Set your grid snap to **50**uu and move the **SpringArm** upwards so that it originates from the centre of the marble
+
+> The **Target Arm Length** parameter in the **Details** panel determines the distance of the Camera from the Static Mesh
+
+> Rotating the Spring Arm around its **Y** axis adjusts its vantage point
+
+- Tweak the values just mentioned - but don't stress - we'll fine-tune this later
+- Finally, to make the **StaticMesh** the root of the scene, drag it (in the **Components** panel) and drop it on top of **DefaultSceneRoot**
+
+We now have a Camera that will render the action attached to a Spring Arm that's attached to our Player Pawn
 
 
 
