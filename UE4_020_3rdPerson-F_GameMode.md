@@ -78,6 +78,7 @@ To do this:
 - Open the **Project Settings** (**Edit » Project Settings**)
 - Go to the **Maps & Modes** section
 - Set the **Default GameMode** to **BP_GameMode**
+- Close **Project Settings**
 
 <br>
 
