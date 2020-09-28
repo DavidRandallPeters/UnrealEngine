@@ -57,12 +57,20 @@ The Spring Arm is represented in the Blueprint editor by a red line.
 
 - Set your grid snap to **50**uu and move the **SpringArm** upwards so that it originates from the centre of the marble
 
-> The **Target Arm Length** parameter in the **Details** panel determines the distance of the Camera from the Static Mesh
+> The **Target Arm Length** parameter in the **Details** panel determines the distance of the Camera from the Static Mesh.
 
-> Rotating the Spring Arm around its **Y** axis adjusts its vantage point
+> Rotating the Spring Arm around its **Y** axis adjusts its vantage angle.
 
 - Tweak the values just mentioned - but don't stress - we'll fine-tune this later
 - To make the **StaticMesh** the root of the scene, drag it (in the **Components** panel) and drop it on top of **DefaultSceneRoot**
+
+<br>
+
+![Components hierarchy](https://user-images.githubusercontent.com/36719180/94493261-a25f7d80-0248-11eb-99b2-7b8306f75671.png)
+
+<br>
+
+^ Check that your hierarchy looks like this.
 
 <br>
 
