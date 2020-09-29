@@ -122,6 +122,29 @@ Your Axis Mappings should look like this:
 
 ![Axis Mappings](https://user-images.githubusercontent.com/36719180/94497027-78ab5400-0252-11eb-8262-1b0f6944a998.png)
 
+<br>
+
+### Implementation
+
+<br>
+
+- Close **Project Settings** and hop back into the **Event Graph** of **BP_PlayerPawn**
+- **Right-click** somewhere in the Event Graph and navigate to **Input » Axis Events** - here, you'll see the bindings we just created
+- Choose **Movement forwards-backwards**
+- Repeat those steps for **Movement left-right**
+
+<br>
+
+![Custom input nodes](https://user-images.githubusercontent.com/36719180/94497472-ceccc700-0253-11eb-9366-f7620013366e.png)
+
+<br>
+
+
+
+___
+
+
+
 
 
 
