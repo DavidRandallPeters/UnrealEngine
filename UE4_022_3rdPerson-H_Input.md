@@ -191,6 +191,14 @@ In the above diagram, if we wanted the wheel to roll positively on the X-axis (f
 
 Y-axis would be the desired 'Direction'.
 
+<br>
+
+So where does Magnitude come into it?
+
+Simply, the greater the value (Magnitude) that's applied to our chosen axis, the greater the torque that's applied to the mesh will be.
+
+Not so complicated, really.
+
 ___
 
 
