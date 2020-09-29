@@ -259,16 +259,20 @@ To roll this thing left and right, we'll need to use the *X-axis* - that is; rot
 > Note: This is totally a 'magic number' - we'll convert this to a variable in the next session.
 
 - Connect the **Movement left-right** node to **Torque X** via the **float*float** node
+
+<br>
+
+![Input system](https://user-images.githubusercontent.com/36719180/94503595-5110b780-0263-11eb-9a1f-ffdeb4ae0671.png)
+
+<br>
+
 - **Compile**, **Save** and go test it out.
 
 <br>
 
-Your game should suddenly be waaaaaaaay more fun. You now have control of the marble andcan begin testing your level.
+Your game should suddenly be waaaaaaaay more fun.
 
-
-
-
-
+You now have control of the marble and can begin testing your level.
 
 
 ___
