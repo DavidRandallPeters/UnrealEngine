@@ -1,4 +1,4 @@
-# Unreal Engine | 022 | 3RD PERSON H | Event Graphs + Input Mapping
+# Unreal Engine | 022 | 3RD PERSON H | Input Mapping + Torque
 
 ![Banner](https://user-images.githubusercontent.com/36719180/93958681-1a422980-fdab-11ea-8c2b-e665e08294da.png)
 
