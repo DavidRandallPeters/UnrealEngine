@@ -274,6 +274,7 @@ Your game should suddenly be waaaaaaaay more fun.
 
 You now have control of the marble and can begin testing your level.
 
+<br><br>
 
 ___
 
