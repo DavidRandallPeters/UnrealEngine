@@ -187,7 +187,9 @@ When dealing with torque, direction is not 'the direction you want a thing to mo
 
 <br>
 
-In the above diagram, if we wanted the wheel to roll positively on the X-axis (forwards), we'd apply 'magnitude' to the Y-axis. Y-axis would be the desired 'Direction'.
+In the above diagram, if we wanted the wheel to roll positively on the X-axis (forwards), we'd apply 'magnitude' to the Y-axis.
+
+Y-axis would be the desired 'Direction'.
 
 ___
 
