@@ -244,12 +244,28 @@ Conversely, you may have too much force. In which case, reduce that number until
 
 So, we chose the *Y-axis* as our forward-backwards torque direction.
 
-To roll this thing left and right, we'll need to use the *X-axis* (
+To roll this thing left and right, we'll need to use the *X-axis* - that is; rotate the sphere around the *X-Axis*.
+
+(I suggest you refer back to the diagram above to make sure that makes sense).
 
 <br>
 
 - Hop back into **BP_PlayerPawn**
-- 
+- Select both the reference to **Sphere Mesh** and the **Add Torque** nodes and **Duplicate** them (**Ctrl+W**)
+- Select the **float*float** node and **Duplicate** it
+- Adjust the **float*float** node's multiply value to be negative (we need to invert these axes)
+> eg. *4000000.0* becomes *-4000000.0*
+
+> Note: This is totally a 'magic number' - we'll convert this to a variable in the next session.
+
+- Connect the **Movement left-right** node to **Torque X** via the **float*float** node
+- **Compile**, **Save** and go test it out.
+
+<br>
+
+Your game should suddenly be waaaaaaaay more fun. You now have control of the marble andcan begin testing your level.
+
+
 
 
 
