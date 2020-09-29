@@ -218,9 +218,7 @@ If that's still complicated, don't stress - hopefully writing the following sequ
 
 > That's here measured in Newton centimetres.. a value of *1* or *-1* is stupidly small in relation to the mass of our sphere - nowhere near large enough to actually move it.
 
-> So we need to amplify that input.
-
-> 
+> So we need to amplify that input. A LOT.
 
 - Drag off the **Axis Value** and add a **float*float** node.
 
