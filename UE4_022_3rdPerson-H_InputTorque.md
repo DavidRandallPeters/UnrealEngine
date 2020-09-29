@@ -221,8 +221,25 @@ If that's still complicated, don't stress - hopefully writing the following sequ
 > So we need to amplify that input. A LOT.
 
 - Drag off the **Axis Value** and add a **float*float** node.
-- Enter a value of 4,000,000 - (That's four million. Yeah I know - it's nuts)
+- Enter a value of **4,000,000** - (That's four million. Yeah I know. It's nuts)
 - Connect the **float*float** output to **Torque Y** (to apply the Magnitude to the appropriate Direction)
+
+<br>
+
+![Torque multiplier](https://user-images.githubusercontent.com/36719180/94502379-7c45d780-0260-11eb-88bb-ac3577b8e30c.png)
+
+<br>
+
+- **Compile** and **Save** and go test it out
+
+<br>
+
+You should now be able to roll your marble forwards and backwards using the *W* and *S* keys.
+
+If you can't, go back and up the value of that multiplier. 
+
+Conversely, you may have too much force. In which case, reduce that number until it feels right.
+
 
 
 
