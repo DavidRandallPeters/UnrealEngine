@@ -175,9 +175,9 @@ Meanwhile, the value of *Torque* is given as a *Vector3* (X, Y and Z values).
 
 The tooltip that pops up when you hover over *Torque* reads:
 
-*"Torque to apply. Direction is axis of rotation and magnitude is strength of torque"*
+*"Torque to apply. Direction is axis of rotation and magnitude is strength of torque"* ... WTF?
 
-WTF?
+<br>
 
 When dealing with torque, direction is not 'the direction you want a thing to move in', rather 'the axis around which you want a thing to spin'. 
 
