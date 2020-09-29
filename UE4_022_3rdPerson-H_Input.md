@@ -197,7 +197,17 @@ So where does Magnitude come into it?
 
 Simply, the greater the value (Magnitude) that's applied to our chosen axis, the greater the torque that's applied to the mesh will be.
 
-Not so complicated, really.
+<br>
+
+If that's still complicated, don't stress - hopefully writing the following sequence will make things clearer.
+
+<br><br>
+
+---
+
+## 022.004 | Connecting key input to torque
+
+<br>
 
 ___
 
