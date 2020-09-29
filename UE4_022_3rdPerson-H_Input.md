@@ -88,7 +88,7 @@ In addition to this, we can create custom input mappings that can bebound to mul
 
 We'll make the pawn move forwards and backwards (using the *W* and *S* keys) and we'll make it move left and right (using the *A* and *D* keys).
 
-As we want our key signal to continuously fire (for continuous movement), we'll need to use an *Axis Mapping*.
+As we want our key-signal to continuously fire (for continuous movement), we'll need to use an *Axis Mapping*.
 
 <br>
 
