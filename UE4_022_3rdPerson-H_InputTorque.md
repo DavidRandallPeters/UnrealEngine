@@ -207,7 +207,7 @@ If that's still complicated, don't stress - hopefully writing the following sequ
 
 ---
 
-## 022.004 | Connecting key input to torque
+## 022.004 | Key input » Torque
 
 <br>
 
@@ -239,6 +239,17 @@ You should now be able to roll your marble forwards and backwards using the *W* 
 If you can't, go back and up the value of that multiplier. 
 
 Conversely, you may have too much force. In which case, reduce that number until it feels right.
+
+<br>
+
+So, we chose the *Y-axis* as our forward-backwards torque direction.
+
+To roll this thing left and right, we'll need to use the *X-axis* (
+
+<br>
+
+- Hop back into **BP_PlayerPawn**
+- 
 
 
 
