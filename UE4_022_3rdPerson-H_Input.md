@@ -116,6 +116,8 @@ As we want our key-signal to continuously fire (for continuous movement), we'll 
 - Apply **A** *Keyboard* input
 - Set the **Scale** of **A** to **-1.0** - so that the marble moves oppositely on this keypress
 
+<br>
+
 Your Axis Mappings should look like this:
 
 <br>
@@ -145,7 +147,47 @@ Your Axis Mappings should look like this:
 
 <br>
 
+Our Player Pawn has physics applied to it. When we apply key input, we want it not just to move in the directions we intend but to roll along the ground - we want to apply rotational force to the mesh.
 
+Torque (in real world terms) is a measure of the force that can cause an object to rotate about an axis. The same definition is true in game engines.
+
+It's the mesh component of our *BP_PlayerPawn* that we need to apply this to, so let's start by getting a reference to that. 
+
+First though, we'll quickly update the name of the mesh to be more descriptive.
+
+<br>
+
+- In the **Components** panel of **BP_PlayerPawn**, rename **StaticMesh** to *SphereMesh*
+- Drag **SphereMesh** out from the **Components** panel and into the **Event Graph** to create a reference to it
+- Drag off its pin and navigate to **Physics** and choose **Add Torque in Radians**
+
+<br>
+
+![Add torque](https://user-images.githubusercontent.com/36719180/94499451-389b9f80-0259-11eb-9f96-befa7e1efb51.png)
+
+<br><br>
+
+### Understanding Torque
+
+As you can see, the *Target* of this torque is the Sphere Mesh.
+
+Meanwhile, the value of *Torque* is given as a *Vector3* (X, Y and Z values).
+
+The tooltip that pops up when you hover over *Torque* reads:
+
+*"Torque to apply. Direction is axis of rotation and magnitude is strength of torque"*
+
+WTF?
+
+When dealing with torque, direction is not 'the direction you want a thing to move in', rather 'the axis around which you want a thing to spin'. 
+
+<br>
+
+![Torque diagram](https://user-images.githubusercontent.com/36719180/94500227-46522480-025b-11eb-893b-b4f51e4e8409.png)
+
+<br>
+
+In the above diagram, if we wanted the wheel to roll positively on the X-axis (forwards), we'd apply 'magnitude' to the Y-axis. Y-axis would be the desired 'Direction'.
 
 ___
 
