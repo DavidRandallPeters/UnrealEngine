@@ -221,8 +221,9 @@ If that's still complicated, don't stress - hopefully writing the following sequ
 > So we need to amplify that input. A LOT.
 
 - Drag off the **Axis Value** and add a **float*float** node.
+- Enter a value of 4,000,000 - (That's four million. Yeah I know - it's nuts)
+- Connect the **float*float** output to **Torque Y** (to apply the Magnitude to the appropriate Direction)
 
-- irectly into the **Torque Y** to determine the so-called 'Direction'
 
 
 
