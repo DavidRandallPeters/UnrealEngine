@@ -165,13 +165,15 @@ First though, we'll quickly update the name of the mesh to be more descriptive.
 
 ![Add torque](https://user-images.githubusercontent.com/36719180/94499451-389b9f80-0259-11eb-9f96-befa7e1efb51.png)
 
-<br><br>
-
-### Understanding Torque
+<br>
 
 As you can see, the *Target* of this torque is the Sphere Mesh.
 
 Meanwhile, the value of *Torque* is given as a *Vector3* (X, Y and Z values).
+
+<br><br>
+
+### Understanding Torque
 
 The tooltip that pops up when you hover over *Torque* reads:
 
@@ -195,7 +197,7 @@ Y-axis would be the desired 'Direction'.
 
 So where does Magnitude come into it?
 
-Simply, the greater the value (Magnitude) that's applied to our chosen axis, the greater the torque that's applied to the mesh will be.
+Simply, the greater the value (Magnitude) that's applied to our chosen axis, the greater the force that's applied to the mesh will be.
 
 <br>
 
@@ -208,6 +210,23 @@ If that's still complicated, don't stress - hopefully writing the following sequ
 ## 022.004 | Connecting key input to torque
 
 <br>
+
+- Connect the **Movement forwards-backwards** node's **Execution** pin to the **Add Torque** node
+- **Right-click** the **Torque** input pin and **Split Struct Pin** so that we can target specific axes
+
+> When we hold down *W* or *S*, the value provided will be either *1* or *-1* (remember the *Scale* parameter when we did the Input Mapping?).
+
+> That's here measured in Newton centimetres.. a value of *1* or *-1* is stupidly small in relation to the mass of our sphere - nowhere near large enough to actually move it.
+
+> So we need to amplify that input.
+
+> 
+
+- Drag off the **Axis Value** and add a **float*float** node.
+
+- irectly into the **Torque Y** to determine the so-called 'Direction'
+
+
 
 ___
 
