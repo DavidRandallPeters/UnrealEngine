@@ -222,7 +222,7 @@ If that's still complicated, don't stress - hopefully writing the following sequ
 
 - Drag off the **Axis Value** and add a **float*float** node.
 - Enter a value of **4,000,000** - (That's four million. Yeah I know. It's nuts)
-- Connect the **float*float** output to **Torque Y** (to apply the Magnitude to the appropriate Direction)
+- Connect the **float*float** output to **Torque Y** (to apply Magnitude to the appropriate Direction)
 
 <br>
 
