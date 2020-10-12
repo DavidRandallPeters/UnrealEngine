@@ -11,9 +11,11 @@ Using: Unreal Engine 4.25.3
 
 ---
 
-## 023.001 | Blueprint variables
+## 023.001 | Magic numbers
 
-You'll [hopefully] recall Lucas talking about *magic numbers* - this is when we use numbers directly in source code.
+<br>
+
+You'll [hopefully] recall Lucas talking about *magic numbers* - this is when we use numbers directly in source code - without meaning or explanation.
 
 The use of an unnamed *magic number* in code makes it difficult to determine the intention behind that numbers' inclusion, increases opportunities for subtle errors to be introduced and reduces opportunities to extend the code in future.
 
@@ -55,7 +57,21 @@ Let's make some adjustments:
 
 - Check the **Accel Change** checkboxes in each of the two **Add Torque in Radians** nodes
 - Adjust the huge numbers in the **multiply** nodes (probably 4,000,000 and -4,000,000) to something like **20** (and **-20**, respectively)
-- 
+- **Compile**, **Save** and go test it out
+
+<br>
+
+Your game should play as it did before - possibly with slightly less impulse - but using more modest numbers under the hood.
+
+<br><br>
+
+---
+
+## 023.002 | Replacing magic numbers with variables
+
+<br>
+
+dfhgdfhdfh
 
 
 
