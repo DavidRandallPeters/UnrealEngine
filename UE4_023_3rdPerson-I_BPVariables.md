@@ -29,7 +29,7 @@ We use two of these in our input system:
 
 <br>
 
-Here, we're multiplying our input by an incredibly large, arbitrary number.
+Here inour *BP_PlayerPawn* blueprint, we're multiplying our input by an incredibly large, arbitrary number.
 
 The number is huge because the torque value takes the mass of the mesh into account (measured in Newton centimetres).
 
@@ -71,7 +71,15 @@ Your game should play as it did before - possibly with slightly less impulse - b
 
 <br>
 
-dfhgdfhdfh
+I don't need to tell you the benefits of variables - you know these from Unity days - let's just get into implementation.
+
+- Go back into **BP_PlayerPawn**
+- In the **My Blueprint** panel, hit the **+** symbol to the right of the word **Variables** - a variable of type *boolean* (red) is created
+> A boolean either holds a *true* or a *false* value
+- Name the new variable *BLAH*
+
+> The magic numbers that we seek to replace are of type *float* - we can see this *a)* by its lime green colour and *b)* by the fact that they have decimal places
+
 
 
 
