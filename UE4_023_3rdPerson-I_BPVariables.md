@@ -29,7 +29,7 @@ We use two of these in our input system:
 
 Here, we're multiplying our input by an incredibly large, arbitrary number.
 
-The number is huge because the torque value takes the mass of the mesh into account (measured in Newton centimetres) - in real-world terms, this all makes sense. 
+The number is huge because the torque value takes the mass of the mesh into account (measured in Newton centimetres).
 
-But we're not actually much bothered about the sphere's mass.. we're just arbitrarily tweaking this large number to get some movement happening.
+In real-world terms, this all makes sense. But here we're not actually much bothered about the sphere's mass.. we're just arbitrarily tweaking this large number to get some movement happening.
 
