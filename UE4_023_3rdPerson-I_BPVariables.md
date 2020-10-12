@@ -102,6 +102,17 @@ I don't need to tell you the benefits of variables - you know these from Unity d
 
 - **Compile**, **Save** and go test it out
 
+<br>
+
+Everything should beworking as it did before. Only now, we're abiding by tried and true coding practices.
+
+<br><br>
+
+___
+
+
+
+
 
 
 
