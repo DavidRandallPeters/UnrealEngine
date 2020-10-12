@@ -89,6 +89,10 @@ I don't need to tell you the benefits of variables - you know these from Unity d
 > Before we can give a new variable a value, we need to compile the blueprint
 - Hit **Compile** - a new field becomes available at the bottom of the *Details* panel
 - Give **Acceleration Multiplier** the value of your now deleted magic numbers (eg. **20** etc.)
+- From the **My Blueprint** panel, drag two instances of **AccelerationMultiplier** into the graph
+- Connect one instance to the bottom **multiply** pin in the **Forwards-backwards** sequence
+- In the **left-right** sequence, use a **multiply** node to invert the incoming value (see below)
+- Connect the remaining instance of **AccelerationMultiplier** to the new **multiply** node's remaining pin (see below)
 
 <br>
 
