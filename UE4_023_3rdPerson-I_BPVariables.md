@@ -88,7 +88,7 @@ I don't need to tell you the benefits of variables - you know these from Unity d
 - In the **Details** panel, change **Variable Type** to **Float**
 > Before we can give a new variable a value, we need to compile the blueprint
 - Hit **Compile** - a new field becomes available at the bottom of the *Details* panel
-- Give **Acceleration Multiplier** the value of your now deleted magic numbers (eg. **20** etc.)
+- Give **Acceleration Multiplier** the [positive] value of your *magic numbers* (eg. **20** etc.)
 - From the **My Blueprint** panel, drag two instances of **AccelerationMultiplier** into the graph
 - Connect one instance to the bottom **multiply** pin in the **Forwards-backwards** sequence
 - In the **left-right** sequence, use a **multiply** node to invert the incoming value (see below)
@@ -99,6 +99,8 @@ I don't need to tell you the benefits of variables - you know these from Unity d
 ![Variable implementation](https://user-images.githubusercontent.com/36719180/95705207-a7dcaf00-0caf-11eb-9142-09102a29be26.png)
 
 <br>
+
+- **Compile**, **Save** and go test it out
 
 
 
