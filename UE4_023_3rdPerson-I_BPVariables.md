@@ -33,6 +33,10 @@ The number is huge because the torque value takes the mass of the mesh into acco
 
 In real-world terms, this all makes sense. But here we're not actually much bothered about the sphere's mass.. we're just arbitrarily tweaking this large number to get some movement happening.
 
+The solution, as you likely already figured, is to sub these magic numbers out with variables. 
+
+We'll get onto that shortly. But first we'll make a couple of small tweaks to our input system.
+
 <br><br>
 
 ### Accel change
