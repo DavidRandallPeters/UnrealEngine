@@ -33,3 +33,27 @@ The number is huge because the torque value takes the mass of the mesh into acco
 
 In real-world terms, this all makes sense. But here we're not actually much bothered about the sphere's mass.. we're just arbitrarily tweaking this large number to get some movement happening.
 
+<br><br>
+
+### Accel change
+
+At the bottom of the *Add Torque in Radians* node, there's a *boolean* input (red) labeled *Accel Change*.
+
+The tooltip reads:
+
+> If true, Torque is taken as a change in angular acceleration instead of a physical torque (ie. mass will have no effect)
+
+This means that if this checkbox isset to 'true', the node will ignore the mass of the sphere. Therefore, we'll no longer need to use such a ridiculously large multiplier to get things rolling - it will apply the provided angular acceleration without taking the mass into account.
+
+Let's make some adjustments:
+
+<br>
+
+- Check the **Accel Change** checkboxes in each of the two **Add Torque in Radians** nodes
+- Adjust the huge numbers in the **multiply** nodes (probably 4,000,000 and -4,000,000) to something like **20** (and **-20**, respectively)
+- 
+
+
+
+
+
