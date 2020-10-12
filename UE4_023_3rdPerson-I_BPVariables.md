@@ -86,7 +86,9 @@ I don't need to tell you the benefits of variables - you know these from Unity d
 
 > The magic numbers that we seek to replace are of type *float* - we can see this *a)* by its lime green colour-coding and *b)* by the fact that they have decimal places
 - In the **Details** panel, change **Variable Type** to **Float**
-
+> Before we can give a new variable a value, we need to compile the blueprint
+- Hit **Compile** - a new field becomes available at the bottom of the *Details* panel
+- Give **Acceleration Multiplier** the value of your now deleted magic numbers (eg. **20** etc.)
 
 <br>
 
