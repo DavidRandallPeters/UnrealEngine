@@ -76,9 +76,23 @@ I don't need to tell you the benefits of variables - you know these from Unity d
 - Go back into **BP_PlayerPawn**
 - In the **My Blueprint** panel, hit the **+** symbol to the right of the word **Variables** - a variable of type *boolean* (red) is created
 > A boolean either holds a *true* or a *false* value
-- Name the new variable *BLAH*
+- Name the new variable *AccelerationMultiplier*
 
-> The magic numbers that we seek to replace are of type *float* - we can see this *a)* by its lime green colour and *b)* by the fact that they have decimal places
+<br>
+
+![New variable](https://user-images.githubusercontent.com/36719180/95704848-b080b580-0cae-11eb-936f-970798f18597.png)
+
+<br>
+
+> The magic numbers that we seek to replace are of type *float* - we can see this *a)* by its lime green colour-coding and *b)* by the fact that they have decimal places
+- In the **Details** panel, change **Variable Type** to **Float**
+
+
+<br>
+
+![Variable implementation](https://user-images.githubusercontent.com/36719180/95705207-a7dcaf00-0caf-11eb-9142-09102a29be26.png)
+
+<br>
 
 
 
