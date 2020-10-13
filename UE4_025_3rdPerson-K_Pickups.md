@@ -11,12 +11,27 @@ Using: Unreal Engine 4.25.3
 
 ---
 
-## 025.001 | Emissive materials
+## 025.001 | Creating Emissive materials
 
 <br>
 
 Everyone likes when things glow. We humans are weird like that.
 
 Let's get our pickups glowing.
+
+We'll achieve this by creating our own custom emissive material, applying it to our pickup and adding post-processing effects that allow the emissive material to glow.
+
+<br>
+
+- In the **Content Browser**, navigate to the root (**Content**) folder
+- **Right-click** and create a **New Folder** called *Materials*
+- Open the new folder
+- **Rght-click** and create a **Material** called *M_Emissive01* (or some such) - we'll see by the thumbnail which colour it is so you needn't pick a colour now
+- **Double-click** the new material to open the *Material Editor*
+
+<br>
+
+UE4 uses a PBR (Physically Based Rendering) model. You can read all about it [here](https://docs.unrealengine.com/en-US/Engine/Rendering/Materials/PhysicallyBased/index.html).
+
 
 
