@@ -132,7 +132,55 @@ So, we've established that the *Box Trigger* is indeed detecting our *PlayerPawn
 
 <br>
 
-- 
+- **Compile**, **Save** and go test it out
+
+<br>
+
+The level should now restart when your marble hits the *Box Collision*.
+
+Remember that this blueprint is now completely reusable in any of your game's levels.
+
+<br><br>
+
+---
+
+## 024.003 | Using Player Camera Manager to fade to black
+
+<br>
+
+UE4 spawns the *Player Camera Manager* into the game at runtime. You can see this for yourself by hitting *Play* and watching the *World Outliner*.
+
+It's a non-physical class that contains functions and properties relating to the player's camera - and it's entirely accessible from any blueprint.
+
+This is what we'll use to fade to black when the player screws up.
+
+<br>
+
+- Hop back into your **LevelRestartTrigger** blueprint
+- Hold **Alt** and break the **Branch** node's **True** execution - we'll add the fade *BEFORE* the level restarts
+- Drag the tail-end of the sequence off to the right to make some space
+- **Right-click** in empty graph space and **Get Player Camera Manager**
+- Drag off its **Return Value** and **Start Camera Fade**
+- Connect **True** to **Start Camera Fade**
+
+<br>
+
+![Start camera fade](https://user-images.githubusercontent.com/36719180/95924002-387fd000-0e13-11eb-9297-6102acd1314f.png)
+
+<br>
+
+> *From Alpha* is the "alpha at which to begin the fade" and has a range between 0 and 1. 0 is fully transparent and 1 is fully opaque.
+- Leave *From Alpha* set to *0.0* and set **To Alpha** to **1.0**
+> *Duration* is measured in seconds
+- Give **Duration** a value of **1** or **2** seconds
+- Change the fade *Color* if you wish. I'm leaving mine set to *black*
+- If your game has (or will have) audio, you may wish to fade that by checking the bool box
+- Set the **Hold when Finished** bool to **True**
+> This node won't delay the exuction of code - so we'll need to add a *Delay* node with a duration that matches the fade
+- Drag off the **Start Camera Fade** node's **Execution** pin and add a **Delay** node
+- Connect the tail-end of the sequence
+
+
 
 
 
