@@ -190,9 +190,44 @@ This is what we'll use to fade to black when the player screws up.
 
 ![Add delay](https://user-images.githubusercontent.com/36719180/95925637-d1fcb100-0e16-11eb-9917-f2b41644da20.png)
 
+<br><br>
+
+- **Compile**, **Save**, and go try it out.
+
+---
+
+## 024.004 | Fade in at the start of play
+
 <br>
 
+We can't add to the above sequence to achieve this because:
 
+a) the level will have been reloaded and the sequence will have therefore been abandoned
+b) the first time we begin play, the *Box Collision* won't have been triggered
 
+So we'll put this somewhere else - on something that we know will always be in any given level; the *PlayerPawn*.
+
+<br>
+
+- Open **BP_PlayerPawn**
+- Find some space in the graph and repeat the appropriate steps above to acheive a camera fade-in - remember to invert the *From Alpha* and *To Alpha* values
+> There's no need to *Hold when Finished* because, this time, the alpha will be transparent at the end of the fade.
+- Connect this to the **Event Beginplay**
+
+<br>
+
+![Fade in](https://user-images.githubusercontent.com/36719180/95926519-01acb880-0e19-11eb-84f7-272243e486ed.png)
+
+<br>
+
+- **Compile**, **Save**, and go try it out. 
+
+<br>
+
+You should now have a fade-in at the start of the game, a fade-out when the player screws up and another fade-in when the level restarts.
+
+<br><br>
+
+---
 
 
