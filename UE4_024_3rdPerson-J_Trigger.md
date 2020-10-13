@@ -203,6 +203,7 @@ This is what we'll use to fade to black when the player screws up.
 We can't add to the above sequence to achieve this because:
 
 a) the level will have been reloaded and the sequence will have therefore been abandoned
+
 b) the first time we begin play, the *Box Collision* won't have been triggered
 
 So we'll put this somewhere else - on something that we know will always be in any given level; the *PlayerPawn*.
