@@ -73,5 +73,33 @@ Let's begin!
 
 [Breakpoints](https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Debugging/index.html#:~:text=modes%20are%20active.-,Breakpoints,the%20Blueprint%20Editor's%20graph%20view.) are a means of debugging in Unreal.
 
+When a node with a breakpoint is about to be executed, the game will pause and you'll be taken to the node in the Blueprint Editor's graph view. This gives us the opportunity to observe the values of variables and examine or step through the flow of execution within the Blueprin from that point forward.
 
+<br>
+
+- **Right-click** the **Branch** node and choose **Toggle Breakpoint** (or simply hit **F9**)
+- **Compile** the blueprint - the breakpoint now shows a red icon, indicating that the breakpoint is set
+
+<br>
+
+![Breakpoint](https://user-images.githubusercontent.com/36719180/95828977-214cce00-0d92-11eb-9076-657fca76be7d.png)
+
+<br>
+
+- **Save** and hop over to the main editor
+- Drag **BP_LevelRestartTrigger** into the viewport and scale / position it in such away that you can do a test
+
+<br>
+
+![Position box trigger](https://user-images.githubusercontent.com/36719180/95830396-198e2900-0d94-11eb-9a2d-e4fa50eb9301.png)
+
+<br>
+
+- Hit **Play** and roll off the edge - you should be taken to the breakpoint within the graph
+
+<br>
+
+![Breakpoint activated](https://user-images.githubusercontent.com/36719180/95831686-d6cd5080-0d95-11eb-9739-a4cf2bd11c49.png)
+
+<br>
 
