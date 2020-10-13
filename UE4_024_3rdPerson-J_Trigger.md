@@ -165,7 +165,7 @@ This is what we'll use to fade to black when the player screws up.
 
 <br>
 
-![Start camera fade](https://user-images.githubusercontent.com/36719180/95924002-387fd000-0e13-11eb-9297-6102acd1314f.png)
+![Start Camera Fade](https://user-images.githubusercontent.com/36719180/95924894-f5266100-0e14-11eb-93fa-c280fad116b8.png)
 
 <br>
 
@@ -178,7 +178,19 @@ This is what we'll use to fade to black when the player screws up.
 - Set the **Hold when Finished** bool to **True**
 > This node won't delay the exuction of code - so we'll need to add a *Delay* node with a duration that matches the fade
 - Drag off the **Start Camera Fade** node's **Execution** pin and add a **Delay** node
-- Connect the tail-end of the sequence
+> We could just enter the same value in each of these fields, but this comes close to being a magic number (despite it being clearly labeled within the node). To keep good practices, let's make a variable for this
+- Via the **My Blueprint** panel, create a new variable of type **float** called *CameraFadeDuration*
+- **Compile** (so that we can give this variable a value)
+- In the **Details** panel, provide a value (in seconds) for your fade
+- Drag the variable into the graph and **Get** it
+- Connect **CameraFadeDuration** to both **Duration** inputs
+- Connect the tail-end of the sequence:
+
+<br>
+
+![Add delay](https://user-images.githubusercontent.com/36719180/95925637-d1fcb100-0e16-11eb-9917-f2b41644da20.png)
+
+<br>
 
 
 
