@@ -114,11 +114,25 @@ So, we've established that the *Box Trigger* is indeed detecting our *PlayerPawn
 
 ---
 
-## 024.002 | 
+## 024.002 | Restart current level
 
 <br>
 
-W
+> We want to restart the level if our branch condition is *true*. 
+- Drag off the **True** execution pin and search for **Get Current Level Name**
+> Note: This node returns a *string* (pink)
+- Drag off the **Get Current Level Name** node's execution pin and **Open Level** - as we did in the Labyrinth project
+> Note: This node takes a variable input of type *name* (purple)
+> *Names* are case INsensitive - they don't differentiate between capital and lower case
+- Connect the **string** and **name** pins between these nodes - a conversion node is automatically created
+
+<br>
+
+![Level restart sequence A](https://user-images.githubusercontent.com/36719180/95922534-f1441000-0e0f-11eb-804b-20901f360f07.png)
+
+<br>
+
+- 
 
 
 
