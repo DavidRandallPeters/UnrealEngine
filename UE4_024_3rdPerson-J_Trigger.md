@@ -103,3 +103,22 @@ When a node with a breakpoint is about to be executed, the game will pause and y
 
 <br>
 
+So, we've established that the *Box Trigger* is indeed detecting our *PlayerPawn*.
+
+<br>
+
+- Hop back into **BP_LevelRestartTrigger**
+- Select the **Branch** node and hit **F9** to remove the breakpoint
+
+<br><br>
+
+---
+
+## 024.002 | 
+
+<br>
+
+W
+
+
+
