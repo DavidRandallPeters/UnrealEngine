@@ -231,9 +231,11 @@ You should now have a fade-in at the start of the game, a fade-out when the play
 
 ---
 
+## 024.005 | Deploy
+
 <br>
 
-- Roll out **BP_LevelRestartTrigger** as many times as is necessary across your various levels to ensure that the player never falls endlessly into oblivion.
+- Roll out the **BP_LevelRestartTrigger** Actor Blueprint as many times as is necessary across your various levels to ensure that the player never falls endlessly into oblivion.
 
 <br><br>
 
