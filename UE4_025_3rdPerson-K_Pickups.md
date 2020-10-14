@@ -403,7 +403,7 @@ We'll build on our fancy new functions to achieve this.
 
 <br>
 
-We'll now
+We'll now hit this home - won't take long. And this is good practice for animating all manner of things in your game, including light intensity, moving platforms.. all sorts.
 
 <br>
 
@@ -435,6 +435,16 @@ We'll now
 ![Scale pickup function](https://user-images.githubusercontent.com/36719180/95970469-7c52f380-0e6c-11eb-9a5b-8371ef80b93c.png)
 
 <br>
+
+- **Compile**, **Save** and go test this out
+
+<br>
+
+Pickups should now shrink down to nothing as they approach the Player Pawn.
+
+<br><br>
+
+---
 
 
 
