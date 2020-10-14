@@ -409,7 +409,7 @@ We'll now hit this home - won't take long. And this is good practice for animati
 
 - **Right-click** in empty space and **Set Actor Scale 3D**
 - Add this node just after **Move Towards Player** in the execution sequence
-- As before, to create a lerp, drag out from the vector input pin and **Lerp (Vector)
+- As before, to create a lerp, drag out from the vector input pin and **Lerp (Vector)**
 - Drag **Initial Scale** out from the **My Blueprint** panel and drop it on the **A** input of the **Lerp (Vector)** node
 
 > The aim is to make the pickup shink into nothing.. so we don't need to provide a *B* input, as it's already set to (0.0,0.0,0.0)
