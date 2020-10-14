@@ -134,7 +134,7 @@ We can use *Destroy Actor on Overlap* to create the illusion that the player has
 
 Currently, when we roll into our pickups, we just hit them. This is because their *Collision Preset* is set to *BlockAllDynamic*.
 
-Let's start by removing these collisions - we'll create a single encompassing collision event that ultimately destroys the entire blueprint.
+Let's start by removing these collisions - we'll allow a single encompassing collision event that ultimately destroys the entire blueprint.
 
 <br>
 
@@ -158,5 +158,6 @@ Your component hierarchy should look *something* like this:
 - Tab over to this blueprint's **Event Graph**
 - Delete **Event Tick** and **Event BeginPlay**
 > The remaining Event node - **ActorBeginOverlap** will fire when any Actor overlaps with *any* of the the components within this blueprint - except we've disabled collisions on everything except the *SphereTrigger* - so that's the only thing that will activate this Event node.
-- 
+> As we've done before, we'll run a check to see if the *Other Actor* is the *PlayerPawn* and, if it is, we'll then destroy this blueprint
+- dfhf
 
