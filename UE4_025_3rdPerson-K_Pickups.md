@@ -79,6 +79,7 @@ Many of these terms will be familiar, but I suggest you take a moment to read th
 - For each mesh component, uncheck **Cast Shadow** in the **Lighting** section of the **Details** panel
 - Select the *root* scene component in the **Components** panel 
 - Hit **Add Component** and search for **Point Light**
+> We're adding one of these because emissive materials don't actually emit light - they only look like they do
 - Adjust the colour of the **Pointlight** to match your emissive colour 
 > You may wish to return to the *Material Editor* and copy the *Hex sRGB* value for an exact match
 - Consider reducing the Light's *Attenuation Radius* to something more like *500*
@@ -131,6 +132,29 @@ The above example has:
 
 We can use *Destroy Actor on Overlap* to create the illusion that the player has collected a pickup.
 
+Currently, when we roll into our pickups, we just hit them. This is because their *Collision Preset* is set to *BlockAllDynamic*.
 
+Let's start by removing these collisions - we'll create a single encompassing collision event that ultimately destroys the entire blueprint.
 
+<br>
+
+- Within the **BP_MainPickup** blueprint (or whatever you called it), **ctrl-select** all mesh components
+- Locate the **Collision** section of the **Details** panel
+- Set **Collision Presets** to **NoCollision** - the player can now roll straight through the pickups
+- In the **Components** panel, add a **Sphere Collision** component
+- Rename the *Sphere Collision* to *SphereTrigger*
+- Drag **SphereTrigger** onto the current scene root to make it the new scene root 
+
+<br>
+
+Your component hierarchy should look *something* like this:
+
+<br>
+
+![Components hierarchy](https://user-images.githubusercontent.com/36719180/95936267-a9ce7b80-0e31-11eb-8d3c-0dc4fcdc6c16.png)
+
+<br>
+
+- Tab over to this blueprint's **Event Graph**
+- 
 
