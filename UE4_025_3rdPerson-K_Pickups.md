@@ -378,7 +378,7 @@ In fact, we're already using functions - *DestroyActor* and *SetActorLocation* a
 
 ---
 
-## 025.006 | Animating pickup scale / Multiple timelines
+## 025.006 | Animating pickup scale
 
 <br>
 
