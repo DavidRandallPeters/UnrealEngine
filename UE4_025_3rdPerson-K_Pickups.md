@@ -345,7 +345,7 @@ In fact, we're already using functions - *DestroyActor* and *SetActorLocation* a
 
 <br>
 
-- **Right-click** any ofthose nodes and choose **Collapse to Function** - name the function *MoveTowardsPlayer*
+- **Right-click** any one of those nodes and choose **Collapse to Function** - name the function *MoveTowardsPlayer*
 
 <br>
 
@@ -361,7 +361,24 @@ In fact, we're already using functions - *DestroyActor* and *SetActorLocation* a
 
 - **Double-click** the **MoveTowardsPlayer** function to open it
 > Unreal tends to make a mess of your sequences when collapsing to functions - feel free to tidy up
-- 
+- Once you've explored what Unreal's done to your code, hop back over to the **Event Graph**
+- Select the **GetActorLocation** and **SET** nodes
+- Collapse these into a function called *StoreInitialValues*
+- Open the function and tidy things up - we'll be adding to these functions shortly
+
+<br>
+
+![Tidied sequence](https://user-images.githubusercontent.com/36719180/95963961-cc2dbc80-0e64-11eb-8644-906ed93f7404.png)
+
+<br>
+
+- **Compile**, **Save** and go test your game again to make sure nothing got broken - there's no reason it should (functions are trusty and safe) but there's no harm in checking.
+
+<br><br>
+
+---
+
+
 
 
 
