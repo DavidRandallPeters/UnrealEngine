@@ -333,7 +333,7 @@ At a glance, it's pretty hard to see what it does (due to so many nodes and wire
 
 We're just gonna take a minute to encapsulate parts of our code into functions that can be far more easily read and managed.
 
-In fact, we're already using functions - *DestroyActor* and *SetActorLocation* are both functions - as indicated by their blue tone and the **f** symbol next to their name. As you can imagine, there's more going on under the hood, here, that we're not privy to.
+In fact, we're already using functions - *DestroyActor* and *SetActorLocation* are both functions - as indicated by their blue tone and the **f** symbol next to their name. As you can imagine, there's more going on under the hood here that we're not privy to.
 
 <br>
 
