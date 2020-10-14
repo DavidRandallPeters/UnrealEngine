@@ -72,7 +72,7 @@ Many of these terms will be familiar, but I suggest you take a moment to read th
 - Hop back into the main editor
 - Select your new material in the **Content Browser**
 - Open **BP_MainPickup** (or whatever you've called your initial pickup BP)
-- Tab over to the BP **Viewport** so we can work with the mesh
+- Tab over to the blueprint's **Viewport** so we can work with the mesh
 - Select any *StaticMesh* component in your pickup
 - In the **Materials** section of the **Details** panel, hit the left-pointing arrow to *Use Selected Asset from Content Browser*
 - In this way, apply your material to other mesh components in your BP
@@ -81,3 +81,41 @@ Many of these terms will be familiar, but I suggest you take a moment to read th
 - Hit **Add Component** and search for **Point Light**
 - Adjust the colour of the **Pointlight** to match your emissive colour 
 > You may wish to return to the *Material Editor* and copy the *Hex sRGB* value for an exact match
+- Consider reducing the Light's *Attenuation Radius* to something more like *500*
+- **Compile**, **Save** and take a look atyour pickups in your level.. 
+- Return to the **BP_MainPickup** viewport and *Material Editor* to tweak values as you see fit
+
+<br>
+
+
+
+<br><br>
+
+---
+
+## 025.002 | Applying Post Processing effects
+
+<br>
+
+UE4 defaults to use certain post-processing effects (such as *bloom* - which makes emissive materials appear to glow) - but for more control over these effects and for access to others, we can add a 
+
+<br>
+
+- In the **Modes / Place Actors** panel, select the **Visual Effects** category
+- Drag a **Post Process Volume** into the main viewport
+- Scale this volume to encompass your level - ie. anywhere your player's camera can possibly go
+> Depending on the aesthetic you're going for, you may wish to place multple volumes in your level.. eg. perhaps your player passes through a 'black and white' zone.. and then a freaky 'chromatic aberration' zone.. Or perhaps (programmatically) you make a given volume 'Visible in Game' in response to a certain event.. 
+
+<br><br>
+
+---
+
+## 025.003 | Destroy Actor on Overlap
+
+<br>
+
+We can use *Destroy Actor on Overlap* to create the illusion that the player has collected a pickup.
+
+
+
+
