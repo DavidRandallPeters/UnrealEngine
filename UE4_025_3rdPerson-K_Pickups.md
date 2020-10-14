@@ -44,10 +44,10 @@ Many of these terms will be familiar, but I suggest you take a moment to read th
 <br>
 
 - From the **Palette** panel, drag a **Constant3Vector** into the graph
-> Note: Another way of creating a *Constant3Vector* is to hold *3* and *left-click* in the graph
+> Note: Another way of creating a *Constant3Vector* is to hold *3* and *left-click* in the graph.
 - Connect the **Constant3Vector** node's output to the **Emissive Color** output
 - Either use the **Constant** swatch in the **Details** panel or double-click the **Constant3Vector** node to change the RGB values to make a colour you're into
-> For the colour to actually display, slide the **Value** slider up from its default (black) position
+> For the colour to actually display, slide the **Value** slider up from its default (black) position.
 
 <br>
 
@@ -58,9 +58,9 @@ Many of these terms will be familiar, but I suggest you take a moment to read th
 - Hold **M** and **left-click** to create a *multiply* node - we'll use this to amplify the colour - essentially making it glow more
 - Connect the **Constant3Vector** node's output to the **Multiply** node's **A** input
 - Connect the **Multiply** node's output to **Emissive Color** - (replacing the existing input)
-> We're currently multiplying by *1* - which has no effect - we now need to provide a higher value to multiply by
+> We're currently multiplying by *1* - which has no effect - we now need to provide a higher value to multiply by.
 - With the **Multply** node selected, adjust the value of **Const B** in the **Details** panel to your liking
-> For now, I'm going with *40*
+> For now, I'm going with *40*.
 - Hit **Apply** and **Save**
 
 <br>
@@ -79,9 +79,9 @@ Many of these terms will be familiar, but I suggest you take a moment to read th
 - For each mesh component, uncheck **Cast Shadow** in the **Lighting** section of the **Details** panel
 - Select the *root* scene component in the **Components** panel 
 - Hit **Add Component** and search for **Point Light**
-> We're adding one of these because emissive materials don't actually emit light - they only look like they do
+> We're adding one of these because emissive materials don't actually emit light - they only look like they do.
 - Adjust the colour of the **Pointlight** to match your emissive colour 
-> You may wish to return to the *Material Editor* and copy the *Hex sRGB* value for an exact match
+> You may wish to return to the *Material Editor* and copy the *Hex sRGB* value for an exact match.
 - Consider reducing the Light's *Attenuation Radius* to something more like *500*
 - **Compile**, **Save** and take a look atyour pickups in your level.. 
 - Return to the **BP_MainPickup** viewport and *Material Editor* to tweak values as you see fit
@@ -116,11 +116,11 @@ UE4 defaults to use certain post-processing effects (such as *bloom* - which mak
 
 The above example has:
 
-> *Depth of Field* applied with a *Focal Distance* of *100* and *Depth Blur Radius* of *100* (*Depth Blur km for 50%* is not activated) - notice that objects in the distance are out of focus
+> *Depth of Field* applied with a *Focal Distance* of *100* and *Depth Blur Radius* of *100* (*Depth Blur km for 50%* is not activated) - notice that objects in the distance are out of focus.
 
-> *Lens Flares* activated (adjust values to suit your environment and aesthetic)
+> *Lens Flares* activated (adjust values to suit your environment and aesthetic).
 
-> *Bloom* activated (adjust values to suit your environment and aesthetic)
+> *Bloom* activated (adjust values to suit your environment and aesthetic).
 
 <br><br>
 
@@ -156,5 +156,7 @@ Your component hierarchy should look *something* like this:
 <br>
 
 - Tab over to this blueprint's **Event Graph**
+- Delete **Event Tick** and **Event BeginPlay**
+> The remaining Event node - **ActorBeginOverlap** will fire when any Actor overlaps with *any* of the the components within this blueprint - except we've disabled collisions on everything except the *SphereTrigger* - so that's the only thing that will activate this Event node.
 - 
 
