@@ -270,7 +270,7 @@ We've now supplied values between 0 and 1 (start and finish) and the speed (esse
 
 <br>
 
-- **Right-click** the ** **A** input pin in the **Lerp (Vector)** node and choose **Promote to Variable**
+- **Right-click** the **A** input pin in the **Lerp (Vector)** node and choose **Promote to Variable**
 > This is a means by which we can take an incidental value and promote that value to a variable that can be reused in all the normal ways.
 - Name the new variable *LerpStartLocation*
 - **Right-click** in empty graph space and **GetPlayerPawn**
@@ -283,6 +283,18 @@ We've now supplied values between 0 and 1 (start and finish) and the speed (esse
 
 <br>
 
-The observant among you might have noticed that we promoted a vector that had no value to a variable and plugged it into itself. Pointless.
+So, now we know where the player is and are using that as the destination location.
+
+The observant among you might have noticed that we also promoted a vector (that had no value) to a variable .. and plugged it into itself. Pointless.
+
+It's not quite true that it was no value - its value is (0,0,0) - that's origin. So the lerp will currently run from origin to wherever the player is on the map - not what we're intending here.
+
+Let's rectify that.
+
+<br>
+
+- 
+
+
 
 
