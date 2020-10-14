@@ -60,8 +60,24 @@ Many of these terms will be familiar, but I suggest you take a moment to read th
 - Connect the **Multiply** node's output to **Emissive Color** - (replacing the existing input)
 > We're currently multiplying by *1* - which has no effect - we now need to provide a higher value to multiply by
 - With the **Multply** node selected, adjust the value of **Const B** in the **Details** panel to your liking
-> For now, I'm going with *30*
+> For now, I'm going with *40*
 - Hit **Apply** and **Save**
 
+<br>
 
+![Multiply applied](https://user-images.githubusercontent.com/36719180/95931894-db8e1500-0e26-11eb-8da5-801bb18b011e.png)
 
+<br>
+
+- Hop back into the main editor
+- Select your new material in the **Content Browser**
+- Open **BP_MainPickup** (or whatever you've called your initial pickup BP)
+- Tab over to the BP **Viewport** so we can work with the mesh
+- Select any *StaticMesh* component in your pickup
+- In the **Materials** section of the **Details** panel, hit the left-pointing arrow to *Use Selected Asset from Content Browser*
+- In this way, apply your material to other mesh components in your BP
+- For each mesh component, uncheck **Cast Shadow** in the **Lighting** section of the **Details** panel
+- Select the *root* scene component in the **Components** panel 
+- Hit **Add Component** and search for **Point Light**
+- Adjust the colour of the **Pointlight** to match your emissive colour 
+> You may wish to return to the *Material Editor* and copy the *Hex sRGB* value for an exact match
