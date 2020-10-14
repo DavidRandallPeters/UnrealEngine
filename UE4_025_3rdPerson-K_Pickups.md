@@ -251,3 +251,7 @@ To do this, we'll update the pickup's location upon overlap.
 ![Alpha blend timeline](https://user-images.githubusercontent.com/36719180/95941283-dfc52d00-0e3c-11eb-87b2-e7b75d768548.png)
 
 <br>
+
+- Tab back over to the **Event Graph**
+
+> Notice that the *Alpha blend* timeline now has a *Pickup Position* float output
