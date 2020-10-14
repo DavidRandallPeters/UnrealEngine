@@ -210,6 +210,12 @@ To do this, we'll update the pickup's location upon overlap.
 
 - **Right-click** in empty graph space and **Add Timeline** - name it *Alpha blend*
 
+<br>
+
+![Timeline node](https://user-images.githubusercontent.com/36719180/95941448-46e2e180-0e3d-11eb-9356-32e251ab78c3.png)
+
+<br>
+
 > The *Update* execution pin will fire constantly *until* the timeline has finished playing
 
 > The *Finished* execution pin will fire once that timeline has finished playing
