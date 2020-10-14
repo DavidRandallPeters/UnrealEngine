@@ -298,8 +298,32 @@ Let's rectify that.
 - Drag the **LerpStartLocation** variable out from the **My Blueprint** panel and into the graph
 - Instead of *getting* it, this time choose **Set LerpStartLocation**
 - Add this node to the sequence between the **Branch** and the **Alpha blend** timeline
+- **Right-click** in empty graph space and **GetActorLocation**
+> This node's target is itself, so it will return the current location of *THIS* instance of the blueprint
+- Connect the **GetActorLocation** node's **Return Value** to the **SET** input
+> *LerpStartLocation* will now have a useful value by the time the variable is used in the lerp
+- Finally, connect **DestroyActor** to the **Finished** execution pin of the timeline
 
 <br>
+
+![Finished lerp sequence](https://user-images.githubusercontent.com/36719180/95947215-a0054200-0e4a-11eb-9621-868943b74266.png)
+
+<br>
+
+- Check your sequence against the above image and hope into this blueprint's **Viewport** when you're satisfied everything's in order
+- Select the **SphereTrigger** in the **Components** panel
+- In the **Shape** section of the **Details** panel, set the **Sphere Radius** to about **220**
+- **Compile**, **Save** and go test it out
+
+<br>
+
+Pickups should now animate as you approach them, moving from their current position to yours over the course of 0.7 seconds.
+
+<br><br>
+
+---
+
+
 
 
 
