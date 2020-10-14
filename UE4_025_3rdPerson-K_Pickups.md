@@ -323,6 +323,50 @@ Pickups should now animate as you approach them, moving from their current posit
 
 ---
 
+## 025.005 | Blueprint Functions
+
+<br>
+
+The code we've just finished writing is kinda freaky. We haven't commented it and it's otherwise wild and wooly.
+
+At a glance, it's pretty hard to see what it does (due to so many nodes and wires) and its reusability is.. average.
+
+We're just gonna take a minute to encapsulate parts of our code into functions that can be far more easily read and managed.
+
+In fact, we're already using functions - *DestroyActor* and *SetActorLocation* are both functions - as indicated by their blue tone and the **f** symbol next to their name. As you can imagine, there's more going on under the hood, here, that we're not privy to.
+
+<br>
+
+- In the **Event Graph** of your pickup blueprint, select all nodes highlighted below:
+
+<br>
+
+![Pre-collapse / selected nodes](https://user-images.githubusercontent.com/36719180/95961512-a357f800-0e61-11eb-9ce1-8100a7421fa0.png)
+
+<br>
+
+- **Right-click** any ofthose nodes and choose **Collapse to Function** - name the function *MoveTowardsPlayer*
+
+<br>
+
+![Collapsed](https://user-images.githubusercontent.com/36719180/95961894-2ed18900-0e62-11eb-9416-6c7b503f817a.png)
+
+<br>
+
+> The new function has been added to the *My Blueprint* panel for later deployment
+
+> Those nodes have all been encapsulated within this function
+
+> We can view and edit its contents by double-clicking it
+
+- **Double-click** the **MoveTowardsPlayer** function to open it
+> Unreal tends to make a mess of your sequences when collapsing to functions - feel free to tidy up
+- 
+
+
+
+
+
 
 
 
