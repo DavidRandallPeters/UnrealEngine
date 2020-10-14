@@ -55,5 +55,13 @@ Many of these terms will be familiar, but I suggest you take a moment to read th
 
 <br>
 
+- Hold **M** and **left-click** to create a *multiply* node - we'll use this to amplify the colour - essentially making it glow more
+- Connect the **Constant3Vector** node's output to the **Multiply** node's **A** input
+- Connect the **Multiply** node's output to **Emissive Color** - (replacing the existing input)
+> We're currently multiplying by *1* - which has no effect - we now need to provide a higher value to multiply by
+- With the **Multply** node selected, adjust the value of **Const B** in the **Details** panel to your liking
+> For now, I'm going with *30*
+- Hit **Apply** and **Save**
+
 
 
