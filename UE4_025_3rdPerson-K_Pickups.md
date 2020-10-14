@@ -37,9 +37,23 @@ The initial node that we see here contains output channels - this is the *END* o
 
 Many of these terms will be familiar, but I suggest you take a moment to read the tooltips for each output.
 
+<br>
 
+![Material output](https://user-images.githubusercontent.com/36719180/95930654-800e5800-0e23-11eb-8b7f-bed838c90ae8.png)
 
+<br>
 
+- From the **Palette** panel, drag a **Constant3Vector** into the graph
+> Note: Another way of creating a *Constant3Vector* is to hold *3* and *left-click* in the graph
+- Connect the **Constant3Vector** node's output to the **Emissive Color** output
+- Either use the **Constant** swatch in the **Details** panel or double-click the **Constant3Vector** node to change the RGB values to make a colour you're into
+> For the colour to actually display, slide the **Value** slider up from its default (black) position
+
+<br>
+
+![Choose a colour](https://user-images.githubusercontent.com/36719180/95931333-581ff400-0e25-11eb-85d0-e316f82edaf7.png)
+
+<br>
 
 
 
