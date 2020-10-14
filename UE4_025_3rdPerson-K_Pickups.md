@@ -185,9 +185,57 @@ Your pickups should now disappear when rolled into.
 
 ---
 
-## 025.004 | X
+## 025.004 | Animating objects using Timelines
 
 <br>
 
-We c
+Next, we'll create a neat lil' animation using *Timelines* that runs when the player gets within range of a pickup. At a certain distance, the pickup will appear to gravitate toward the player before being destroyed.
 
+To do this, we'll update the pickup's location upon overlap.
+
+<br>
+
+- Hop back into the **Event Graph** of your pickup blueprint
+- Break the input **Execution** link to **DestroyActor** (**alt-click**) - we'll add code before it in the sequence
+- Move the **DestroyActor** node off to the right to make space
+- **Right-cick** in empty graph space and **SetActorLocation**
+> If we use *New Location* as it is, we'll simply teleport the pickup Actor to that location.. but we want to interpolate between locations..
+- Drag off the **New Location** pin and **Lerp (Vector)** 
+
+> Lerp is an abbrevation of *'Linear Interpolation'*
+
+> This node allows us to provide two vectors (for location) and 'lerp' (linearly interpolate) between the two.
+
+> The *Alpha* float input allows us to provide a location where the object should be - at any given time
+
+- **Right-click** in empty graph space and **Add Timeline** - name it *Alpha blend*
+
+> The *Update* execution pin will fire constantly *until* the timeline has finished playing
+
+> The *Finished* execution pin will fire once that timeline has finished playing
+
+- Double-click on the **Alpha blend** timeline to open it up
+
+> In the top-left of this viewport, there's an *Add Float Track* button. This will allow us to animate a float value over time.
+
+> *Length* determines the duration of the timeline (in seconds)
+
+- Give **Length** a value of **0.7** seconds
+
+- Hit **Add Float Track** and name the new track *PickupPosition*
+
+- Hold **Shift** and **left-click** anywhere in the timeline to create a 'key' that we can apply values to
+
+- Give the new key a **Time** value of **0.0** and a **Value** value of **0.0**
+
+- Add a second key, as before
+
+- Give the second key a **Time** value of **0.7** and a **Value** value of **1.0**
+
+- To see your entire curve, hit the lil' arrow buttons to the left of the fields in which you've just entered values
+
+<br>
+
+![Alpha blend timeline](https://user-images.githubusercontent.com/36719180/95941283-dfc52d00-0e3c-11eb-87b2-e7b75d768548.png)
+
+<br>
