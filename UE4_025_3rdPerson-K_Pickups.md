@@ -254,4 +254,16 @@ To do this, we'll update the pickup's location upon overlap.
 
 - Tab back over to the **Event Graph**
 
-> Notice that the *Alpha blend* timeline now has a *Pickup Position* float output
+> Notice that the *Alpha blend* timeline now has a *Pickup Position* float output - that's the *Float Track* we just made
+
+- Connect **Pickup Position** to the **Alpha** input in the **Lerp (Vector)** node
+
+- Connect the **Alpha Blend** node's **Update** execution pin to the **SetActorLocation** node
+
+<br>
+
+![Connecting timeline](https://user-images.githubusercontent.com/36719180/95943673-f1a9ce80-0e42-11eb-88b2-3fff5c5f6b3b.png)
+
+<br>
+
+- 
