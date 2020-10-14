@@ -97,14 +97,30 @@ Many of these terms will be familiar, but I suggest you take a moment to read th
 
 <br>
 
-UE4 defaults to use certain post-processing effects (such as *bloom* - which makes emissive materials appear to glow) - but for more control over these effects and for access to others, we can add a 
+UE4 defaults to use certain post-processing effects (such as *bloom* - which makes emissive materials appear to glow) - but for more control over these effects and for access to others, we can add a *Post Process Volume* to our levels.
 
 <br>
 
 - In the **Modes / Place Actors** panel, select the **Visual Effects** category
 - Drag a **Post Process Volume** into the main viewport
 - Scale this volume to encompass your level - ie. anywhere your player's camera can possibly go to
-> Depending on the aesthetic you're going for, you may wish to place multple volumes in your level.. eg. perhaps your player passes through a 'black and white' zone.. and then a freaky 'chromatic aberration' zone.. Or perhaps (programmatically) you make a given volume 'Visible in Game' in response to a certain event.. 
+> Depending on the aesthetic you're going for, you may wish to place multiple volumes in your level.. eg. perhaps your player passes through a 'black and white' zone.. and then a freaky 'chromatic aberration' zone.. Or perhaps (programmatically) you make a given volume 'Visible in Game' in response to a certain event..
+- With the **PostProcessVolume** still selected, play around with the various effects in the **Details** panel.
+
+<br>
+
+
+
+<br>
+
+> The above example has:
+
+> *Depth of Field* applied with a *Focal Distance* of *100* and *Depth Blur Radius* of *100* (*Depth Blur km for 50%* is not activated)
+> Notice that objects in the distance are out of focus
+
+> *Lens Flares* activated (adjust values to suit your environment and aesthetic)
+
+> *Bloom* activated (adjust values to suit your environment and aesthetic)
 
 <br><br>
 
