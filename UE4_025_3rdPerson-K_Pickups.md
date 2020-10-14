@@ -378,6 +378,30 @@ In fact, we're already using functions - *DestroyActor* and *SetActorLocation* a
 
 ---
 
+## 025.006 | Animating pickup scale / Multiple timelines
+
+<br>
+
+We can add some polish to our pickup animations by adding a 'shrinking' animation to the existing timeline.
+
+We'll build on our fancy new functions to achieve this.
+
+<br>
+
+- Open your **Store Initial Values** function
+- **Right-click** in empty graph space and **Get Actor Scale 3D**
+- Promote the **Get Actor Scale 3D** node's **Return Value** output to a variable called **InitialScale**
+- To keep things consistent, rename **LerpStartLocation** to *InitialLocation*
+
+<br>
+
+![Storing initial values](https://user-images.githubusercontent.com/36719180/95967478-ca65f800-0e68-11eb-9e9b-9ab239a7dca2.png)
+
+<br>
+
+- 
+
+
 
 
 
