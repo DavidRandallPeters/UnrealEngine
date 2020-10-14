@@ -399,6 +399,35 @@ We'll build on our fancy new functions to achieve this.
 
 <br>
 
+- Hop back into the **Event Graph**
+
+<br>
+
+We'll now 
+
+<br>
+
+- **Right-click** in empty space and **Set Actor Scale 3D**
+- Add this node just after **Move Towards Player** in the execution sequence
+- As before, to create a lerp, drag out from the vector input pin and **Lerp (Vector)
+- Drag **Initial Scale** out from the **My Blueprint** panel and drop it on the **A** input of the **Lerp (Vector)** node
+
+> The aim is to make the pickup shink into nothing.. so we don't need to provide a *B* input, as it's already set to (0.0,0.0,0.0)
+
+> We'll reuse the float output from our timeline.. but our names could be more descriptive..
+
+- Select the **Alpha blend** timeline and rename it to *Pickup Timeline*
+- Open **Pickup Timeline**, **right-click** in the blank space to the left of the graph and **Rename** the float track to *PickupProgress*
+- Hop back into the **Event Graph**
+- Connect the **Pickup Progress** float output to the new **Lerp (Vector)** node's **Alpha** input
+> HOT TIP!You can double-click wires to add *Reroute* nodes for organisational purposes
+
+<br>
+
+![Second Lerp node added](https://user-images.githubusercontent.com/36719180/95969626-7577b100-0e6b-11eb-8ae1-211fee5788d9.png)
+
+<br>
+
 - 
 
 
