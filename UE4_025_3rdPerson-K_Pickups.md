@@ -87,7 +87,7 @@ Many of these terms will be familiar, but I suggest you take a moment to read th
 
 <br>
 
-
+![Glowy pickups in level](https://user-images.githubusercontent.com/36719180/95933733-c5cf1e80-0e2b-11eb-8943-3f8663a94511.png)
 
 <br><br>
 
@@ -103,7 +103,7 @@ UE4 defaults to use certain post-processing effects (such as *bloom* - which mak
 
 - In the **Modes / Place Actors** panel, select the **Visual Effects** category
 - Drag a **Post Process Volume** into the main viewport
-- Scale this volume to encompass your level - ie. anywhere your player's camera can possibly go
+- Scale this volume to encompass your level - ie. anywhere your player's camera can possibly go to
 > Depending on the aesthetic you're going for, you may wish to place multple volumes in your level.. eg. perhaps your player passes through a 'black and white' zone.. and then a freaky 'chromatic aberration' zone.. Or perhaps (programmatically) you make a given volume 'Visible in Game' in response to a certain event.. 
 
 <br><br>
