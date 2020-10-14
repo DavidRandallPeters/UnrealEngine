@@ -202,6 +202,12 @@ To do this, we'll update the pickup's location upon overlap.
 > If we use *New Location* as it is, we'll simply teleport the pickup Actor to that location.. but we want to interpolate between locations..
 - Drag off the **New Location** pin and **Lerp (Vector)** 
 
+<br>
+
+![Lerp (Vector)](https://user-images.githubusercontent.com/36719180/95941612-a2ad6a80-0e3d-11eb-85a2-5752e4827eb2.png)
+
+<br>
+
 > Lerp is an abbrevation of *'Linear Interpolation'*
 
 > This node allows us to provide two vectors (for location) and 'lerp' (linearly interpolate) between the two.
