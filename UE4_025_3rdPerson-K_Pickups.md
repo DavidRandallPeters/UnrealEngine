@@ -113,7 +113,7 @@ UE4 defaults to use certain post-processing effects (such as *bloom* - which mak
 
 <br>
 
-> The above example has:
+The above example has:
 
 > *Depth of Field* applied with a *Focal Distance* of *100* and *Depth Blur Radius* of *100* (*Depth Blur km for 50%* is not activated)
 > Notice that objects in the distance are out of focus
