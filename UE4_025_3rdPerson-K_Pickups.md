@@ -157,7 +157,37 @@ Your component hierarchy should look *something* like this:
 
 - Tab over to this blueprint's **Event Graph**
 - Delete **Event Tick** and **Event BeginPlay**
+
 > The remaining Event node - **ActorBeginOverlap** will fire when any Actor overlaps with *any* of the the components within this blueprint - except we've disabled collisions on everything except the *SphereTrigger* - so that's the only thing that will activate this Event node.
+
 > As we've done before, we'll run a check to see if the *Other Actor* is the *PlayerPawn* and, if it is, we'll then destroy this blueprint
-- dfhf
+
+- Drag off **OtherActor** and find **Equal (Object)**
+- **Right-click** in empty space and **Get Player Pawn**
+- Connect the **object** pins
+- Hold **B** and **left-click** to create a *Branch*
+- Connect the **bool** and **execution** pins
+- Drag off **True** and **DestroyActor**
+
+<br>
+
+![Destroy Actor](https://user-images.githubusercontent.com/36719180/95937380-26faf000-0e34-11eb-8aae-ea512ec8b481.png)
+
+<br>
+
+- **Compile**, **Save** and go test it out
+
+<br>
+
+Your pickups should now disappear when rolled into.
+
+<br><br>
+
+---
+
+## 025.004 | X
+
+<br>
+
+We c
 
