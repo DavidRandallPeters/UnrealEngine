@@ -266,4 +266,23 @@ To do this, we'll update the pickup's location upon overlap.
 
 <br>
 
-- 
+We've now supplied values between 0 and 1 (start and finish) and the speed (essentially) at which to interpolate - but we still need to provide vector locations for the pickup to move between.
+
+<br>
+
+- **Right-click** the ** **A** input pin in the **Lerp (Vector)** node and choose **Promote to Variable**
+> This is a means by which we can take an incidental value and promote that value to a variable that can be reused in all the normal ways.
+- Name the new variable *LerpStartLocation*
+- **Right-click** in empty graph space and **GetPlayerPawn**
+- Drag off its **Return Value** and **GetActorLocation**
+- Connect the vector **Return Value** to the **B** input of the **Lerp (Vector)** node
+
+<br>
+
+![Vectors connected](https://user-images.githubusercontent.com/36719180/95945882-e9a05d80-0e47-11eb-82db-de24c84b103c.png)
+
+<br>
+
+The observant among you might have noticed that we promoted a vector that had no value to a variable and plugged it into itself. Pointless.
+
+
