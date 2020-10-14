@@ -31,7 +31,15 @@ We'll achieve this by creating our own custom emissive material, applying it to 
 
 <br>
 
-UE4 uses a PBR (Physically Based Rendering) model. You can read all about it [here](https://docs.unrealengine.com/en-US/Engine/Rendering/Materials/PhysicallyBased/index.html).
+UE4 uses a PBR (Physically Based Rendering) model. You can read all about it [here](https://docs.unrealengine.com/en-US/Engine/Rendering/Materials/PhysicallyBased/index.html). This basically means that it makes its best attempt to visualise light and reflections etc. in a realistic way.
+
+The initial node that we see here contains output channels - this is the *END* of the line, as it were. 
+
+Many of these terms will be familiar, but I suggest you take a moment to read the tooltips for each output.
+
+
+
+
 
 
 
