@@ -403,7 +403,7 @@ We'll build on our fancy new functions to achieve this.
 
 <br>
 
-We'll now 
+We'll now
 
 <br>
 
@@ -420,15 +420,24 @@ We'll now
 - Open **Pickup Timeline**, **right-click** in the blank space to the left of the graph and **Rename** the float track to *PickupProgress*
 - Hop back into the **Event Graph**
 - Connect the **Pickup Progress** float output to the new **Lerp (Vector)** node's **Alpha** input
-> HOT TIP!You can double-click wires to add *Reroute* nodes for organisational purposes
+> HOT TIP! You can double-click wires to add *Reroute* nodes for organisational purposes
 
 <br>
 
-![Second Lerp node added](https://user-images.githubusercontent.com/36719180/95969626-7577b100-0e6b-11eb-8ae1-211fee5788d9.png)
+![Second Lerp node added](https://user-images.githubusercontent.com/36719180/95970421-6cd3aa80-0e6c-11eb-91c9-12f8060ebf97.png)
 
 <br>
 
-- 
+- Select the nodes indicated above and collapse them to a function called *ScalePickup*
+
+<br>
+
+![Scale pickup function](https://user-images.githubusercontent.com/36719180/95970469-7c52f380-0e6c-11eb-9a5b-8371ef80b93c.png)
+
+<br>
+
+
+
 
 
 
