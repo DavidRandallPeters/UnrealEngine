@@ -283,11 +283,11 @@ We've now supplied values between 0 and 1 (start and finish) and the speed (esse
 
 <br>
 
-So, now we know where the player is and are using that as the destination location.
+So, now we know where the player is and are using that vector3 as the destination location.
 
-The observant among you might have noticed that we also promoted a vector (that had no value) to a variable .. and plugged it into itself. Pointless.
+The observant among you might have noticed that we also promoted a vector (that has no value) to a variable .. and plugged it into itself. Pointless.
 
-It's not quite true that it was no value - its value is (0,0,0) - that's origin. So the lerp will currently run from origin to wherever the player is on the map - not what we're intending here.
+It's not quite true that it has no value - its value is (0,0,0) - that's origin. So the lerp will currently run from origin (probably the start of your level) to wherever the player is on the map - that's not what we're intending here.
 
 Let's rectify that.
 
