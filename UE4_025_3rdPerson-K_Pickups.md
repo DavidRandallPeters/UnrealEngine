@@ -109,14 +109,13 @@ UE4 defaults to use certain post-processing effects (such as *bloom* - which mak
 
 <br>
 
-
+![Post Process Volume added](https://user-images.githubusercontent.com/36719180/95935449-c964a480-0e2f-11eb-8b04-9630f8f119a2.png)
 
 <br>
 
 The above example has:
 
-> *Depth of Field* applied with a *Focal Distance* of *100* and *Depth Blur Radius* of *100* (*Depth Blur km for 50%* is not activated)
-> Notice that objects in the distance are out of focus
+> *Depth of Field* applied with a *Focal Distance* of *100* and *Depth Blur Radius* of *100* (*Depth Blur km for 50%* is not activated) - notice that objects in the distance are out of focus
 
 > *Lens Flares* activated (adjust values to suit your environment and aesthetic)
 
