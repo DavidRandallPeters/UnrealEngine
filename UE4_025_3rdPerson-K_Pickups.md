@@ -287,13 +287,21 @@ So, now we know where the player is and are using that vector3 as the destinatio
 
 The observant among you might have noticed that we also promoted a vector (that has no value) to a variable .. and plugged it into itself. Pointless.
 
-It's not quite true that it has no value - its value is (0,0,0) - that's origin. So the lerp will currently run from origin (probably the start of your level) to wherever the player is on the map - that's not what we're intending here.
+It's not quite true that it has no value - its value is (0,0,0) - that's origin.
+
+If we left it like this, the lerp would interpolate between origin (probably the start of your level) and wherever the player is on the map - that's not what we're intending here.
 
 Let's rectify that.
 
 <br>
 
-- 
+- Drag the **LerpStartLocation** variable out from the **My Blueprint** panel and into the graph
+- Instead of *getting* it, this time choose **Set LerpStartLocation**
+- Add this node to the sequence between the **Branch** and the **Alpha blend** timeline
+
+<br>
+
+
 
 
 
